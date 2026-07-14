@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "siteName": "ZYRCA",
+    "tagline": "Tracker de jeûne intelligent"
+  },
+  "nav": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "journey": "Comment ça marche",
+    "premium": "Premium",
+    "about": "À propos",
+    "screenshots": "Captures d'écran",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "support": "Assistance",
+    "deleteAccount": "Supprimer le compte",
+    "download": "Télécharger",
+    "menu": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "skipToContent": "Aller au contenu principal"
+  },
+  "hero": {
+    "badge": "Application jeûne intermittent & app santé",
+    "title": "ZYRCA",
+    "subtitle": "Votre suivi jeûne avec accompagnement intégré",
+    "description": "Calendrier jeûne, tracker eau et suivi poids réunis dans une seule app. Minuteur jeûne fiable, statistiques jeûne, rappel jeûne et export PDF — avec accompagnement intelligent pour le jeûne débutant comme pour les habitués.",
+    "ctaPlay": "Disponible sur Google Play",
+    "ctaAppStore": "Bientôt sur l'App Store",
+    "statsProtocols": "5+",
+    "statsProtocolsLabel": "Protocoles de jeûne",
+    "statsLanguages": "7",
+    "statsLanguagesLabel": "Langues",
+    "statsGuides": "11+",
+    "statsGuidesLabel": "Guides d'experts"
+  },
+  "features": {
+    "title": "Tout pour votre jeûne 16:8 et intermittent",
+    "subtitle": "Un suivi jeûne complet avec tracker eau, suivi poids, calendrier jeûne et statistiques — accompagnement intégré pour votre routine quotidienne.",
+    "pageTitle": "Toutes les fonctionnalités de l'app jeûne",
+    "pageSubtitle": "Minuteur jeûne, statistiques jeûne, rappel jeûne, historique et plus — tout ce qu'il faut pour votre application jeûne intermittent.",
+    "smartAssistant": {
+      "title": "Assistant de jeûne intelligent",
+      "description": "Recevez un accompagnement intelligent, des analyses bien-être quotidiennes et des réponses utiles aux questions fréquentes sur le jeûne — grâce aux connaissances santé intégrées de ZYRCA."
+    },
+    "fasting": {
+      "title": "Tracker de jeûne intermittent",
+      "description": "Utilisez un minuteur précis pour le 16:8, le 18:6, l'OMAD et des horaires personnalisés. Consultez votre historique et restez régulier grâce aux rappels de jeûne."
+    },
+    "water": {
+      "title": "Suivi de l'eau",
+      "description": "Enregistrez votre consommation d'eau quotidienne, atteignez vos objectifs d'hydratation et analysez des statistiques qui soutiennent votre routine de jeûne."
+    },
+    "weight": {
+      "title": "Suivi du poids",
+      "description": "Consignez votre poids corporel, suivez les tendances dans le temps et surveillez vos progrès vers vos objectifs bien-être."
+    },
+    "analytics": {
+      "title": "Analyses de progrès",
+      "description": "Visualisez vos progrès de jeûne, votre hydratation et vos données de poids ensemble avec des graphiques clairs et votre score bien-être ZYRCA."
+    },
+    "statistics": {
+      "title": "Statistiques de jeûne",
+      "description": "Consultez des statistiques détaillées de jeûne, des résumés d'hydratation et des tendances de poids pour comprendre vos progrès santé."
+    },
+    "history": {
+      "title": "Historique et calendrier de jeûne",
+      "description": "Parcourez l'intégralité de votre historique de jeûne en vue calendrier et développez des habitudes de jeûne régulières."
+    },
+    "fastingGuide": {
+      "title": "Guide du jeûne intermittent",
+      "description": "Apprenez avec des guides d'experts et des articles éducatifs — idéal pour les débutants comme pour les utilisateurs expérimentés."
+    },
+    "achievements": {
+      "title": "Réalisations et motivation",
+      "description": "Gagnez des badges, atteignez des jalons et restez motivé en construisant des habitudes de jeûne intermittent durables."
+    },
+    "notifications": {
+      "title": "Rappels de jeûne",
+      "description": "Recevez des rappels opportuns pour vos fenêtres de jeûne, votre hydratation et vos bilans quotidiens afin de ne jamais manquer un créneau."
+    },
+    "pdfExport": {
+      "title": "Rapport santé PDF",
+      "description": "Exportez un rapport santé PDF clair avec vos progrès de jeûne, votre consommation d'eau et vos données de poids."
+    },
+    "csvExport": {
+      "title": "Export de données CSV",
+      "description": "Téléchargez vos données de jeûne et de bien-être en fichier CSV pour vos archives personnelles ou un examen professionnel."
+    },
+    "shareReports": {
+      "title": "Partager les rapports santé",
+      "description": "Partagez des rapports PDF ou CSV avec votre médecin, nutritionniste ou coach sportif lorsque vous avez besoin d'un avis professionnel."
+    },
+    "darkTheme": {
+      "title": "Mode sombre",
+      "description": "Une interface sombre raffinée avec des tons profonds, des accents violets et un confort d'utilisation le soir."
+    },
+    "lightTheme": {
+      "title": "Mode clair",
+      "description": "Une mise en page claire et lumineuse avec des accents doux et une excellente lisibilité en journée."
+    },
+    "languages": {
+      "title": "Support multilingue",
+      "description": "Utilisez ZYRCA en 7 langues avec prise en charge complète du RTL pour l'arabe."
+    },
+    "privacy": {
+      "title": "Confidentialité et données sécurisées",
+      "description": "Vos données de santé sont chiffrées et protégées. Nous ne vendons jamais vos informations personnelles."
+    },
+    "dashboard": {
+      "title": "Tableau de bord bien-être",
+      "description": "Consultez jeûne, eau, poids et analyses bien-être ensemble dans un tableau de bord santé clair."
+    }
+  },
+  "journey": {
+    "title": "Votre parcours avec l'application jeûne intermittent",
+    "subtitle": "Du premier créneau de jeûne au rapport santé PDF — ZYRCA accompagne chaque étape de votre suivi jeûne.",
+    "steps": {
+      "discover": {
+        "title": "Découvrir ZYRCA",
+        "description": "Configurez votre profil, choisissez un protocole de jeûne et explorez votre tableau de bord bien-être personnel."
+      },
+      "track": {
+        "title": "Suivre vos progrès",
+        "description": "Enregistrez vos sessions de jeûne, votre consommation d'eau et votre poids corporel dans une app simple et élégante."
+      },
+      "analyze": {
+        "title": "Analyser vos résultats",
+        "description": "Consultez les statistiques de jeûne, l'historique calendrier, les tendances de poids et les données d'hydratation avec des visualisations claires."
+      },
+      "guidance": {
+        "title": "Obtenir un accompagnement intelligent",
+        "description": "Accédez aux analyses bien-être, aux conseils de jeûne et aux réponses utiles grâce aux connaissances santé intégrées de ZYRCA."
+      },
+      "export": {
+        "title": "Exporter les rapports santé",
+        "description": "Créez des rapports PDF et CSV pour examiner vos progrès ou les partager avec des professionnels de santé."
+      },
+      "achieve": {
+        "title": "Atteindre vos objectifs",
+        "description": "Gagnez des réalisations, restez motivé et construisez les habitudes de jeûne saines qui comptent pour vous."
+      }
+    }
+  },
+  "premium": {
+    "title": "Au-delà du minuteur jeûne",
+    "subtitle": "Statistiques jeûne détaillées, rapports PDF et accompagnement intelligent — pour progresser sérieusement avec le jeûne 16:8.",
+    "pdfReports": {
+      "title": "Rapports santé PDF",
+      "description": "Exportez un rapport santé PDF soigné avec vos progrès de jeûne, votre consommation d'eau, vos tendances de poids et des résumés bien-être."
+    },
+    "csvExport": {
+      "title": "Export de données CSV",
+      "description": "Téléchargez vos données de jeûne et de bien-être en fichier CSV pour sauvegarde, analyse ou examen professionnel."
+    },
+    "shareProfessionals": {
+      "title": "Partager avec des professionnels",
+      "description": "Envoyez vos rapports PDF ou CSV à un médecin, nutritionniste ou coach lorsque vous souhaitez un retour d'expert sur vos progrès."
+    },
+    "smartGuidance": {
+      "title": "Accompagnement intelligent du jeûne",
+      "description": "Recevez des analyses bien-être et des recommandations utiles basées sur les connaissances santé intégrées de ZYRCA — pas un chatbot."
+    },
+    "calendar": {
+      "title": "Calendrier et historique de jeûne",
+      "description": "Consultez votre planning de jeûne et l'intégralité de votre historique sur un calendrier facile à lire."
+    },
+    "visualization": {
+      "title": "Graphiques de progrès de jeûne",
+      "description": "Suivez votre transformation avec des graphiques, courbes et un suivi visuel clair de vos progrès de jeûne."
+    },
+    "weightTrends": {
+      "title": "Suivi des tendances de poids",
+      "description": "Surveillez votre poids corporel dans le temps avec l'avancement vers vos objectifs et le suivi des jalons."
+    },
+    "waterStats": {
+      "title": "Statistiques de consommation d'eau",
+      "description": "Analysez vos habitudes d'hydratation quotidiennes et hebdomadaires pour soutenir votre routine de jeûne."
+    },
+    "achievements": {
+      "title": "Système de réalisations",
+      "description": "Débloquez des badges et célébrez vos jalons pour rester motivé dans votre parcours de jeûne."
+    },
+    "expertGuides": {
+      "title": "Guides de jeûne d'experts",
+      "description": "Lisez des guides éducatifs et des articles d'experts — y compris des conseils pour les débutants en jeûne."
+    }
+  },
+  "whyChoose": {
+    "title": "Pourquoi choisir ZYRCA comme app jeûne ?",
+    "subtitle": "L'application jeûne intermittent qui combine suivi jeûne, tracker eau, suivi poids et accompagnement honnête — sans chatbot IA.",
+    "reasons": {
+      "allInOne": {
+        "title": "Plus qu'un minuteur de jeûne",
+        "description": "Suivez jeûne, eau et poids ensemble avec statistiques, réalisations et analyses bien-être — sans avoir besoin de plusieurs apps."
+      },
+      "smartGuidance": {
+        "title": "Accompagnement intégré au jeûne",
+        "description": "Recevez des analyses bien-être intelligentes et des réponses aux questions fréquentes sur le jeûne — basées sur des connaissances santé sélectionnées, pas sur un chat IA dynamique."
+      },
+      "professional": {
+        "title": "Export PDF et CSV",
+        "description": "Exportez vos progrès de jeûne en rapport santé PDF ou fichier CSV — une fonctionnalité pratique pour vos archives et le partage professionnel."
+      },
+      "beautiful": {
+        "title": "Beau et intuitif",
+        "description": "Un design premium avec thèmes sombre et clair, conçu pour la clarté, le confort et l'usage quotidien."
+      },
+      "global": {
+        "title": "Conçu pour le monde entier",
+        "description": "Disponible en 7 langues avec prise en charge RTL pour l'arabe."
+      },
+      "secure": {
+        "title": "Privé et sécurisé",
+        "description": "Stockage de données chiffré, conformité RGPD et engagement à ne jamais vendre vos informations."
+      }
+    }
+  },
+  "about": {
+    "title": "À propos de ZYRCA",
+    "subtitle": "Le tracker de jeûne intelligent avec calendrier jeûne, tracker eau, suivi poids et accompagnement intégré.",
+    "whatIs": {
+      "title": "Qu'est-ce que ZYRCA ?",
+      "description": "ZYRCA est une application jeûne intermittent premium pour suivre vos créneaux de jeûne, votre hydratation et votre poids. Avec minuteur jeûne, historique, statistiques jeûne, rappel jeûne, accompagnement intégré et export PDF/CSV — le tout dans une app santé claire et soignée."
+    },
+    "whyFasting": {
+      "title": "Pourquoi le jeûne intermittent ?",
+      "description": "Le jeûne 16:8 et le jeûne intermittent comptent parmi les approches les plus recherchées pour gérer son poids et adopter un mode de vie sain. Avec le bon calendrier jeûne, une bonne hydratation et un suivi jeûne fiable, vous construisez des habitudes durables."
+    },
+    "whyGuidance": {
+      "title": "Pourquoi un accompagnement intégré ?",
+      "description": "Le jeûne débutant réussit mieux quand on comprend les étapes. ZYRCA apporte des réponses pratiques et des conseils via des connaissances santé intégrées — un vrai soutien, sans fausses promesses sur l'IA."
+    },
+    "benefits": {
+      "title": "Comment ZYRCA vous aide",
+      "items": [
+        "Suivre le jeûne intermittent avec un minuteur fiable et un planning",
+        "Surveiller la consommation d'eau et le poids corporel dans la même app",
+        "Consulter l'historique de jeûne, les statistiques et les analyses de progrès",
+        "Obtenir un accompagnement intelligent et des analyses bien-être",
+        "Apprendre avec des guides d'experts et des conseils sur le jeûne intermittent",
+        "Exporter des rapports santé PDF et des fichiers CSV",
+        "Utiliser l'application en 7 langues avec prise en charge complète du RTL"
+      ]
+    }
+  },
+  "screenshots": {
+    "title": "L'application jeûne en images",
+    "subtitle": "Du minuteur jeûne et tracker eau aux statistiques jeûne et accompagnement intégré — découvrez ZYRCA en situation réelle.",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair",
+    "prev": "Capture précédente",
+    "next": "Capture suivante",
+    "captions": {
+      "dashboard": "Tableau de bord bien-être",
+      "intelligence": "ZYRCA Intelligence",
+      "fasting": "Protocoles de jeûne",
+      "water": "Suivi de l'eau",
+      "weight": "Suivi du poids",
+      "analytics": "Statistiques de jeûne",
+      "achievements": "Réalisations",
+      "fastingGuide": "Guide du jeûne"
+    }
+  },
+  "cta": {
+    "title": "Commencez le jeûne intermittent",
+    "description": "Téléchargez ZYRCA — votre application jeûne avec minuteur, suivi jeûne, calendrier jeûne et accompagnement intégré pour le jeûne 16:8 et plus.",
+    "button": "Télécharger sur Google Play",
+    "appStore": "Bientôt sur l'App Store"
+  },
+  "footer": {
+    "description": "L'application jeûne intermittent avec minuteur jeûne, tracker eau, suivi poids, statistiques jeûne et accompagnement intégré.",
+    "product": "Produit",
+    "legal": "Mentions légales",
+    "connect": "Nous suivre",
+    "copyright": "© {year} ZYRCA. Tous droits réservés.",
+    "theme": "Thème",
+    "language": "Langue",
+    "themeLight": "Clair",
+    "themeDark": "Sombre",
+    "themeSystem": "Système"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : 14 juillet 2026",
+    "intro": "Chez ZYRCA, nous prenons votre vie privée au sérieux. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre application mobile et notre site web.",
+    "sections": {
+      "collection": {
+        "title": "Informations que nous collectons",
+        "content": "Nous pouvons collecter les types d'informations suivants :\n\n• Informations de compte : adresse e-mail, nom d'affichage et photo de profil lorsque vous vous connectez avec Google.\n• Données de santé : horaires de jeûne, consommation d'eau, mesures de poids et statistiques de progrès que vous saisissez volontairement.\n• Informations sur l'appareil : type d'appareil, version du système d'exploitation, identifiants uniques de l'appareil et informations sur le réseau mobile.\n• Données d'utilisation : interactions avec l'application, habitudes d'utilisation des fonctionnalités, rapports de plantage et analyses de performance.\n• Informations de paiement : statut d'abonnement et historique des achats traités via RevenueCat (nous ne stockons pas les coordonnées bancaires)."
+      },
+      "usage": {
+        "title": "Comment nous utilisons vos informations",
+        "content": "Nous utilisons les informations collectées pour :\n\n• fournir et maintenir l'application ZYRCA et ses fonctionnalités\n• fournir un accompagnement au jeûne, des analyses bien-être et du contenu éducatif\n• traiter les abonnements et achats intégrés via RevenueCat\n• envoyer des notifications liées à votre programme de jeûne et à vos objectifs santé\n• analyser l'utilisation de l'application pour améliorer les fonctionnalités et les performances\n• afficher des publicités pertinentes via Google AdMob\n• respecter nos obligations légales et faire respecter nos conditions d'utilisation"
+      },
+      "thirdParty": {
+        "title": "Services tiers",
+        "content": "ZYRCA s'intègre aux services tiers suivants :\n\n• Firebase (Google) : authentification, stockage cloud, analyses et rapports de plantage\n• Google Sign-In : authentification de compte\n• RevenueCat : gestion des abonnements et des achats\n• Google AdMob : services publicitaires\n• Google Analytics : analyses d'utilisation et suivi des performances de l'application\n\nChaque service tiers dispose de sa propre politique de confidentialité régissant l'utilisation de vos informations. Nous vous encourageons à les consulter."
+      },
+      "ads": {
+        "title": "Publicité",
+        "content": "ZYRCA peut afficher des publicités fournies par Google AdMob. AdMob peut utiliser des identifiants d'appareil et des données d'utilisation pour diffuser des annonces personnalisées. Vous pouvez gérer la personnalisation des publicités dans les paramètres de votre appareil ou de votre compte Google. Les abonnés premium peuvent bénéficier d'une publicité réduite ou absente."
+      },
+      "storage": {
+        "title": "Stockage et sécurité des données",
+        "content": "Vos données sont stockées en toute sécurité via l'infrastructure cloud Firebase avec un chiffrement conforme aux standards du secteur. Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos informations personnelles contre tout accès, modification, divulgation ou destruction non autorisés. Cependant, aucune méthode de stockage électronique n'est totalement sécurisée."
+      },
+      "retention": {
+        "title": "Conservation des données",
+        "content": "Nous conservons vos informations personnelles aussi longtemps que votre compte est actif ou que cela est nécessaire pour vous fournir nos services. Vous pouvez demander la suppression de votre compte et des données associées à tout moment via la page Supprimer le compte ou en contactant nextlevelapps81@gmail.com."
+      },
+      "rights": {
+        "title": "Vos droits (RGPD et CCPA)",
+        "content": "Selon votre localisation, vous pouvez disposer des droits suivants :\n\n• Accès : demander une copie de vos données personnelles\n• Rectification : corriger des données personnelles inexactes\n• Effacement : demander la suppression de vos données personnelles\n• Portabilité : recevoir vos données dans un format structuré et lisible par machine\n• Opposition : vous opposer au traitement de vos données personnelles\n• Limitation : demander la limitation du traitement\n\nPour exercer ces droits, contactez-nous à nextlevelapps81@gmail.com. Nous répondrons dans un délai de 30 jours."
+      },
+      "children": {
+        "title": "Confidentialité des enfants",
+        "content": "ZYRCA n'est pas destiné aux enfants de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants. Si nous découvrons qu'un enfant nous a fourni des informations personnelles, nous les supprimerons rapidement."
+      },
+      "international": {
+        "title": "Transferts internationaux de données",
+        "content": "Vos informations peuvent être transférées et traitées dans des pays autres que votre pays de résidence. Nous veillons à ce que des garanties appropriées soient en place pour ces transferts, conformément aux lois applicables en matière de protection des données."
+      },
+      "changes": {
+        "title": "Modifications de cette politique",
+        "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons des modifications importantes via l'application ou par e-mail. Votre utilisation continue de ZYRCA après ces modifications vaut acceptation de la politique mise à jour."
+      },
+      "contact": {
+        "title": "Nous contacter",
+        "content": "Si vous avez des questions concernant cette politique de confidentialité, contactez-nous à :\n\nE-mail : nextlevelapps81@gmail.com\nSite web : https://zyrca.app"
+      }
+    }
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : 14 juillet 2026",
+    "intro": "Veuillez lire attentivement ces conditions d'utilisation avant d'utiliser l'application ZYRCA. En accédant à ZYRCA ou en l'utilisant, vous acceptez d'être lié par ces conditions.",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptation des conditions",
+        "content": "En téléchargeant, installant ou utilisant ZYRCA, vous reconnaissez avoir lu, compris et accepté d'être lié par ces conditions d'utilisation et notre politique de confidentialité. Si vous n'êtes pas d'accord, n'utilisez pas l'application."
+      },
+      "description": {
+        "title": "Description du service",
+        "content": "ZYRCA est une application santé et bien-être qui propose le suivi du jeûne intermittent, la surveillance de l'hydratation, la gestion du poids, des analyses de progrès, un accompagnement intelligent au jeûne et du contenu éducatif bien-être. ZYRCA est conçu pour accompagner votre parcours bien-être, mais ne remplace pas un avis médical professionnel."
+      },
+      "account": {
+        "title": "Comptes utilisateur",
+        "content": "Vous pouvez créer un compte via Google Sign-In. Vous êtes responsable de la confidentialité de vos identifiants et de toutes les activités effectuées sous votre compte. Vous devez fournir des informations exactes et mettre à jour toute modification rapidement."
+      },
+      "subscriptions": {
+        "title": "Abonnements et paiements",
+        "content": "ZYRCA propose des fonctionnalités premium via des abonnements gérés par RevenueCat. Les abonnements se renouvellent automatiquement sauf annulation au moins 24 heures avant la fin de la période en cours. Les remboursements sont traités conformément aux politiques de Google Play ou de l'Apple App Store. Les prix peuvent être modifiés avec un préavis raisonnable."
+      },
+      "conduct": {
+        "title": "Conduite de l'utilisateur",
+        "content": "Vous vous engagez à ne pas :\n\n• utiliser ZYRCA à des fins illégales\n• tenter de procéder à l'ingénierie inverse ou à la décompilation de l'application\n• interférer avec les fonctionnalités de sécurité de l'application\n• partager vos identifiants de compte avec d'autres personnes\n• utiliser des systèmes automatisés pour accéder au service\n• télécharger du contenu malveillant ou tenter de compromettre nos systèmes"
+      },
+      "health": {
+        "title": "Avertissement santé",
+        "content": "ZYRCA fournit des informations générales sur la santé et le bien-être à des fins éducatives uniquement. Elle n'est pas destinée à diagnostiquer, traiter, guérir ou prévenir une maladie. Consultez toujours un professionnel de santé qualifié avant de commencer un programme de jeûne, surtout si vous avez des problèmes de santé, êtes enceinte, allaitez ou prenez des médicaments."
+      },
+      "ip": {
+        "title": "Propriété intellectuelle",
+        "content": "L'ensemble du contenu, des fonctionnalités et des éléments de ZYRCA — y compris les textes, graphiques, logos, icônes et logiciels — appartient à ZYRCA et est protégé par les lois internationales sur le droit d'auteur, les marques et la propriété intellectuelle. Vous ne pouvez pas reproduire, distribuer ou créer des œuvres dérivées sans notre autorisation écrite."
+      },
+      "liability": {
+        "title": "Limitation de responsabilité",
+        "content": "Dans la mesure maximale permise par la loi, ZYRCA ne pourra être tenu responsable de tout dommage indirect, accessoire, spécial, consécutif ou punitif résultant de votre utilisation de l'application. Notre responsabilité totale ne dépassera pas le montant que vous avez payé pour le service au cours des douze mois précédant la réclamation."
+      },
+      "termination": {
+        "title": "Résiliation",
+        "content": "Nous pouvons suspendre ou résilier votre accès à ZYRCA à tout moment en cas de violation de ces conditions. Vous pouvez supprimer votre compte à tout moment. En cas de résiliation, votre droit d'utiliser l'application cesse immédiatement et nous supprimerons vos données conformément à notre politique de confidentialité."
+      },
+      "governing": {
+        "title": "Droit applicable",
+        "content": "Ces conditions sont régies et interprétées conformément aux lois applicables, sans égard aux principes de conflit de lois. Tout litige sera résolu par une négociation de bonne foi ou, si nécessaire, par un arbitrage contraignant."
+      },
+      "changes": {
+        "title": "Modifications des conditions",
+        "content": "Nous nous réservons le droit de modifier ces conditions à tout moment. Les modifications importantes seront communiquées via l'application ou par e-mail. L'utilisation continue après ces modifications vaut acceptation des conditions révisées."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "Pour toute question concernant ces conditions d'utilisation, contactez-nous à nextlevelapps81@gmail.com."
+      }
+    }
+  },
+  "support": {
+    "title": "Assistance",
+    "subtitle": "Une question sur l'application jeûne intermittent, le minuteur jeûne ou votre calendrier jeûne ? Nous sommes là.",
+    "contactTitle": "Nous contacter",
+    "contactDescription": "Notre équipe d'assistance répond généralement sous 24 heures.",
+    "email": "nextlevelapps81@gmail.com",
+    "emailLabel": "Assistance par e-mail",
+    "faqTitle": "Questions fréquentes",
+    "faqs": [
+      {
+        "question": "ZYRCA est-il seulement un minuteur jeûne ?",
+        "answer": "Non — ZYRCA est un suivi jeûne complet. Outre le minuteur jeûne, vous disposez d'un tracker eau, d'un suivi poids, de statistiques jeûne, d'un calendrier jeûne, de rappels jeûne, d'un accompagnement intégré et d'export PDF/CSV."
+      },
+      {
+        "question": "Comment débuter le jeûne 16:8 avec ZYRCA ?",
+        "answer": "Ouvrez l'app, choisissez votre protocole — 16:8, 18:6 ou OMAD — puis appuyez sur Démarrer le jeûne. Votre calendrier jeûne est accompagné de rappels et d'un historique complet."
+      },
+      {
+        "question": "Comment fonctionne l'accompagnement jeûne de ZYRCA ?",
+        "answer": "ZYRCA propose un accompagnement intégré avec des réponses pratiques aux questions fréquentes sur le jeûne. Le contenu repose sur des connaissances santé sélectionnées — ce n'est pas un chatbot IA dynamique qui apprend de vos conversations."
+      },
+      {
+        "question": "Puis-je exporter mes statistiques jeûne et données santé ?",
+        "answer": "Oui. Exportez un rapport santé PDF ou des fichiers CSV avec vos progrès de jeûne, votre consommation d'eau et vos relevés de poids — pour vos archives ou à partager avec un professionnel."
+      },
+      {
+        "question": "L'application jeûne est-elle gratuite ?",
+        "answer": "ZYRCA propose une version gratuite avec minuteur jeûne, suivi jeûne et les fonctions essentielles. Le premium débloque des statistiques jeûne avancées, l'export de rapports, plus d'accompagnement et une expérience sans publicité."
+      },
+      {
+        "question": "Comment résilier mon abonnement premium ?",
+        "answer": "Les abonnements sont gérés via Google Play ou l'Apple App Store. Accédez aux paramètres de votre compte, trouvez ZYRCA dans Abonnements et sélectionnez Annuler."
+      },
+      {
+        "question": "Quelles langues propose l'app jeûne intermittent ?",
+        "answer": "ZYRCA est disponible en français, anglais, allemand, espagnol, italien, portugais et arabe — avec prise en charge complète de l'écriture de droite à gauche pour l'arabe."
+      },
+      {
+        "question": "Mes données santé sont-elles protégées dans l'app ?",
+        "answer": "Oui. Vos données sont chiffrées et stockées en toute sécurité. Nous ne vendons jamais vos informations personnelles. Consultez notre politique de confidentialité pour en savoir plus."
+      }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Supprimer le compte",
+    "subtitle": "Nous respectons votre droit de contrôler vos données personnelles.",
+    "howTitle": "Comment demander la suppression de votre compte",
+    "steps": [
+      "Ouvrez l'application ZYRCA sur votre appareil",
+      "Accédez à Paramètres → Compte → Supprimer le compte",
+      "Confirmez votre demande de suppression",
+      "Votre compte et toutes les données associées seront définitivement supprimés sous 30 jours"
+    ],
+    "alternativeTitle": "Méthode alternative",
+    "alternativeDescription": "Si vous ne pouvez pas accéder à l'application, envoyez un e-mail à nextlevelapps81@gmail.com avec l'objet « Demande de suppression de compte » et indiquez l'adresse e-mail associée à votre compte.",
+    "dataTitle": "Données qui seront supprimées",
+    "dataItems": [
+      "Votre profil de compte et vos données d'authentification",
+      "Tout l'historique et les plannings de jeûne",
+      "Enregistrements de consommation d'eau",
+      "Mesures de poids et données de progrès",
+      "Réponses d'accompagnement au jeûne enregistrées",
+      "Réalisations et statistiques",
+      "Préférences et paramètres de l'application"
+    ],
+    "retentionTitle": "Conservation des données",
+    "retentionDescription": "Certaines données analytiques anonymisées peuvent être conservées jusqu'à 90 jours à des fins d'amélioration du service. Les enregistrements d'abonnement peuvent être conservés conformément aux obligations légales fiscales et comptables.",
+    "contactTitle": "Des questions ?",
+    "contactDescription": "Pour toute question concernant la suppression des données, contactez-nous à nextlevelapps81@gmail.com."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'accueil"
+  },
+  "images": {
+    "logo": "Logo ZYRCA – application jeûne intermittent et suivi jeûne",
+    "heroScreenshot": "ZYRCA application jeûne intermittent : tableau de bord avec minuteur jeûne, tracker eau et progrès de jeûne",
+    "storePlay": "Télécharger l'application jeûne intermittent ZYRCA sur Google Play",
+    "storeAppStore": "Télécharger l'app jeûne ZYRCA sur l'Apple App Store",
+    "screenshotLight": "Capture d'écran ZYRCA : {screen} en mode clair",
+    "screenshotDark": "Capture d'écran ZYRCA : {screen} en mode sombre"
+  },
+  "seo": {
+    "home": {
+      "title": "ZYRCA – Application jeûne intermittent | Minuteur jeûne, suivi jeûne & tracker eau",
+      "description": "Suivez le jeûne intermittent avec ZYRCA : minuteur jeûne, calendrier jeûne, tracker eau, suivi poids, statistiques jeûne, rappel jeûne et accompagnement intégré. Rapports santé PDF pour vos progrès.",
+      "keywords": "application jeûne intermittent, minuteur jeûne, suivi jeûne, jeûne 16:8, tracker eau, suivi poids, rappel jeûne, statistiques jeûne, app santé, jeûne débutant, calendrier jeûne, historique jeûne, rapport santé PDF, export CSV, ZYRCA"
+    },
+    "features": {
+      "title": "Fonctionnalités – ZYRCA Application jeûne intermittent & suivi jeûne",
+      "description": "Toutes les fonctionnalités de l'app jeûne ZYRCA : minuteur jeûne, tracker eau, suivi poids, calendrier jeûne, statistiques jeûne, rappel jeûne, accompagnement intégré, export PDF/CSV et guides jeûne.",
+      "keywords": "fonctionnalités app jeûne, suivi jeûne, minuteur jeûne, tracker eau, suivi poids, statistiques jeûne, calendrier jeûne, rappel jeûne, jeûne débutant, jeûne 16:8, rapport santé PDF, app santé"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité – ZYRCA App jeûne",
+      "description": "Découvrez comment ZYRCA protège vos données dans l'application jeûne intermittent. Politique conforme au RGPD couvrant Firebase, RevenueCat, Google Sign-In et AdMob.",
+      "keywords": "confidentialité ZYRCA, app jeûne confidentialité, RGPD, app santé confidentialité, confidentialité Firebase"
+    },
+    "terms": {
+      "title": "Conditions d'utilisation – ZYRCA Application jeûne intermittent",
+      "description": "Conditions d'utilisation de l'app jeûne ZYRCA. Vos droits et responsabilités lors de l'utilisation du suivi jeûne avec tracker eau et suivi poids.",
+      "keywords": "conditions ZYRCA, conditions app jeûne, conditions app santé, conditions abonnement"
+    },
+    "support": {
+      "title": "Assistance – ZYRCA Application jeûne intermittent & suivi jeûne",
+      "description": "Aide pour l'app jeûne ZYRCA : FAQ sur le jeûne 16:8, minuteur jeûne, calendrier jeûne, statistiques jeûne, abonnements et gestion de compte.",
+      "keywords": "assistance ZYRCA, aide app jeûne, aide jeûne intermittent, support suivi jeûne, FAQ jeûne débutant, contacter support"
+    },
+    "deleteAccount": {
+      "title": "Supprimer le compte – ZYRCA App jeûne",
+      "description": "Comment supprimer votre compte ZYRCA et vos données santé. Guide étape par étape pour la suppression de compte dans l'application jeûne intermittent.",
+      "keywords": "supprimer compte ZYRCA, suppression données app jeûne, supprimer compte, droit à l'effacement RGPD"
+    },
+    "structuredData": {
+      "ogAlt": "ZYRCA – Application jeûne intermittent | Minuteur jeûne, suivi jeûne & tracker eau",
+      "appDescription": "Application jeûne intermittent avec minuteur jeûne, tracker eau, suivi poids, accompagnement intégré, statistiques jeûne et export de rapports santé PDF.",
+      "appFeatures": "Minuteur de jeûne intermittent|Tracker eau|Suivi du poids|Historique et calendrier de jeûne|Accompagnement jeûne intégré|Rapports santé PDF et CSV|Guides jeûne d'experts|Réalisations et motivation",
+      "websiteDescription": "Site officiel ZYRCA pour l'application jeûne intermittent premium avec tracker eau, suivi poids et suivi jeûne.",
+      "organizationDescription": "ZYRCA développe des applications santé premium pour le jeûne intermittent, le suivi de l'hydratation et les progrès de jeûne durables.",
+      "contactType": "service client"
+    }
+  }
+}

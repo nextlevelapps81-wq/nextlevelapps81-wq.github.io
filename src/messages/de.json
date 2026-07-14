@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "siteName": "ZYRCA",
+    "tagline": "Intelligenter Fasten-Tracker"
+  },
+  "nav": {
+    "home": "Startseite",
+    "features": "Funktionen",
+    "journey": "So funktioniert's",
+    "premium": "Premium",
+    "about": "Über uns",
+    "screenshots": "Screenshots",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "support": "Support",
+    "deleteAccount": "Konto löschen",
+    "download": "Herunterladen",
+    "menu": "Menü öffnen",
+    "close": "Menü schließen",
+    "skipToContent": "Zum Hauptinhalt springen"
+  },
+  "hero": {
+    "badge": "Intervallfasten App & Gesundheits-App",
+    "title": "ZYRCA",
+    "subtitle": "Dein Fasten Tracker mit integrierter Beratung",
+    "description": "Fastenplan, Wassertracker und Gewichtstracker in einer App. Mit zuverlässigem Fasten Timer, Fastenhistorie, Fastenerinnerung und Fastenstatistik — plus intelligenter Beratung und PDF-Gesundheitsbericht. Ideal als Fasten App für Anfänger und Fortgeschrittene.",
+    "ctaPlay": "Bei Google Play laden",
+    "ctaAppStore": "Demnächst im App Store",
+    "statsProtocols": "5+",
+    "statsProtocolsLabel": "Fastenprotokolle",
+    "statsLanguages": "7",
+    "statsLanguagesLabel": "Sprachen",
+    "statsGuides": "11+",
+    "statsGuidesLabel": "Experten-Ratgeber"
+  },
+  "features": {
+    "title": "Alles für dein 16:8 Fasten & Intervallfasten",
+    "subtitle": "Dein vollständiger Fasten Tracker: Wassertracker, Gewichtstracker, Fastenplan und Fasten Fortschritt — mit integrierter Beratung für den Alltag.",
+    "pageTitle": "Alle Funktionen der Fasten App",
+    "pageSubtitle": "Entdecke Fasten Timer, Fastenstatistik, Fastenhistorie, Fastenerinnerung und mehr — alles für deinen Intervallfasten-Alltag.",
+    "smartAssistant": {
+      "title": "Intelligenter Fasten-Assistent",
+      "description": "Erhalte intelligente Fastenberatung, tägliche Wellness-Einblicke und hilfreiche Antworten auf häufige Fastenfragen — basierend auf ZYRCAs integriertem Gesundheitswissen."
+    },
+    "fasting": {
+      "title": "Intervallfasten-Tracker",
+      "description": "Nutze einen präzisen Fasten-Timer für 16:8, 18:6, OMAD und individuelle Pläne. Sieh deine Fastenhistorie ein und bleib mit Fastenerinnerungen auf Kurs."
+    },
+    "water": {
+      "title": "Wassertracker",
+      "description": "Erfasse deine tägliche Wasseraufnahme, erreiche deine Hydrationsziele und analysiere Wasserstatistiken, die deine Fastenroutine unterstützen."
+    },
+    "weight": {
+      "title": "Gewichtstracker",
+      "description": "Protokolliere dein Körpergewicht, verfolge Gewichtstrends über die Zeit und überwache deinen Fortschritt zu deinen Wellness-Zielen."
+    },
+    "analytics": {
+      "title": "Fortschrittsanalysen",
+      "description": "Sieh deinen Fastenfortschritt, Hydration und Gewichtsdaten zusammen in klaren Diagrammen und mit deinem ZYRCA-Wellness-Score."
+    },
+    "statistics": {
+      "title": "Fastenstatistiken",
+      "description": "Analysiere detaillierte Fastenstatistiken, Hydrationsübersichten und Gewichtstrends, um deinen Gesundheitsfortschritt zu verstehen."
+    },
+    "history": {
+      "title": "Fastenhistorie & Kalender",
+      "description": "Durchsuche deine komplette Fastenhistorie in der Kalenderansicht und baue konsequente Fastengewohnheiten auf."
+    },
+    "fastingGuide": {
+      "title": "Intervallfasten-Ratgeber",
+      "description": "Lerne mit Experten-Ratgebern und informativen Artikeln — ideal für Fasten-Einsteiger und erfahrene Nutzer."
+    },
+    "achievements": {
+      "title": "Erfolge & Motivation",
+      "description": "Verdiene Abzeichen, erreiche Meilensteine und bleib motiviert, während du dauerhafte Intervallfasten-Gewohnheiten aufbaust."
+    },
+    "notifications": {
+      "title": "Fastenerinnerungen",
+      "description": "Erhalte rechtzeitige Erinnerungen für Fastenfenster, Hydration und tägliche Check-ins, damit du keinen Plan verpasst."
+    },
+    "pdfExport": {
+      "title": "PDF-Gesundheitsbericht",
+      "description": "Exportiere einen übersichtlichen PDF-Gesundheitsbericht mit deinem Fastenfortschritt, Wasseraufnahme und Gewichtsdaten."
+    },
+    "csvExport": {
+      "title": "CSV-Datenexport",
+      "description": "Lade deine Fasten- und Wellness-Daten als CSV-Datei für persönliche Aufzeichnungen oder professionelle Auswertung herunter."
+    },
+    "shareReports": {
+      "title": "Gesundheitsberichte teilen",
+      "description": "Teile PDF- oder CSV-Berichte mit deinem Arzt, Ernährungsberater oder Personal Trainer, wenn du professionelle Beratung brauchst."
+    },
+    "darkTheme": {
+      "title": "Dunkelmodus",
+      "description": "Eine raffinierte dunkle Oberfläche mit tiefen Tönen, lila Akzenten und angenehmer Nutzung am Abend."
+    },
+    "lightTheme": {
+      "title": "Hellmodus",
+      "description": "Ein klares, helles Layout mit sanften Akzenten und angenehmer Lesbarkeit am Tag."
+    },
+    "languages": {
+      "title": "Mehrsprachige Unterstützung",
+      "description": "Nutze ZYRCA in 7 Sprachen mit vollständiger RTL-Unterstützung für Arabisch."
+    },
+    "privacy": {
+      "title": "Datenschutz & sichere Daten",
+      "description": "Deine Gesundheitsdaten sind verschlüsselt und geschützt. Wir verkaufen deine persönlichen Informationen niemals."
+    },
+    "dashboard": {
+      "title": "Wellness-Dashboard",
+      "description": "Sieh Fasten, Wasser, Gewicht und Wellness-Einblicke zusammen in einem übersichtlichen Gesundheits-Dashboard."
+    }
+  },
+  "journey": {
+    "title": "Dein Weg mit der Intervallfasten App",
+    "subtitle": "Vom ersten Fastenplan bis zum PDF-Gesundheitsbericht — ZYRCA begleitet jeden Schritt deines Fasten Fortschritts.",
+    "steps": {
+      "discover": {
+        "title": "ZYRCA entdecken",
+        "description": "Richte dein Profil ein, wähle ein Fastenprotokoll und erkunde dein persönliches Wellness-Dashboard."
+      },
+      "track": {
+        "title": "Fortschritt tracken",
+        "description": "Erfasse Fastensitzungen, Wasseraufnahme und Körpergewicht in einer einfachen, wunderschön gestalteten App."
+      },
+      "analyze": {
+        "title": "Ergebnisse analysieren",
+        "description": "Analysiere Fastenstatistiken, Kalenderhistorie, Gewichtstrends und Hydrationsdaten mit klaren Visualisierungen."
+      },
+      "guidance": {
+        "title": "Intelligente Beratung erhalten",
+        "description": "Greife auf Wellness-Einblicke, Fastentipps und hilfreiche Antworten aus ZYRCAs integriertem Gesundheitswissen zu."
+      },
+      "export": {
+        "title": "Gesundheitsberichte exportieren",
+        "description": "Erstelle PDF- und CSV-Berichte, um deinen Fortschritt zu prüfen oder mit medizinischen Fachkräften zu teilen."
+      },
+      "achieve": {
+        "title": "Ziele erreichen",
+        "description": "Verdiene Erfolge, bleib motiviert und baue die gesunden Fastengewohnheiten auf, die dir wichtig sind."
+      }
+    }
+  },
+  "premium": {
+    "title": "Mehr als ein Fasten Timer",
+    "subtitle": "Professionelle Fastenstatistik, PDF-Berichte und intelligente Beratung — für alle, die mit 16:8 Fasten und Intervallfasten ernsthaft durchstarten wollen.",
+    "pdfReports": {
+      "title": "PDF-Gesundheitsberichte",
+      "description": "Exportiere einen ausgefeilten PDF-Gesundheitsbericht mit Fastenfortschritt, Wasseraufnahme, Gewichtstrends und Wellness-Zusammenfassungen."
+    },
+    "csvExport": {
+      "title": "CSV-Datenexport",
+      "description": "Lade deine Fasten- und Wellness-Daten als CSV-Datei für Backup, Analyse oder professionelle Auswertung herunter."
+    },
+    "shareProfessionals": {
+      "title": "Mit Fachleuten teilen",
+      "description": "Sende deine PDF- oder CSV-Berichte an einen Arzt, Ernährungsberater oder Trainer, wenn du Expertenfeedback zu deinem Fortschritt möchtest."
+    },
+    "smartGuidance": {
+      "title": "Intelligente Fastenberatung",
+      "description": "Erhalte Wellness-Einblicke und hilfreiche Fastenempfehlungen basierend auf ZYRCAs integriertem Gesundheitswissen — kein Chatbot."
+    },
+    "calendar": {
+      "title": "Fastenkalender & Historie",
+      "description": "Überprüfe deinen Fastenplan und deine komplette Fastenhistorie in einem leicht lesbaren Kalender."
+    },
+    "visualization": {
+      "title": "Fasten-Fortschrittsdiagramme",
+      "description": "Verfolge deine Entwicklung mit klaren Diagrammen, Grafiken und visuellem Fasten-Fortschrittstracking."
+    },
+    "weightTrends": {
+      "title": "Gewichtstrend-Tracking",
+      "description": "Überwache dein Körpergewicht über die Zeit mit Zielfortschritt und Meilenstein-Tracking."
+    },
+    "waterStats": {
+      "title": "Wasseraufnahme-Statistiken",
+      "description": "Analysiere tägliche und wöchentliche Hydrationsmuster, um deine Fastenroutine zu unterstützen."
+    },
+    "achievements": {
+      "title": "Erfolgssystem",
+      "description": "Schalte Abzeichen frei und feiere Meilensteine, um auf deiner Fastenreise motiviert zu bleiben."
+    },
+    "expertGuides": {
+      "title": "Experten-Fastenratgeber",
+      "description": "Lies informative Fastenratgeber und Expertenartikel — inklusive Tipps für Fasten-Einsteiger."
+    }
+  },
+  "whyChoose": {
+    "title": "Warum ZYRCA als Fasten App?",
+    "subtitle": "Der intelligente Fasten Tracker mit Wassertracker, Gewichtstracker und ehrlicher Beratung — kein KI-Chatbot, sondern ein durchdachtes Gesundheits-Tool.",
+    "reasons": {
+      "allInOne": {
+        "title": "Mehr als ein Fasten-Timer",
+        "description": "Tracke Fasten, Wasser und Gewicht zusammen mit Statistiken, Erfolgen und Wellness-Einblicken — ohne mehrere Apps."
+      },
+      "smartGuidance": {
+        "title": "Integrierte Fastenberatung",
+        "description": "Erhalte intelligente Wellness-Einblicke und Antworten auf häufige Fastenfragen — basierend auf kuratiertem Gesundheitswissen, nicht auf dynamischem KI-Chat."
+      },
+      "professional": {
+        "title": "PDF- & CSV-Export",
+        "description": "Exportiere deinen Fastenfortschritt als PDF-Gesundheitsbericht oder CSV-Datei — praktisch für persönliche Aufzeichnungen und professionelles Teilen."
+      },
+      "beautiful": {
+        "title": "Schön & intuitiv",
+        "description": "Premium-Design mit dunklem und hellem Theme, gestaltet für Klarheit, Komfort und tägliche Nutzung."
+      },
+      "global": {
+        "title": "Für die Welt gemacht",
+        "description": "Verfügbar in 7 Sprachen mit RTL-Unterstützung für Arabisch."
+      },
+      "secure": {
+        "title": "Privat & sicher",
+        "description": "Verschlüsselte Datenspeicherung, DSGVO-Konformität und das Versprechen, deine Informationen niemals zu verkaufen."
+      }
+    }
+  },
+  "about": {
+    "title": "Über ZYRCA",
+    "subtitle": "Der Smart Fasting Tracker mit Fastenplan, Wassertracker, Gewichtstracker und integrierter Fastenberatung.",
+    "whatIs": {
+      "title": "Was ist ZYRCA?",
+      "description": "ZYRCA ist eine Premium-Fasten App zum Tracken von Intervallfasten, Wasseraufnahme und Gewicht. Mit Fasten Timer, Fastenhistorie, Fastenstatistik, Fastenerinnerung, integrierter Beratung und PDF/CSV-Export — alles in einer übersichtlichen Gesundheits-App."
+    },
+    "whyFasting": {
+      "title": "Warum Intervallfasten?",
+      "description": "16:8 Fasten und Intervallfasten gehören zu den beliebtesten Methoden für Gewichtsmanagement und einen gesunden Lebensstil. Mit dem richtigen Fastenplan, Hydration und einem zuverlässigen Fasten Tracker baust du Routinen auf, die langfristig wirken."
+    },
+    "whyGuidance": {
+      "title": "Warum integrierte Beratung?",
+      "description": "Fasten für Anfänger gelingt leichter, wenn du den Ablauf verstehst. ZYRCA liefert praktische Antworten und Fastentipps über integriertes Gesundheitswissen — ehrliche Unterstützung, keine irreführenden KI-Versprechen."
+    },
+    "benefits": {
+      "title": "So hilft dir ZYRCA",
+      "items": [
+        "Intervallfasten mit zuverlässigem Fasten-Timer und Plan tracken",
+        "Wasseraufnahme und Körpergewicht in derselben App überwachen",
+        "Fastenhistorie, Statistiken und Fortschrittsanalysen einsehen",
+        "Intelligente Fastenberatung und Wellness-Einblicke erhalten",
+        "Mit Experten-Ratgebern und Tipps zum Intervallfasten lernen",
+        "PDF-Gesundheitsberichte und CSV-Dateien exportieren",
+        "Die App in 7 Sprachen mit vollständiger RTL-Unterstützung nutzen"
+      ]
+    }
+  },
+  "screenshots": {
+    "title": "Die Fasten App im Überblick",
+    "subtitle": "Vom Fasten Timer und Wassertracker bis zu Fastenstatistik und integrierter Beratung — so sieht ZYRCA in der Praxis aus.",
+    "darkMode": "Dunkelmodus",
+    "lightMode": "Hellmodus",
+    "prev": "Vorheriger Screenshot",
+    "next": "Nächster Screenshot",
+    "captions": {
+      "dashboard": "Wellness-Dashboard",
+      "intelligence": "ZYRCA Intelligence",
+      "fasting": "Fastenprotokolle",
+      "water": "Wassertracker",
+      "weight": "Gewichtstracker",
+      "analytics": "Fastenstatistiken",
+      "achievements": "Erfolge",
+      "fastingGuide": "Fasten-Ratgeber"
+    }
+  },
+  "cta": {
+    "title": "Starte jetzt mit Intervallfasten",
+    "description": "Lade ZYRCA herunter — deine Fasten App mit Timer, Tracker, Fastenplan und intelligenter Beratung für 16:8 Fasten und mehr.",
+    "button": "Bei Google Play laden",
+    "appStore": "Demnächst im App Store"
+  },
+  "footer": {
+    "description": "Der intelligente Fasten Tracker mit Fasten Timer, Wassertracker, Gewichtstracker, Fastenstatistik und integrierter Beratung.",
+    "product": "Produkt",
+    "legal": "Rechtliches",
+    "connect": "Verbinden",
+    "copyright": "© {year} ZYRCA. Alle Rechte vorbehalten.",
+    "theme": "Design",
+    "language": "Sprache",
+    "themeLight": "Hell",
+    "themeDark": "Dunkel",
+    "themeSystem": "System"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: 14. Juli 2026",
+    "intro": "Bei ZYRCA nehmen wir deine Privatsphäre ernst. Diese Datenschutzerklärung erläutert, wie wir deine Informationen erfassen, verwenden, offenlegen und schützen, wenn du unsere mobile App und Website nutzt.",
+    "sections": {
+      "collection": {
+        "title": "Welche Informationen wir erfassen",
+        "content": "Wir können folgende Arten von Informationen erfassen:\n\n• Kontoinformationen: E-Mail-Adresse, Anzeigename und Profilfoto, wenn du dich mit Google anmeldest.\n• Gesundheitsdaten: Fastenpläne, Wasseraufnahme, Gewichtsmessungen und Fortschrittsstatistiken, die du freiwillig eingibst.\n• Geräteinformationen: Gerätetyp, Betriebssystemversion, eindeutige Gerätekennungen und Informationen zum Mobilfunknetz.\n• Nutzungsdaten: App-Interaktionen, Nutzungsmuster von Funktionen, Absturzberichte und Leistungsanalysen.\n• Zahlungsinformationen: Abonnementstatus und Kaufhistorie, verarbeitet über RevenueCat (wir speichern keine Zahlungskartendaten)."
+      },
+      "usage": {
+        "title": "Wie wir deine Informationen verwenden",
+        "content": "Wir verwenden die erfassten Informationen, um:\n\n• die ZYRCA-App und ihre Funktionen bereitzustellen und zu pflegen\n• Fastenberatung, Wellness-Einblicke und informative Inhalte bereitzustellen\n• Abonnements und In-App-Käufe über RevenueCat zu verarbeiten\n• Benachrichtigungen zu deinem Fastenplan und deinen Gesundheitszielen zu senden\n• die App-Nutzung zu analysieren, um Funktionen und Leistung zu verbessern\n• relevante Werbung über Google AdMob anzuzeigen\n• gesetzliche Verpflichtungen zu erfüllen und unsere Nutzungsbedingungen durchzusetzen"
+      },
+      "thirdParty": {
+        "title": "Drittanbieter-Dienste",
+        "content": "ZYRCA integriert folgende Drittanbieter-Dienste:\n\n• Firebase (Google): Authentifizierung, Cloud-Speicher, Analysen und Absturzberichte\n• Google Sign-In: Kontoverifizierung\n• RevenueCat: Abonnement- und Kaufverwaltung\n• Google AdMob: Werbedienste\n• Google Analytics: Nutzungsanalysen und App-Leistungsüberwachung\n\nJeder Drittanbieter-Dienst hat seine eigene Datenschutzerklärung für die Nutzung deiner Informationen. Wir empfehlen dir, diese Richtlinien zu lesen."
+      },
+      "ads": {
+        "title": "Werbung",
+        "content": "ZYRCA kann Werbung von Google AdMob anzeigen. AdMob kann Gerätekennungen und Nutzungsdaten verwenden, um personalisierte Anzeigen auszuspielen. Du kannst die Anzeigenpersonalisierung in deinen Geräteeinstellungen oder Google-Kontoeinstellungen verwalten. Premium-Abonnenten können weniger oder gar keine Werbung sehen."
+      },
+      "storage": {
+        "title": "Datenspeicherung und Sicherheit",
+        "content": "Deine Daten werden sicher in der Firebase-Cloud-Infrastruktur mit branchenüblicher Verschlüsselung gespeichert. Wir setzen angemessene technische und organisatorische Maßnahmen ein, um deine personenbezogenen Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Zerstörung zu schützen. Keine Methode der elektronischen Speicherung ist jedoch zu 100 % sicher."
+      },
+      "retention": {
+        "title": "Datenspeicherung (Aufbewahrung)",
+        "content": "Wir bewahren deine personenbezogenen Daten so lange auf, wie dein Konto aktiv ist oder wie es zur Bereitstellung unserer Dienste erforderlich ist. Du kannst jederzeit die Löschung deines Kontos und der zugehörigen Daten über die Seite „Konto löschen“ oder per E-Mail an nextlevelapps81@gmail.com beantragen."
+      },
+      "rights": {
+        "title": "Deine Rechte (DSGVO & CCPA)",
+        "content": "Je nach deinem Standort hast du möglicherweise folgende Rechte:\n\n• Auskunft: Eine Kopie deiner personenbezogenen Daten anfordern\n• Berichtigung: Unrichtige personenbezogene Daten korrigieren\n• Löschung: Die Löschung deiner personenbezogenen Daten verlangen\n• Datenübertragbarkeit: Deine Daten in einem strukturierten, maschinenlesbaren Format erhalten\n• Widerspruch: Der Verarbeitung deiner personenbezogenen Daten widersprechen\n• Einschränkung: Die Einschränkung der Verarbeitung verlangen\n\nUm diese Rechte auszuüben, kontaktiere uns unter nextlevelapps81@gmail.com. Wir antworten innerhalb von 30 Tagen."
+      },
+      "children": {
+        "title": "Datenschutz für Kinder",
+        "content": "ZYRCA richtet sich nicht an Kinder unter 16 Jahren. Wir erfassen wissentlich keine personenbezogenen Daten von Kindern. Wenn wir feststellen, dass ein Kind uns personenbezogene Daten übermittelt hat, löschen wir diese umgehend."
+      },
+      "international": {
+        "title": "Internationale Datenübermittlung",
+        "content": "Deine Informationen können in Länder außerhalb deines Wohnsitzlandes übermittelt und dort verarbeitet werden. Wir stellen sicher, dass angemessene Schutzmaßnahmen für solche Übermittlungen gemäß den geltenden Datenschutzgesetzen vorhanden sind."
+      },
+      "changes": {
+        "title": "Änderungen dieser Richtlinie",
+        "content": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Über wesentliche Änderungen informieren wir dich über die App oder per E-Mail. Die fortgesetzte Nutzung von ZYRCA nach Änderungen gilt als Zustimmung zur aktualisierten Richtlinie."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Bei Fragen zu dieser Datenschutzerklärung kontaktiere uns bitte unter:\n\nE-Mail: nextlevelapps81@gmail.com\nWebsite: https://zyrca.app"
+      }
+    }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 14. Juli 2026",
+    "intro": "Bitte lies diese Nutzungsbedingungen sorgfältig durch, bevor du die ZYRCA-App nutzt. Durch den Zugriff auf oder die Nutzung von ZYRCA erklärst du dich mit diesen Bedingungen einverstanden.",
+    "sections": {
+      "acceptance": {
+        "title": "Annahme der Bedingungen",
+        "content": "Durch das Herunterladen, Installieren oder Nutzen von ZYRCA bestätigst du, dass du diese Nutzungsbedingungen und unsere Datenschutzerklärung gelesen, verstanden und akzeptiert hast. Wenn du nicht einverstanden bist, nutze die App nicht."
+      },
+      "description": {
+        "title": "Beschreibung des Dienstes",
+        "content": "ZYRCA ist eine Gesundheits- und Wellness-App, die Intervallfasten-Tracking, Wasserüberwachung, Gewichtsmanagement, Fortschrittsanalysen, intelligente Fastenberatung und informative Wellness-Inhalte bietet. ZYRCA unterstützt deine Wellness-Reise, ersetzt jedoch keine professionelle medizinische Beratung."
+      },
+      "account": {
+        "title": "Benutzerkonten",
+        "content": "Du kannst ein Konto über Google Sign-In erstellen. Du bist dafür verantwortlich, die Vertraulichkeit deiner Zugangsdaten zu wahren und für alle Aktivitäten unter deinem Konto. Du musst korrekte Angaben machen und Änderungen umgehend aktualisieren."
+      },
+      "subscriptions": {
+        "title": "Abonnements und Zahlungen",
+        "content": "ZYRCA bietet Premium-Funktionen über Abonnementpläne an, die von RevenueCat verwaltet werden. Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt werden. Rückerstattungen erfolgen gemäß den Richtlinien von Google Play oder dem Apple App Store. Preisänderungen erfolgen mit angemessener Vorankündigung."
+      },
+      "conduct": {
+        "title": "Nutzerverhalten",
+        "content": "Du verpflichtest dich, Folgendes zu unterlassen:\n\n• ZYRCA für rechtswidrige Zwecke zu nutzen\n• zu versuchen, die App zu reverse-engineeren oder zu dekompilieren\n• die Sicherheitsfunktionen der App zu beeinträchtigen\n• deine Zugangsdaten mit anderen zu teilen\n• automatisierte Systeme zum Zugriff auf den Dienst zu verwenden\n• schädliche Inhalte hochzuladen oder unsere Systeme zu kompromittieren"
+      },
+      "health": {
+        "title": "Gesundheitshinweis",
+        "content": "ZYRCA stellt allgemeine Gesundheits- und Wellness-Informationen ausschließlich zu Bildungszwecken bereit. Die App ist nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder zu verhindern. Konsultiere immer einen qualifizierten Arzt, bevor du ein Fastenprogramm beginnst — insbesondere bei Erkrankungen, Schwangerschaft, Stillzeit oder Medikamenteneinnahme."
+      },
+      "ip": {
+        "title": "Geistiges Eigentum",
+        "content": "Alle Inhalte, Funktionen und Merkmale von ZYRCA — einschließlich Text, Grafiken, Logos, Symbole und Software — sind Eigentum von ZYRCA und durch internationale Urheber-, Marken- und andere Rechte des geistigen Eigentums geschützt. Du darfst ohne unsere schriftliche Genehmigung nichts reproduzieren, verbreiten oder abgeleitete Werke erstellen."
+      },
+      "liability": {
+        "title": "Haftungsbeschränkung",
+        "content": "Soweit gesetzlich zulässig, haftet ZYRCA nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus deiner Nutzung der App entstehen. Unsere Gesamthaftung übersteigt nicht den Betrag, den du in den zwölf Monaten vor dem Anspruch für den Dienst gezahlt hast."
+      },
+      "termination": {
+        "title": "Kündigung",
+        "content": "Wir können deinen Zugang zu ZYRCA jederzeit bei Verstoß gegen diese Bedingungen sperren oder beenden. Du kannst dein Konto jederzeit löschen. Mit der Beendigung erlischt dein Recht zur Nutzung der App sofort, und wir löschen deine Daten gemäß unserer Datenschutzerklärung."
+      },
+      "governing": {
+        "title": "Anwendbares Recht",
+        "content": "Diese Bedingungen unterliegen dem anwendbaren Recht und werden entsprechend ausgelegt, ohne Berücksichtigung kollisionsrechtlicher Grundsätze. Streitigkeiten werden durch Verhandlungen in gutem Glauben oder, falls erforderlich, durch ein verbindliches Schiedsverfahren beigelegt."
+      },
+      "changes": {
+        "title": "Änderungen der Bedingungen",
+        "content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Wesentliche Änderungen werden über die App oder per E-Mail mitgeteilt. Die fortgesetzte Nutzung nach Änderungen gilt als Annahme der überarbeiteten Bedingungen."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Bei Fragen zu diesen Nutzungsbedingungen kontaktiere uns unter nextlevelapps81@gmail.com."
+      }
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Fragen zur Intervallfasten App, zum Fasten Timer oder deinem Fastenplan? Wir helfen dir weiter.",
+    "contactTitle": "Kontakt",
+    "contactDescription": "Unser Support-Team antwortet in der Regel innerhalb von 24 Stunden.",
+    "email": "nextlevelapps81@gmail.com",
+    "emailLabel": "Support per E-Mail",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faqs": [
+      {
+        "question": "Ist ZYRCA nur ein Fasten Timer?",
+        "answer": "Nein — ZYRCA ist ein vollständiger Fasten Tracker. Neben dem Fasten Timer findest du Wassertracker, Gewichtstracker, Fastenstatistik, Fastenhistorie, Fastenerinnerung, integrierte Beratung und PDF-/CSV-Export."
+      },
+      {
+        "question": "Wie starte ich mit 16:8 Fasten in ZYRCA?",
+        "answer": "Öffne die App, wähle dein Fastenprotokoll — z. B. 16:8, 18:6 oder OMAD — und tippe auf „Fasten starten“. Dein Fastenplan wird mit Fastenerinnerung und Fastenhistorie begleitet."
+      },
+      {
+        "question": "Wie funktioniert die Fastenberatung in ZYRCA?",
+        "answer": "ZYRCA bietet integrierte Beratung mit praktischen Antworten auf häufige Fastenfragen. Die Inhalte basieren auf kuratiertem Gesundheitswissen — kein dynamischer KI-Chatbot, der aus deinen Gesprächen lernt."
+      },
+      {
+        "question": "Kann ich Fastenstatistik und Gesundheitsdaten exportieren?",
+        "answer": "Ja. Exportiere einen PDF-Gesundheitsbericht oder CSV-Dateien mit deinem Fasten Fortschritt, Wasseraufnahme und Gewichtsdaten — ideal für deine eigenen Aufzeichnungen oder zum Teilen mit Fachleuten."
+      },
+      {
+        "question": "Ist die Fasten App kostenlos?",
+        "answer": "ZYRCA bietet eine kostenlose Version mit Fasten Timer, Fasten Tracker und den wichtigsten Tracking-Funktionen. Premium schaltet erweiterte Fastenstatistik, Berichtsexporte, mehr Beratung und ein werbefreies Erlebnis frei."
+      },
+      {
+        "question": "Wie kündige ich mein Premium-Abo?",
+        "answer": "Abonnements laufen über Google Play oder den Apple App Store. Gehe zu deinen Store-Einstellungen, finde ZYRCA unter Abonnements und wähle „Kündigen“."
+      },
+      {
+        "question": "Welche Sprachen bietet die Intervallfasten App?",
+        "answer": "ZYRCA ist auf Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch und Arabisch verfügbar — mit vollständiger RTL-Unterstützung für Arabisch."
+      },
+      {
+        "question": "Sind meine Gesundheitsdaten in der Fasten App sicher?",
+        "answer": "Ja. Deine Daten werden verschlüsselt und sicher gespeichert. Wir verkaufen deine persönlichen Informationen niemals. Details findest du in unserer Datenschutzerklärung."
+      }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Konto löschen",
+    "subtitle": "Wir respektieren dein Recht, deine personenbezogenen Daten zu kontrollieren.",
+    "howTitle": "So beantragst du die Kontolöschung",
+    "steps": [
+      "Öffne die ZYRCA-App auf deinem Gerät",
+      "Gehe zu Einstellungen → Konto → Konto löschen",
+      "Bestätige deine Löschanfrage",
+      "Dein Konto und alle zugehörigen Daten werden innerhalb von 30 Tagen dauerhaft gelöscht"
+    ],
+    "alternativeTitle": "Alternative Methode",
+    "alternativeDescription": "Wenn du keinen Zugriff auf die App hast, sende eine E-Mail an nextlevelapps81@gmail.com mit dem Betreff „Kontolöschung“ und gib die mit deinem Konto verknüpfte E-Mail-Adresse an.",
+    "dataTitle": "Welche Daten gelöscht werden",
+    "dataItems": [
+      "Dein Kontoprofil und Authentifizierungsdaten",
+      "Gesamte Fastenhistorie und -pläne",
+      "Wasseraufnahme-Einträge",
+      "Gewichtsmessungen und Fortschrittsdaten",
+      "Gespeicherte Fastenberatungs-Antworten",
+      "Erfolge und Statistiken",
+      "App-Einstellungen und Präferenzen"
+    ],
+    "retentionTitle": "Datenaufbewahrung",
+    "retentionDescription": "Einige anonymisierte Analysedaten können bis zu 90 Tage zur Verbesserung des Dienstes aufbewahrt werden. Abonnementdatensätze können gesetzlich für steuerliche und buchhalterische Zwecke aufbewahrt werden.",
+    "contactTitle": "Fragen?",
+    "contactDescription": "Bei Fragen zur Datenlöschung kontaktiere uns unter nextlevelapps81@gmail.com."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "backHome": "Zur Startseite"
+  },
+  "images": {
+    "logo": "ZYRCA Logo – Intervallfasten App und Fasten Tracker",
+    "heroScreenshot": "ZYRCA Intervallfasten App: Dashboard mit Fasten Timer, Wassertracker und Fasten Fortschritt",
+    "storePlay": "ZYRCA Intervallfasten App bei Google Play herunterladen",
+    "storeAppStore": "ZYRCA Fasten App im Apple App Store herunterladen",
+    "screenshotLight": "ZYRCA App-Screenshot: {screen} im Hellmodus",
+    "screenshotDark": "ZYRCA App-Screenshot: {screen} im Dunkelmodus"
+  },
+  "seo": {
+    "home": {
+      "title": "ZYRCA – Intervallfasten App | Fasten Timer, Fasten Tracker & Wassertracker",
+      "description": "Intervallfasten tracken mit ZYRCA: Fasten Timer, Fastenplan, Wassertracker, Gewichtstracker, Fastenstatistik, Fastenerinnerung und integrierte Beratung. PDF-Gesundheitsberichte für deinen Fasten Fortschritt.",
+      "keywords": "Intervallfasten App, Fasten Timer, Fasten Tracker, 16:8 Fasten, Wassertracker, Gewichtstracker, Fasten App, Fastenplan, Fastenerinnerung, Fastenstatistik, Fasten Fortschritt, Gesundheits-App, Fasten für Anfänger, Fastenhistorie, PDF Gesundheitsbericht, CSV Export, ZYRCA"
+    },
+    "features": {
+      "title": "Funktionen – ZYRCA Intervallfasten App & Fasten Tracker",
+      "description": "Alle Funktionen der ZYRCA Fasten App: Fasten Timer, Wassertracker, Gewichtstracker, Fastenhistorie, Fastenstatistik, Fastenerinnerung, integrierte Beratung, PDF/CSV-Export und Fastenratgeber.",
+      "keywords": "Fasten App Funktionen, Intervallfasten Tracker, Fasten Timer, Wassertracker, Gewichtstracker, Fastenstatistik, Fastenplan, Fastenerinnerung, Fasten für Anfänger, 16:8 Fasten, PDF Gesundheitsbericht, Gesundheits-App"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung – ZYRCA Fasten App",
+      "description": "Erfahre, wie ZYRCA deine Daten in der Intervallfasten App schützt. DSGVO-konforme Richtlinie zu Datenerfassung, Firebase, RevenueCat, Google Sign-In und AdMob.",
+      "keywords": "ZYRCA Datenschutz, Fasten App Datenschutz, DSGVO, Gesundheits-App Datenschutz, Firebase Datenschutz"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen – ZYRCA Intervallfasten App",
+      "description": "Nutzungsbedingungen der ZYRCA Fasten App. Deine Rechte und Pflichten bei der Nutzung des Fasten Trackers mit Wassertracker und Gewichtstracker.",
+      "keywords": "ZYRCA Nutzungsbedingungen, Fasten App AGB, Gesundheits-App Bedingungen, Abonnement Bedingungen"
+    },
+    "support": {
+      "title": "Support – ZYRCA Intervallfasten App & Fasten Tracker",
+      "description": "Hilfe zur ZYRCA Fasten App: FAQ zu 16:8 Fasten, Fasten Timer, Fastenplan, Fastenstatistik, Abonnements und Kontoverwaltung.",
+      "keywords": "ZYRCA Support, Intervallfasten App Hilfe, Fasten Tracker Support, Fasten Timer Hilfe, Fasten für Anfänger FAQ, Support kontaktieren"
+    },
+    "deleteAccount": {
+      "title": "Konto löschen – ZYRCA Fasten App",
+      "description": "So löschst du dein ZYRCA-Konto und deine Gesundheitsdaten. Schritt-für-Schritt-Anleitung zur Kontolöschung in der Intervallfasten App.",
+      "keywords": "ZYRCA Konto löschen, Fasten App Daten löschen, Konto entfernen, DSGVO Recht auf Löschung"
+    },
+    "structuredData": {
+      "ogAlt": "ZYRCA – Intervallfasten App | Fasten Timer, Fasten Tracker & Wassertracker",
+      "appDescription": "Intervallfasten App mit Fasten Timer, Wassertracker, Gewichtstracker, integrierter Beratung, Fastenstatistik und PDF-Gesundheitsbericht-Export.",
+      "appFeatures": "Intervallfasten Timer|Wassertracker|Gewichtstracker|Fastenhistorie und Kalender|Integrierte Fastenberatung|PDF- und CSV-Gesundheitsberichte|Experten-Fastenratgeber|Erfolge und Motivation",
+      "websiteDescription": "Offizielle ZYRCA-Website für die Premium-Intervallfasten App mit Wassertracker, Gewichtstracker und Fasten Tracker.",
+      "organizationDescription": "ZYRCA entwickelt Premium-Gesundheits-Apps für Intervallfasten, Hydration und nachhaltigen Fasten Fortschritt.",
+      "contactType": "Kundensupport"
+    }
+  }
+}

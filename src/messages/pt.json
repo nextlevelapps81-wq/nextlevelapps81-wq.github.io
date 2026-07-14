@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "siteName": "ZYRCA",
+    "tagline": "App de Jejum Intermitente"
+  },
+  "nav": {
+    "home": "Início",
+    "features": "Recursos",
+    "journey": "Como Funciona",
+    "premium": "Premium",
+    "about": "Sobre",
+    "screenshots": "Capturas de tela",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "support": "Suporte",
+    "deleteAccount": "Excluir Conta",
+    "download": "Baixar",
+    "menu": "Abrir menu",
+    "close": "Fechar menu",
+    "skipToContent": "Ir para o conteúdo principal"
+  },
+  "hero": {
+    "badge": "App de Jejum Intermitente e Saúde",
+    "title": "ZYRCA",
+    "subtitle": "Seu Rastreador de Jejum Intermitente",
+    "description": "Timer de jejum, rastreador de água e controle de peso em um só app de saúde. Acompanhe o jejum 16:8, veja estatísticas de jejum, receba lembrete de jejum e orientação prática — feito para iniciantes e para quem já jejuava.",
+    "ctaPlay": "Disponível no Google Play",
+    "ctaAppStore": "Em breve na App Store",
+    "statsProtocols": "5+",
+    "statsProtocolsLabel": "Protocolos de Jejum",
+    "statsLanguages": "7",
+    "statsLanguagesLabel": "Idiomas",
+    "statsGuides": "11+",
+    "statsGuidesLabel": "Guias de Especialistas"
+  },
+  "features": {
+    "title": "O App Completo de Jejum Intermitente",
+    "subtitle": "Timer de jejum, rastreador de água, controle de peso e estatísticas de jejum — tudo para manter a consistência no seu horário de jejum.",
+    "pageTitle": "Recursos do App de Jejum Intermitente",
+    "pageSubtitle": "De lembrete de jejum e histórico às estatísticas e relatórios PDF — conheça cada ferramenta da ZYRCA para jejum para iniciantes e usuários avançados.",
+    "smartAssistant": {
+      "title": "Orientação de Jejum Integrada",
+      "description": "Receba dicas de jejum, insights diários de bem-estar e respostas úteis para perguntas comuns — com base no conhecimento de saúde integrado da ZYRCA."
+    },
+    "fasting": {
+      "title": "Rastreador de Jejum Intermitente",
+      "description": "Timer de jejum preciso para 16:8, 18:6, OMAD e horários personalizados. Revise seu histórico de jejum e mantenha a consistência com lembrete de jejum."
+    },
+    "water": {
+      "title": "Rastreador de Água",
+      "description": "Registre a ingestão diária de água, alcance suas metas de hidratação e consulte estatísticas que apoiam sua rotina de jejum."
+    },
+    "weight": {
+      "title": "Controle de Peso",
+      "description": "Registre o peso corporal, acompanhe tendências ao longo do tempo e monitore o progresso em direção aos seus objetivos de saúde."
+    },
+    "analytics": {
+      "title": "Estatísticas e Progresso",
+      "description": "Veja jejum, hidratação e peso juntos com gráficos claros e sua pontuação de bem-estar ZYRCA."
+    },
+    "statistics": {
+      "title": "Estatísticas de Jejum",
+      "description": "Revise estatísticas de jejum detalhadas, resumos de hidratação e tendências de peso para entender seu progresso."
+    },
+    "history": {
+      "title": "Histórico e Calendário de Jejum",
+      "description": "Navegue pelo histórico completo de jejum em visualização de calendário e construa hábitos consistentes ao longo do tempo."
+    },
+    "fastingGuide": {
+      "title": "Guia de Jejum para Iniciantes",
+      "description": "Aprenda com guias especializados e artigos educativos — ideais para quem está começando o jejum intermitente e para usuários experientes."
+    },
+    "achievements": {
+      "title": "Conquistas e Motivação",
+      "description": "Ganhe badges, alcance marcos e mantenha a motivação enquanto constrói hábitos duradouros de jejum intermitente."
+    },
+    "notifications": {
+      "title": "Lembrete de Jejum",
+      "description": "Receba lembretes oportunos para janelas de jejum, hidratação e check-ins diários para nunca perder o horário."
+    },
+    "pdfExport": {
+      "title": "Relatório de Saúde PDF",
+      "description": "Exporte um relatório de saúde PDF claro com seu progresso de jejum, ingestão de água e dados de peso."
+    },
+    "csvExport": {
+      "title": "Exportação de Dados CSV",
+      "description": "Baixe seus dados de jejum e bem-estar em CSV para registros pessoais ou revisão profissional."
+    },
+    "shareReports": {
+      "title": "Compartilhar Relatórios de Saúde",
+      "description": "Compartilhe relatórios PDF ou CSV com seu médico, nutricionista ou personal trainer quando precisar de orientação profissional."
+    },
+    "darkTheme": {
+      "title": "Modo Escuro",
+      "description": "Uma interface escura refinada com tons profundos, acentos roxos e uso confortável à noite."
+    },
+    "lightTheme": {
+      "title": "Modo Claro",
+      "description": "Um layout limpo e claro com acentos suaves e boa legibilidade durante o dia."
+    },
+    "languages": {
+      "title": "Suporte Multilíngue",
+      "description": "Use a ZYRCA em 7 idiomas com suporte RTL completo para o árabe."
+    },
+    "privacy": {
+      "title": "Privacidade e Dados Seguros",
+      "description": "Seus dados de saúde são criptografados e protegidos. Nunca vendemos suas informações pessoais."
+    },
+    "dashboard": {
+      "title": "Painel de Saúde",
+      "description": "Veja jejum, água, peso e insights de bem-estar juntos em um painel claro e organizado."
+    }
+  },
+  "journey": {
+    "title": "Sua Jornada de Jejum Intermitente",
+    "subtitle": "Do primeiro jejum 16:8 à exportação do relatório PDF — a ZYRCA acompanha cada etapa do seu progresso de saúde.",
+    "steps": {
+      "discover": {
+        "title": "Descubra a ZYRCA",
+        "description": "Configure seu perfil, escolha um protocolo de jejum e explore seu painel de saúde pessoal."
+      },
+      "track": {
+        "title": "Acompanhe com o Timer de Jejum",
+        "description": "Registre sessões de jejum, ingestão de água e peso corporal em um app simples e com design elegante."
+      },
+      "analyze": {
+        "title": "Veja as Estatísticas de Jejum",
+        "description": "Revise estatísticas de jejum, histórico no calendário, tendências de peso e dados de hidratação com visualizações claras."
+      },
+      "guidance": {
+        "title": "Receba Orientação Prática",
+        "description": "Acesse insights de bem-estar, dicas de jejum e respostas úteis do conhecimento de saúde integrado da ZYRCA."
+      },
+      "export": {
+        "title": "Exporte Relatórios de Saúde",
+        "description": "Crie relatórios PDF e CSV para revisar seu progresso ou compartilhar com profissionais de saúde."
+      },
+      "achieve": {
+        "title": "Alcance Seus Objetivos",
+        "description": "Conquiste badges, mantenha a motivação e construa os hábitos saudáveis de jejum que importam para você."
+      }
+    }
+  },
+  "premium": {
+    "title": "Ferramentas Avançadas para Quem Quer Resultados",
+    "subtitle": "Vá além do timer de jejum com relatórios profissionais, estatísticas de jejum detalhadas e orientação prática de saúde.",
+    "pdfReports": {
+      "title": "Relatórios de Saúde PDF",
+      "description": "Exporte um relatório de saúde PDF refinado com progresso de jejum, ingestão de água, tendências de peso e resumos de bem-estar."
+    },
+    "csvExport": {
+      "title": "Exportação de Dados CSV",
+      "description": "Baixe seus dados de jejum e bem-estar em CSV para backup, análise ou revisão profissional."
+    },
+    "shareProfessionals": {
+      "title": "Compartilhar com Profissionais",
+      "description": "Envie relatórios PDF ou CSV ao seu médico, nutricionista ou treinador quando quiser feedback especializado sobre seu progresso."
+    },
+    "smartGuidance": {
+      "title": "Orientação Prática de Jejum",
+      "description": "Receba insights de bem-estar e recomendações úteis de jejum com base no conhecimento de saúde integrado da ZYRCA — não um chatbot."
+    },
+    "calendar": {
+      "title": "Calendário e Histórico de Jejum",
+      "description": "Revise seu horário de jejum e histórico completo em um calendário fácil de ler."
+    },
+    "visualization": {
+      "title": "Gráficos de Progresso",
+      "description": "Acompanhe sua transformação com gráficos claros e monitoramento visual do progresso de jejum."
+    },
+    "weightTrends": {
+      "title": "Evolução do Peso",
+      "description": "Monitore o peso corporal ao longo do tempo com progresso em relação à meta e acompanhamento de marcos."
+    },
+    "waterStats": {
+      "title": "Estatísticas de Hidratação",
+      "description": "Analise padrões diários e semanais de hidratação para apoiar sua rotina de jejum."
+    },
+    "achievements": {
+      "title": "Sistema de Conquistas",
+      "description": "Desbloqueie badges e celebre marcos para manter a motivação na sua jornada de jejum."
+    },
+    "expertGuides": {
+      "title": "Guias de Jejum para Iniciantes",
+      "description": "Leia guias educativos e artigos de especialistas — incluindo dicas para quem está começando o jejum intermitente."
+    }
+  },
+  "whyChoose": {
+    "title": "Por Que Escolher a ZYRCA?",
+    "subtitle": "Um app de saúde para jejum intermitente que reúne rastreador de jejum, controle de peso e ferramentas de progresso em uma experiência honesta e com design refinado.",
+    "reasons": {
+      "allInOne": {
+        "title": "Mais que um Timer de Jejum",
+        "description": "Timer de jejum, rastreador de água e controle de peso com estatísticas de jejum e lembrete de jejum — tudo em um app de saúde."
+      },
+      "smartGuidance": {
+        "title": "Orientação de Jejum Integrada",
+        "description": "Dicas práticas e respostas para perguntas comuns sobre jejum — com conhecimento de saúde curado, não chat de IA dinâmico."
+      },
+      "professional": {
+        "title": "Exportação PDF e CSV",
+        "description": "Exporte o progresso de jejum como relatório de saúde PDF ou arquivo CSV — útil para registros pessoais e compartilhamento profissional."
+      },
+      "beautiful": {
+        "title": "Bonita e Intuitiva",
+        "description": "Design premium com temas escuro e claro, pensado para clareza, conforto e uso diário."
+      },
+      "global": {
+        "title": "Feita para o Mundo",
+        "description": "Disponível em 7 idiomas com suporte RTL para o árabe."
+      },
+      "secure": {
+        "title": "Privada e Segura",
+        "description": "Armazenamento de dados criptografado, conformidade com GDPR e compromisso de nunca vender suas informações."
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre a ZYRCA",
+    "subtitle": "App de jejum intermitente com timer de jejum, rastreador de água, controle de peso e ferramentas honestas de saúde.",
+    "whatIs": {
+      "title": "O que é a ZYRCA?",
+      "description": "A ZYRCA é um app de jejum intermitente que ajuda você a acompanhar horários de jejum, hidratação e peso corporal. Oferece timer de jejum, estatísticas de jejum, orientação prática, guias para iniciantes e exportação PDF/CSV — tudo em um app de saúde com design refinado."
+    },
+    "whyFasting": {
+      "title": "Por Que Jejum Intermitente?",
+      "description": "O jejum intermitente é uma das abordagens mais buscadas para controle de peso e estilo de vida saudável. Com o jejum 16:8, bons hábitos de hidratação e um rastreador de jejum confiável, você constrói rotinas consistentes ao longo do tempo."
+    },
+    "whyGuidance": {
+      "title": "Por Que Orientação Integrada?",
+      "description": "O jejum funciona melhor quando você entende o processo. A ZYRCA oferece dicas práticas, conteúdo educativo e respostas para perguntas comuns — suporte real, sem promessas enganosas sobre IA."
+    },
+    "benefits": {
+      "title": "Como a ZYRCA te Ajuda",
+      "items": [
+        "Acompanhe jejum intermitente com timer de jejum e horário personalizado",
+        "Use rastreador de água e controle de peso no mesmo app de saúde",
+        "Revise histórico, estatísticas de jejum e análise de progresso",
+        "Receba lembrete de jejum e orientação prática de bem-estar",
+        "Aprenda com guias de jejum para iniciantes",
+        "Exporte relatórios de saúde PDF e arquivos de dados CSV",
+        "Use o app em 7 idiomas com suporte RTL completo"
+      ]
+    }
+  },
+  "screenshots": {
+    "title": "Veja a ZYRCA em Ação",
+    "subtitle": "Conheça o app de verdade — do painel de saúde ao timer de jejum, passando pelas estatísticas de jejum e pela orientação prática.",
+    "darkMode": "Modo Escuro",
+    "lightMode": "Modo Claro",
+    "prev": "Captura anterior",
+    "next": "Próxima captura",
+    "captions": {
+      "dashboard": "Painel de Saúde",
+      "intelligence": "Orientação ZYRCA",
+      "fasting": "Protocolos Jejum 16:8",
+      "water": "Rastreador de Água",
+      "weight": "Controle de Peso",
+      "analytics": "Estatísticas de Jejum",
+      "achievements": "Conquistas",
+      "fastingGuide": "Guia de Jejum"
+    }
+  },
+  "cta": {
+    "title": "Comece o Jejum Intermitente",
+    "description": "Baixe a ZYRCA: timer de jejum, rastreador de água, controle de peso e lembrete de jejum em um app de saúde feito também para iniciantes.",
+    "button": "Baixar no Google Play",
+    "appStore": "Em breve na App Store"
+  },
+  "footer": {
+    "description": "App de jejum intermitente com timer de jejum, rastreador de água, controle de peso, estatísticas de jejum e orientação prática de saúde.",
+    "product": "Produto",
+    "legal": "Legal",
+    "connect": "Conectar",
+    "copyright": "© {year} ZYRCA. Todos os direitos reservados.",
+    "theme": "Tema",
+    "language": "Idioma",
+    "themeLight": "Claro",
+    "themeDark": "Escuro",
+    "themeSystem": "Sistema"
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última atualização: 14 de julho de 2026",
+    "intro": "Na ZYRCA, levamos sua privacidade a sério. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações quando você utiliza nosso aplicativo móvel e site.",
+    "sections": {
+      "collection": {
+        "title": "Informações que Coletamos",
+        "content": "Podemos coletar os seguintes tipos de informações:\n\n• Informações da Conta: endereço de e-mail, nome de exibição e foto de perfil quando você entra com o Google.\n• Dados de Saúde: horários de jejum, ingestão de água, medições de peso e estatísticas de progresso inseridas voluntariamente.\n• Informações do Dispositivo: tipo de dispositivo, versão do sistema operacional, identificadores únicos do dispositivo e informações da rede móvel.\n• Dados de Uso: interações com o app, padrões de uso de recursos, relatórios de falhas e análises de desempenho.\n• Informações de Pagamento: status da assinatura e histórico de compras processados pelo RevenueCat (não armazenamos dados de cartão de pagamento)."
+      },
+      "usage": {
+        "title": "Como Usamos Suas Informações",
+        "content": "Usamos as informações coletadas para:\n\n• Fornecer e manter o aplicativo ZYRCA e seus recursos\n• Oferecer orientação de jejum, insights de bem-estar e conteúdo educativo\n• Processar assinaturas e compras no app via RevenueCat\n• Enviar notificações relacionadas ao seu horário de jejum e metas de saúde\n• Analisar o uso do app para melhorar recursos e desempenho\n• Exibir anúncios relevantes pelo Google AdMob\n• Cumprir obrigações legais e fazer cumprir nossos Termos de Serviço"
+      },
+      "thirdParty": {
+        "title": "Serviços de Terceiros",
+        "content": "A ZYRCA integra-se aos seguintes serviços de terceiros:\n\n• Firebase (Google): autenticação, armazenamento em nuvem, análises e relatórios de falhas\n• Google Sign-In: autenticação de conta\n• RevenueCat: gestão de assinaturas e compras\n• Google AdMob: serviços de publicidade\n• Google Analytics: análises de uso e monitoramento de desempenho do app\n\nCada serviço de terceiros possui sua própria política de privacidade que rege o uso das suas informações. Recomendamos que você as consulte."
+      },
+      "ads": {
+        "title": "Publicidade",
+        "content": "A ZYRCA pode exibir anúncios fornecidos pelo Google AdMob. O AdMob pode usar identificadores do dispositivo e dados de uso para exibir anúncios personalizados. Você pode gerenciar a personalização de anúncios nas configurações do dispositivo ou nas preferências da sua conta Google. Assinantes premium podem ter publicidade reduzida ou nenhuma."
+      },
+      "storage": {
+        "title": "Armazenamento e Segurança de Dados",
+        "content": "Seus dados são armazenados com segurança usando a infraestrutura em nuvem do Firebase com criptografia padrão do setor. Implementamos medidas técnicas e organizacionais adequadas para proteger suas informações pessoais contra acesso, alteração, divulgação ou destruição não autorizados. No entanto, nenhum método de armazenamento eletrônico é 100% seguro."
+      },
+      "retention": {
+        "title": "Retenção de Dados",
+        "content": "Retemos suas informações pessoais enquanto sua conta estiver ativa ou conforme necessário para prestar os serviços. Você pode solicitar a exclusão da sua conta e dos dados associados a qualquer momento pela página Excluir Conta ou entrando em contato com nextlevelapps81@gmail.com."
+      },
+      "rights": {
+        "title": "Seus Direitos (GDPR e CCPA)",
+        "content": "Dependendo da sua localização, você pode ter os seguintes direitos:\n\n• Acesso: solicitar uma cópia dos seus dados pessoais\n• Retificação: corrigir dados pessoais imprecisos\n• Exclusão: solicitar a eliminação dos seus dados pessoais\n• Portabilidade: receber seus dados em formato estruturado e legível por máquina\n• Oposição: opor-se ao tratamento dos seus dados pessoais\n• Restrição: solicitar a limitação do tratamento\n\nPara exercer esses direitos, entre em contato conosco em nextlevelapps81@gmail.com. Responderemos em até 30 dias."
+      },
+      "children": {
+        "title": "Privacidade de Crianças",
+        "content": "A ZYRCA não se destina a crianças menores de 16 anos. Não coletamos intencionalmente informações pessoais de crianças. Se descobrirmos que uma criança nos forneceu informações pessoais, excluiremos esses dados prontamente."
+      },
+      "international": {
+        "title": "Transferências Internacionais de Dados",
+        "content": "Suas informações podem ser transferidas e processadas em países diferentes do seu país de residência. Garantimos que salvaguardas adequadas estejam em vigor para tais transferências, em conformidade com as leis aplicáveis de proteção de dados."
+      },
+      "changes": {
+        "title": "Alterações nesta Política",
+        "content": "Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos você sobre alterações relevantes pelo app ou por e-mail. O uso continuado da ZYRCA após as alterações constitui aceitação da política atualizada."
+      },
+      "contact": {
+        "title": "Fale Conosco",
+        "content": "Se tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco em:\n\nE-mail: nextlevelapps81@gmail.com\nSite: https://zyrca.app"
+      }
+    }
+  },
+  "terms": {
+    "title": "Termos de Serviço",
+    "lastUpdated": "Última atualização: 14 de julho de 2026",
+    "intro": "Leia estes Termos de Serviço com atenção antes de usar o aplicativo ZYRCA. Ao acessar ou usar a ZYRCA, você concorda em estar vinculado a estes termos.",
+    "sections": {
+      "acceptance": {
+        "title": "Aceitação dos Termos",
+        "content": "Ao baixar, instalar ou usar a ZYRCA, você declara que leu, compreendeu e concorda em estar vinculado a estes Termos de Serviço e à nossa Política de Privacidade. Se não concordar, não utilize o aplicativo."
+      },
+      "description": {
+        "title": "Descrição do Serviço",
+        "content": "A ZYRCA é um aplicativo de saúde e bem-estar que oferece rastreamento de jejum intermitente, monitoramento de água, gestão de peso, análise de progresso, orientação prática de jejum e conteúdo educativo de bem-estar. A ZYRCA foi criada para apoiar sua jornada de bem-estar, mas não substitui orientação médica profissional."
+      },
+      "account": {
+        "title": "Contas de Usuário",
+        "content": "Você pode criar uma conta usando o Google Sign-In. Você é responsável por manter a confidencialidade das credenciais da sua conta e por todas as atividades realizadas nela. Deve fornecer informações precisas e atualizá-las prontamente quando houver alterações."
+      },
+      "subscriptions": {
+        "title": "Assinaturas e Pagamentos",
+        "content": "A ZYRCA oferece recursos premium por meio de planos de assinatura gerenciados pelo RevenueCat. As assinaturas são renovadas automaticamente, salvo cancelamento com pelo menos 24 horas de antecedência do fim do período vigente. Reembolsos seguem as políticas do Google Play ou da Apple App Store. Os preços podem ser alterados com aviso prévio razoável."
+      },
+      "conduct": {
+        "title": "Conduta do Usuário",
+        "content": "Você concorda em não:\n\n• Usar a ZYRCA para qualquer finalidade ilegal\n• Tentar fazer engenharia reversa ou descompilar o aplicativo\n• Interferir nos recursos de segurança do app\n• Compartilhar suas credenciais de conta com terceiros\n• Usar sistemas automatizados para acessar o serviço\n• Enviar conteúdo malicioso ou tentar comprometer nossos sistemas"
+      },
+      "health": {
+        "title": "Aviso de Saúde",
+        "content": "A ZYRCA fornece informações gerais de saúde e bem-estar apenas para fins educacionais. Não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer regime de jejum, especialmente se tiver condições médicas, estiver grávida, amamentando ou tomando medicamentos."
+      },
+      "ip": {
+        "title": "Propriedade Intelectual",
+        "content": "Todo o conteúdo, recursos e funcionalidades da ZYRCA — incluindo textos, gráficos, logotipos, ícones e software — são de propriedade da ZYRCA e protegidos por leis internacionais de direitos autorais, marcas registradas e outras leis de propriedade intelectual. Você não pode reproduzir, distribuir ou criar obras derivadas sem nossa autorização por escrito."
+      },
+      "liability": {
+        "title": "Limitação de Responsabilidade",
+        "content": "Na máxima extensão permitida por lei, a ZYRCA não será responsável por danos indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes do uso do aplicativo. Nossa responsabilidade total não excederá o valor pago por você pelo serviço nos doze meses anteriores à reclamação."
+      },
+      "termination": {
+        "title": "Rescisão",
+        "content": "Podemos suspender ou encerrar seu acesso à ZYRCA a qualquer momento por violação destes termos. Você pode excluir sua conta a qualquer momento. Após a rescisão, seu direito de usar o aplicativo cessa imediatamente, e excluiremos seus dados conforme nossa Política de Privacidade."
+      },
+      "governing": {
+        "title": "Lei Aplicável",
+        "content": "Estes Termos serão regidos e interpretados de acordo com as leis aplicáveis, sem consideração aos princípios de conflito de leis. Quaisquer disputas serão resolvidas por negociação de boa-fé ou, se necessário, por arbitragem vinculante."
+      },
+      "changes": {
+        "title": "Alterações nos Termos",
+        "content": "Reservamo-nos o direito de modificar estes Termos a qualquer momento. Alterações relevantes serão comunicadas pelo app ou por e-mail. O uso continuado após as alterações constitui aceitação dos termos revisados."
+      },
+      "contact": {
+        "title": "Contato",
+        "content": "Para dúvidas sobre estes Termos de Serviço, entre em contato conosco em nextlevelapps81@gmail.com."
+      }
+    }
+  },
+  "support": {
+    "title": "Suporte",
+    "subtitle": "Respostas às perguntas mais frequentes sobre jejum intermitente, timer de jejum e conta ZYRCA.",
+    "contactTitle": "Fale Conosco",
+    "contactDescription": "Nossa equipe de suporte geralmente responde em até 24 horas.",
+    "email": "nextlevelapps81@gmail.com",
+    "emailLabel": "Suporte por e-mail",
+    "faqTitle": "Perguntas Frequentes",
+    "faqs": [
+      {
+        "question": "A ZYRCA é só um timer de jejum?",
+        "answer": "A ZYRCA inclui um timer de jejum confiável, mas também oferece rastreador de água, controle de peso, estatísticas de jejum, lembrete de jejum, guias para iniciantes e exportação de relatórios de saúde PDF/CSV."
+      },
+      {
+        "question": "Como começo o jejum intermitente com a ZYRCA?",
+        "answer": "Abra o app, escolha seu protocolo preferido — como jejum 16:8, 18:6 ou OMAD — e toque em Iniciar Jejum. A ZYRCA ajuda com lembrete de jejum e histórico completo."
+      },
+      {
+        "question": "Como funciona a orientação ZYRCA?",
+        "answer": "A orientação ZYRCA oferece dicas de bem-estar e respostas para perguntas comuns sobre jejum. Usa conhecimento de saúde integrado e conteúdo predefinido — não é um chatbot de IA dinâmico e não aprende com suas conversas."
+      },
+      {
+        "question": "Posso exportar meus dados de jejum e saúde?",
+        "answer": "Sim. A ZYRCA permite exportar um relatório de saúde PDF e arquivos CSV com progresso de jejum, ingestão de água e registros de peso."
+      },
+      {
+        "question": "A ZYRCA é gratuita?",
+        "answer": "A ZYRCA oferece um plano gratuito com timer de jejum, rastreador de água e recursos essenciais. Assinaturas premium desbloqueiam estatísticas de jejum avançadas, exportação de relatórios e uma experiência sem anúncios."
+      },
+      {
+        "question": "Como cancelo minha assinatura?",
+        "answer": "As assinaturas são gerenciadas pelo Google Play ou pela Apple App Store. Acesse as configurações da sua conta na loja, encontre a ZYRCA em assinaturas e selecione Cancelar."
+      },
+      {
+        "question": "Quais idiomas a ZYRCA suporta?",
+        "answer": "A ZYRCA está disponível em inglês, alemão, francês, espanhol, italiano, português e árabe, com suporte completo da direita para a esquerda para o árabe."
+      },
+      {
+        "question": "Meus dados de saúde estão seguros?",
+        "answer": "Sim. Seus dados são criptografados e armazenados com segurança. Nunca vendemos suas informações pessoais. Consulte nossa Política de Privacidade para todos os detalhes."
+      }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Excluir Conta",
+    "subtitle": "Respeitamos seu direito de controlar seus dados pessoais.",
+    "howTitle": "Como Solicitar a Exclusão da Conta",
+    "steps": [
+      "Abra o app ZYRCA no seu dispositivo",
+      "Acesse Configurações → Conta → Excluir Conta",
+      "Confirme sua solicitação de exclusão",
+      "Sua conta e todos os dados associados serão excluídos permanentemente em até 30 dias"
+    ],
+    "alternativeTitle": "Método Alternativo",
+    "alternativeDescription": "Se não conseguir acessar o app, envie um e-mail para nextlevelapps81@gmail.com com o assunto \"Solicitação de Exclusão de Conta\" e inclua o endereço de e-mail associado à sua conta.",
+    "dataTitle": "Quais Dados Serão Excluídos",
+    "dataItems": [
+      "Perfil da conta e dados de autenticação",
+      "Todo o histórico e horários de jejum",
+      "Registros de ingestão de água",
+      "Medições de peso e dados de progresso",
+      "Respostas de orientação de jejum salvas",
+      "Conquistas e estatísticas",
+      "Preferências e configurações do app"
+    ],
+    "retentionTitle": "Retenção de Dados",
+    "retentionDescription": "Alguns dados analíticos anonimizados podem ser retidos por até 90 dias para melhoria do serviço. Registros de assinatura podem ser mantidos conforme exigido por lei para fins fiscais e contábeis.",
+    "contactTitle": "Dúvidas?",
+    "contactDescription": "Se tiver dúvidas sobre exclusão de dados, entre em contato conosco em nextlevelapps81@gmail.com."
+  },
+  "notFound": {
+    "title": "Página Não Encontrada",
+    "description": "A página que você procura não existe ou foi movida.",
+    "backHome": "Voltar ao Início"
+  },
+  "images": {
+    "logo": "Logo ZYRCA – app de jejum intermitente e rastreador de jejum",
+    "heroScreenshot": "Painel ZYRCA com timer de jejum, rastreador de água e progresso de saúde",
+    "storePlay": "Baixe o app de jejum intermitente ZYRCA no Google Play",
+    "storeAppStore": "Baixe a ZYRCA na Apple App Store",
+    "screenshotLight": "Captura do app ZYRCA: {screen} no modo claro",
+    "screenshotDark": "Captura do app ZYRCA: {screen} no modo escuro"
+  },
+  "seo": {
+    "home": {
+      "title": "ZYRCA – App Jejum Intermitente | Timer de Jejum e Rastreador de Água",
+      "description": "App de jejum intermitente com timer de jejum, rastreador de água, controle de peso e estatísticas de jejum. Lembrete de jejum, jejum 16:8, orientação prática e relatório PDF — ideal para jejum para iniciantes.",
+      "keywords": "app jejum intermitente, timer de jejum, rastreador de jejum, jejum 16:8, rastreador de água, controle de peso, lembrete de jejum, estatísticas de jejum, app de saúde, jejum para iniciantes, app de jejum, calendário de jejum, histórico de jejum, relatório de saúde PDF, exportação CSV, ZYRCA"
+    },
+    "features": {
+      "title": "Recursos – App Jejum Intermitente ZYRCA",
+      "description": "Conheça os recursos da ZYRCA: timer de jejum, rastreador de água, controle de peso, estatísticas de jejum, lembrete de jejum, guias para iniciantes e exportação PDF/CSV.",
+      "keywords": "app jejum intermitente, timer de jejum, rastreador de jejum, rastreador de água, controle de peso, estatísticas de jejum, lembrete de jejum, jejum 16:8, jejum para iniciantes, app de saúde"
+    },
+    "privacy": {
+      "title": "Política de Privacidade – ZYRCA",
+      "description": "Saiba como a ZYRCA protege sua privacidade. Política em conformidade com o GDPR sobre coleta de dados, Firebase, RevenueCat, Google Sign-In e AdMob.",
+      "keywords": "política privacidade ZYRCA, proteção de dados, GDPR, privacidade app saúde, privacidade Firebase"
+    },
+    "terms": {
+      "title": "Termos de Serviço – ZYRCA",
+      "description": "Leia os Termos de Serviço da ZYRCA. Entenda seus direitos e responsabilidades ao usar nosso app de jejum intermitente.",
+      "keywords": "termos serviço ZYRCA, termos app, termos app saúde, termos assinatura"
+    },
+    "support": {
+      "title": "Suporte – App Jejum Intermitente ZYRCA",
+      "description": "Suporte ZYRCA: FAQ sobre jejum intermitente, timer de jejum, jejum 16:8, assinaturas e gestão de conta.",
+      "keywords": "suporte ZYRCA, ajuda app jejum, timer de jejum, jejum para iniciantes, FAQ app jejum, contato suporte"
+    },
+    "deleteAccount": {
+      "title": "Excluir Conta – ZYRCA",
+      "description": "Saiba como excluir sua conta ZYRCA e seus dados pessoais. Guia passo a passo para solicitações de exclusão de conta e dados.",
+      "keywords": "excluir conta ZYRCA, exclusão de dados, remover conta, direito ao esquecimento GDPR"
+    },
+    "structuredData": {
+      "ogAlt": "ZYRCA – App Jejum Intermitente | Timer de Jejum e Rastreador de Água",
+      "appDescription": "App de jejum intermitente com timer de jejum, rastreador de água, controle de peso, estatísticas de jejum, lembrete de jejum e exportação de relatórios PDF.",
+      "appFeatures": "Timer de jejum intermitente|Rastreador de água|Controle de peso|Histórico e calendário de jejum|Orientação prática de jejum|Relatórios de saúde PDF e CSV|Guias de jejum para iniciantes|Conquistas e motivação",
+      "websiteDescription": "Site oficial ZYRCA: app de jejum intermitente com timer de jejum, rastreador de água e controle de peso.",
+      "organizationDescription": "A ZYRCA desenvolve apps de saúde para jejum intermitente, hidratação e acompanhamento de peso.",
+      "contactType": "suporte ao cliente"
+    }
+  }
+}

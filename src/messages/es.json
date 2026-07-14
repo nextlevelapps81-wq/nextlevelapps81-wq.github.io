@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "siteName": "ZYRCA",
+    "tagline": "Rastreador inteligente de ayuno"
+  },
+  "nav": {
+    "home": "Inicio",
+    "features": "Funciones",
+    "journey": "Cómo funciona",
+    "premium": "Premium",
+    "about": "Acerca de",
+    "screenshots": "Capturas",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "support": "Soporte",
+    "deleteAccount": "Eliminar cuenta",
+    "download": "Descargar",
+    "menu": "Abrir menú",
+    "close": "Cerrar menú",
+    "skipToContent": "Ir al contenido principal"
+  },
+  "hero": {
+    "badge": "App de ayuno intermitente y salud",
+    "title": "ZYRCA",
+    "subtitle": "Tu rastreador de ayuno con orientación integrada",
+    "description": "Plan de ayuno, contador de agua y registro de peso en una sola app. Temporizador de ayuno fiable, estadísticas de ayuno, recordatorio de ayuno y exportación PDF — con orientación inteligente para ayuno principiantes y usuarios avanzados.",
+    "ctaPlay": "Disponible en Google Play",
+    "ctaAppStore": "Próximamente en App Store",
+    "statsProtocols": "5+",
+    "statsProtocolsLabel": "Protocolos de ayuno",
+    "statsLanguages": "7",
+    "statsLanguagesLabel": "Idiomas",
+    "statsGuides": "11+",
+    "statsGuidesLabel": "Guías de expertos"
+  },
+  "features": {
+    "title": "Todo para tu ayuno 16:8 e intermitente",
+    "subtitle": "Un rastreador de ayuno completo con contador de agua, registro de peso, plan de ayuno y estadísticas — orientación integrada para tu rutina diaria.",
+    "pageTitle": "Todas las funciones de la app de ayuno",
+    "pageSubtitle": "Temporizador de ayuno, estadísticas de ayuno, recordatorio de ayuno, historial y más — todo lo que necesitas en tu app de ayuno intermitente.",
+    "smartAssistant": {
+      "title": "Asistente inteligente de ayuno",
+      "description": "Recibe orientación inteligente, análisis de bienestar diarios y respuestas útiles a preguntas frecuentes sobre el ayuno — basado en el conocimiento de salud integrado de ZYRCA."
+    },
+    "fasting": {
+      "title": "Rastreador de ayuno intermitente",
+      "description": "Usa un temporizador preciso para 16:8, 18:6, OMAD y horarios personalizados. Revisa tu historial de ayuno y mantén la constancia con recordatorios."
+    },
+    "water": {
+      "title": "Control de agua",
+      "description": "Registra tu ingesta diaria de agua, alcanza tus objetivos de hidratación y revisa estadísticas que apoyan tu rutina de ayuno."
+    },
+    "weight": {
+      "title": "Control de peso",
+      "description": "Anota tu peso corporal, sigue las tendencias a lo largo del tiempo y monitoriza tu progreso hacia tus objetivos de bienestar."
+    },
+    "analytics": {
+      "title": "Análisis de progreso",
+      "description": "Visualiza tu progreso de ayuno, hidratación y datos de peso juntos con gráficos claros y tu puntuación de bienestar ZYRCA."
+    },
+    "statistics": {
+      "title": "Estadísticas de ayuno",
+      "description": "Revisa estadísticas detalladas de ayuno, resúmenes de hidratación y tendencias de peso para entender tu progreso de salud."
+    },
+    "history": {
+      "title": "Historial y calendario de ayuno",
+      "description": "Explora tu historial completo de ayuno en vista de calendario y construye hábitos de ayuno consistentes."
+    },
+    "fastingGuide": {
+      "title": "Guía de ayuno intermitente",
+      "description": "Aprende con guías de expertos y artículos educativos — ideal para principiantes y usuarios con experiencia."
+    },
+    "achievements": {
+      "title": "Logros y motivación",
+      "description": "Gana insignias, alcanza hitos y mantén la motivación mientras construyes hábitos duraderos de ayuno intermitente."
+    },
+    "notifications": {
+      "title": "Recordatorios de ayuno",
+      "description": "Recibe recordatorios oportunos para ventanas de ayuno, hidratación y revisiones diarias para no perder ningún horario."
+    },
+    "pdfExport": {
+      "title": "Informe de salud PDF",
+      "description": "Exporta un informe de salud PDF claro con tu progreso de ayuno, ingesta de agua y datos de peso."
+    },
+    "csvExport": {
+      "title": "Exportar datos CSV",
+      "description": "Descarga tus datos de ayuno y bienestar como archivo CSV para registros personales o revisión profesional."
+    },
+    "shareReports": {
+      "title": "Compartir informes de salud",
+      "description": "Comparte informes PDF o CSV con tu médico, nutricionista o entrenador personal cuando necesites orientación profesional."
+    },
+    "darkTheme": {
+      "title": "Modo oscuro",
+      "description": "Una interfaz oscura refinada con tonos profundos, acentos púrpura y uso cómodo por la noche."
+    },
+    "lightTheme": {
+      "title": "Modo claro",
+      "description": "Un diseño limpio y luminoso con acentos suaves y excelente legibilidad durante el día."
+    },
+    "languages": {
+      "title": "Soporte multilingüe",
+      "description": "Usa ZYRCA en 7 idiomas con soporte RTL completo para árabe."
+    },
+    "privacy": {
+      "title": "Privacidad y datos seguros",
+      "description": "Tus datos de salud están cifrados y protegidos. Nunca vendemos tu información personal."
+    },
+    "dashboard": {
+      "title": "Panel de bienestar",
+      "description": "Consulta ayuno, agua, peso y análisis de bienestar juntos en un panel de salud claro."
+    }
+  },
+  "journey": {
+    "title": "Tu camino con la app de ayuno intermitente",
+    "subtitle": "Desde tu primer plan de ayuno hasta el informe PDF de salud — ZYRCA te acompaña en cada paso de tu progreso.",
+    "steps": {
+      "discover": {
+        "title": "Descubre ZYRCA",
+        "description": "Configura tu perfil, elige un protocolo de ayuno y explora tu panel de bienestar personal."
+      },
+      "track": {
+        "title": "Registra tu progreso",
+        "description": "Anota sesiones de ayuno, ingesta de agua y peso corporal en una app simple y con un diseño excepcional."
+      },
+      "analyze": {
+        "title": "Analiza tus resultados",
+        "description": "Revisa estadísticas de ayuno, historial en calendario, tendencias de peso y datos de hidratación con visualizaciones claras."
+      },
+      "guidance": {
+        "title": "Obtén orientación inteligente",
+        "description": "Accede a análisis de bienestar, consejos de ayuno y respuestas útiles del conocimiento de salud integrado de ZYRCA."
+      },
+      "export": {
+        "title": "Exporta informes de salud",
+        "description": "Crea informes PDF y CSV para revisar tu progreso o compartirlos con profesionales de la salud."
+      },
+      "achieve": {
+        "title": "Alcanza tus objetivos",
+        "description": "Gana logros, mantén la motivación y construye los hábitos de ayuno saludables que te importan."
+      }
+    }
+  },
+  "premium": {
+    "title": "Más que un temporizador de ayuno",
+    "subtitle": "Estadísticas de ayuno detalladas, informes PDF y orientación inteligente — para avanzar en serio con el ayuno 16:8.",
+    "pdfReports": {
+      "title": "Informes de salud PDF",
+      "description": "Exporta un informe de salud PDF pulido con progreso de ayuno, ingesta de agua, tendencias de peso y resúmenes de bienestar."
+    },
+    "csvExport": {
+      "title": "Exportar datos CSV",
+      "description": "Descarga tus datos de ayuno y bienestar como archivo CSV para copia de seguridad, análisis o revisión profesional."
+    },
+    "shareProfessionals": {
+      "title": "Compartir con profesionales",
+      "description": "Envía tus informes PDF o CSV a un médico, nutricionista o entrenador cuando quieras feedback experto sobre tu progreso."
+    },
+    "smartGuidance": {
+      "title": "Orientación inteligente de ayuno",
+      "description": "Recibe análisis de bienestar y recomendaciones útiles basadas en el conocimiento de salud integrado de ZYRCA — no es un chatbot."
+    },
+    "calendar": {
+      "title": "Calendario e historial de ayuno",
+      "description": "Revisa tu horario de ayuno e historial completo en un calendario fácil de leer."
+    },
+    "visualization": {
+      "title": "Gráficos de progreso de ayuno",
+      "description": "Sigue tu transformación con gráficos, curvas y seguimiento visual claro de tu progreso de ayuno."
+    },
+    "weightTrends": {
+      "title": "Seguimiento de tendencias de peso",
+      "description": "Monitoriza tu peso corporal a lo largo del tiempo con progreso hacia objetivos y seguimiento de hitos."
+    },
+    "waterStats": {
+      "title": "Estadísticas de ingesta de agua",
+      "description": "Analiza patrones de hidratación diarios y semanales para apoyar tu rutina de ayuno."
+    },
+    "achievements": {
+      "title": "Sistema de logros",
+      "description": "Desbloquea insignias y celebra hitos para mantener la motivación en tu camino de ayuno."
+    },
+    "expertGuides": {
+      "title": "Guías de ayuno de expertos",
+      "description": "Lee guías educativas y artículos de expertos — incluyendo consejos para principiantes en ayuno."
+    }
+  },
+  "whyChoose": {
+    "title": "¿Por qué elegir ZYRCA como app de ayuno?",
+    "subtitle": "La app de ayuno intermitente que combina rastreador de ayuno, contador de agua, registro de peso y orientación honesta — sin chatbot de IA.",
+    "reasons": {
+      "allInOne": {
+        "title": "Más que un temporizador de ayuno",
+        "description": "Registra ayuno, agua y peso juntos con estadísticas, logros y análisis de bienestar — sin necesitar varias apps."
+      },
+      "smartGuidance": {
+        "title": "Orientación de ayuno integrada",
+        "description": "Obtén análisis de bienestar inteligentes y respuestas a preguntas frecuentes sobre el ayuno — basados en conocimiento de salud seleccionado, no en chat de IA dinámico."
+      },
+      "professional": {
+        "title": "Exportación PDF y CSV",
+        "description": "Exporta tu progreso de ayuno como informe de salud PDF o archivo CSV — una función práctica para registros personales y uso profesional."
+      },
+      "beautiful": {
+        "title": "Atractivo e intuitivo",
+        "description": "Diseño premium con temas oscuro y claro, creado para claridad, comodidad y uso diario."
+      },
+      "global": {
+        "title": "Hecho para el mundo",
+        "description": "Disponible en 7 idiomas con soporte RTL para árabe."
+      },
+      "secure": {
+        "title": "Privado y seguro",
+        "description": "Almacenamiento de datos cifrado, cumplimiento RGPD y compromiso de nunca vender tu información."
+      }
+    }
+  },
+  "about": {
+    "title": "Acerca de ZYRCA",
+    "subtitle": "El rastreador de ayuno inteligente con plan de ayuno, contador de agua, registro de peso y orientación integrada.",
+    "whatIs": {
+      "title": "¿Qué es ZYRCA?",
+      "description": "ZYRCA es una app de ayuno intermitente premium para registrar tus horarios de ayuno, hidratación y peso. Con temporizador de ayuno, historial, estadísticas de ayuno, recordatorio de ayuno, orientación integrada y exportación PDF/CSV — todo en una app de salud clara y cuidada."
+    },
+    "whyFasting": {
+      "title": "¿Por qué el ayuno intermitente?",
+      "description": "El ayuno 16:8 y el ayuno intermitente son de los métodos más buscados para controlar el peso y llevar un estilo de vida saludable. Con el plan de ayuno adecuado, buena hidratación y un rastreador de ayuno fiable, construyes hábitos que perduran."
+    },
+    "whyGuidance": {
+      "title": "¿Por qué orientación integrada?",
+      "description": "El ayuno para principiantes funciona mejor cuando entiendes el proceso. ZYRCA ofrece respuestas prácticas y consejos a través de conocimiento de salud integrado — apoyo real, sin promesas engañosas sobre IA."
+    },
+    "benefits": {
+      "title": "Cómo te ayuda ZYRCA",
+      "items": [
+        "Registrar ayuno intermitente con un temporizador fiable y horario",
+        "Monitorizar ingesta de agua y peso corporal en la misma app",
+        "Revisar historial de ayuno, estadísticas y análisis de progreso",
+        "Obtener orientación inteligente y análisis de bienestar",
+        "Aprender con guías de expertos y consejos de ayuno intermitente",
+        "Exportar informes de salud PDF y archivos CSV",
+        "Usar la app en 7 idiomas con soporte RTL completo"
+      ]
+    }
+  },
+  "screenshots": {
+    "title": "La app de ayuno en acción",
+    "subtitle": "Del temporizador de ayuno y contador de agua a las estadísticas de ayuno y orientación integrada — así se ve ZYRCA en la práctica.",
+    "darkMode": "Modo oscuro",
+    "lightMode": "Modo claro",
+    "prev": "Captura anterior",
+    "next": "Captura siguiente",
+    "captions": {
+      "dashboard": "Panel de bienestar",
+      "intelligence": "ZYRCA Intelligence",
+      "fasting": "Protocolos de ayuno",
+      "water": "Control de agua",
+      "weight": "Control de peso",
+      "analytics": "Estadísticas de ayuno",
+      "achievements": "Logros",
+      "fastingGuide": "Guía de ayuno"
+    }
+  },
+  "cta": {
+    "title": "Empieza con el ayuno intermitente",
+    "description": "Descarga ZYRCA — tu app de ayuno con temporizador, rastreador de ayuno, plan de ayuno y orientación integrada para el ayuno 16:8 y más.",
+    "button": "Descargar en Google Play",
+    "appStore": "Próximamente en App Store"
+  },
+  "footer": {
+    "description": "La app de ayuno intermitente con temporizador de ayuno, contador de agua, registro de peso, estadísticas de ayuno y orientación integrada.",
+    "product": "Producto",
+    "legal": "Legal",
+    "connect": "Conectar",
+    "copyright": "© {year} ZYRCA. Todos los derechos reservados.",
+    "theme": "Tema",
+    "language": "Idioma",
+    "themeLight": "Claro",
+    "themeDark": "Oscuro",
+    "themeSystem": "Sistema"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización: 14 de julio de 2026",
+    "intro": "En ZYRCA nos tomamos en serio tu privacidad. Esta política de privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas nuestra aplicación móvil y sitio web.",
+    "sections": {
+      "collection": {
+        "title": "Información que recopilamos",
+        "content": "Podemos recopilar los siguientes tipos de información:\n\n• Información de cuenta: dirección de correo electrónico, nombre para mostrar y foto de perfil cuando inicias sesión con Google.\n• Datos de salud: horarios de ayuno, ingesta de agua, mediciones de peso y estadísticas de progreso que introduces voluntariamente.\n• Información del dispositivo: tipo de dispositivo, versión del sistema operativo, identificadores únicos del dispositivo e información de la red móvil.\n• Datos de uso: interacciones con la app, patrones de uso de funciones, informes de fallos y análisis de rendimiento.\n• Información de pago: estado de suscripción e historial de compras procesados a través de RevenueCat (no almacenamos datos de tarjetas de pago)."
+      },
+      "usage": {
+        "title": "Cómo usamos tu información",
+        "content": "Utilizamos la información recopilada para:\n\n• proporcionar y mantener la aplicación ZYRCA y sus funciones\n• ofrecer orientación de ayuno, análisis de bienestar y contenido educativo\n• procesar suscripciones y compras dentro de la app mediante RevenueCat\n• enviar notificaciones relacionadas con tu horario de ayuno y objetivos de salud\n• analizar el uso de la app para mejorar funciones y rendimiento\n• mostrar anuncios relevantes a través de Google AdMob\n• cumplir obligaciones legales y hacer cumplir nuestros términos de servicio"
+      },
+      "thirdParty": {
+        "title": "Servicios de terceros",
+        "content": "ZYRCA se integra con los siguientes servicios de terceros:\n\n• Firebase (Google): autenticación, almacenamiento en la nube, análisis e informes de fallos\n• Google Sign-In: autenticación de cuenta\n• RevenueCat: gestión de suscripciones y compras\n• Google AdMob: servicios publicitarios\n• Google Analytics: análisis de uso y monitorización del rendimiento de la app\n\nCada servicio de terceros tiene su propia política de privacidad que rige el uso de tu información. Te recomendamos revisarlas."
+      },
+      "ads": {
+        "title": "Publicidad",
+        "content": "ZYRCA puede mostrar anuncios proporcionados por Google AdMob. AdMob puede utilizar identificadores del dispositivo y datos de uso para mostrar anuncios personalizados. Puedes gestionar la personalización de anuncios en la configuración de tu dispositivo o en las preferencias de tu cuenta de Google. Los suscriptores premium pueden experimentar publicidad reducida o inexistente."
+      },
+      "storage": {
+        "title": "Almacenamiento y seguridad de datos",
+        "content": "Tus datos se almacenan de forma segura mediante la infraestructura en la nube de Firebase con cifrado conforme a los estándares del sector. Implementamos medidas técnicas y organizativas apropiadas para proteger tu información personal contra acceso, alteración, divulgación o destrucción no autorizados. Sin embargo, ningún método de almacenamiento electrónico es 100 % seguro."
+      },
+      "retention": {
+        "title": "Conservación de datos",
+        "content": "Conservamos tu información personal mientras tu cuenta esté activa o sea necesario para prestarte nuestros servicios. Puedes solicitar la eliminación de tu cuenta y los datos asociados en cualquier momento a través de la página Eliminar cuenta o contactando con nextlevelapps81@gmail.com."
+      },
+      "rights": {
+        "title": "Tus derechos (RGPD y CCPA)",
+        "content": "Según tu ubicación, puedes tener los siguientes derechos:\n\n• Acceso: solicitar una copia de tus datos personales\n• Rectificación: corregir datos personales inexactos\n• Supresión: solicitar la eliminación de tus datos personales\n• Portabilidad: recibir tus datos en un formato estructurado y legible por máquina\n• Oposición: oponerte al tratamiento de tus datos personales\n• Limitación: solicitar la limitación del tratamiento\n\nPara ejercer estos derechos, contáctanos en nextlevelapps81@gmail.com. Responderemos en un plazo de 30 días."
+      },
+      "children": {
+        "title": "Privacidad de menores",
+        "content": "ZYRCA no está destinada a menores de 16 años. No recopilamos conscientemente información personal de menores. Si descubrimos que un menor nos ha proporcionado información personal, la eliminaremos de inmediato."
+      },
+      "international": {
+        "title": "Transferencias internacionales de datos",
+        "content": "Tu información puede transferirse y procesarse en países distintos al de tu residencia. Garantizamos que existen salvaguardas adecuadas para dichas transferencias conforme a las leyes de protección de datos aplicables."
+      },
+      "changes": {
+        "title": "Cambios en esta política",
+        "content": "Podemos actualizar esta política de privacidad periódicamente. Te notificaremos los cambios importantes a través de la app o por correo electrónico. El uso continuado de ZYRCA tras los cambios constituye la aceptación de la política actualizada."
+      },
+      "contact": {
+        "title": "Contacto",
+        "content": "Si tienes preguntas sobre esta política de privacidad, contáctanos en:\n\nCorreo: nextlevelapps81@gmail.com\nSitio web: https://zyrca.app"
+      }
+    }
+  },
+  "terms": {
+    "title": "Términos de servicio",
+    "lastUpdated": "Última actualización: 14 de julio de 2026",
+    "intro": "Lee atentamente estos términos de servicio antes de usar la aplicación ZYRCA. Al acceder o utilizar ZYRCA, aceptas quedar vinculado por estos términos.",
+    "sections": {
+      "acceptance": {
+        "title": "Aceptación de los términos",
+        "content": "Al descargar, instalar o usar ZYRCA, reconoces que has leído, comprendido y aceptado quedar vinculado por estos términos de servicio y nuestra política de privacidad. Si no estás de acuerdo, no utilices la aplicación."
+      },
+      "description": {
+        "title": "Descripción del servicio",
+        "content": "ZYRCA es una aplicación de salud y bienestar que ofrece seguimiento de ayuno intermitente, control de hidratación, gestión del peso, análisis de progreso, orientación inteligente de ayuno y contenido educativo de bienestar. ZYRCA está diseñada para apoyar tu camino de bienestar, pero no sustituye el consejo médico profesional."
+      },
+      "account": {
+        "title": "Cuentas de usuario",
+        "content": "Puedes crear una cuenta mediante Google Sign-In. Eres responsable de mantener la confidencialidad de tus credenciales y de todas las actividades realizadas bajo tu cuenta. Debes proporcionar información exacta y actualizar cualquier cambio con prontitud."
+      },
+      "subscriptions": {
+        "title": "Suscripciones y pagos",
+        "content": "ZYRCA ofrece funciones premium mediante planes de suscripción gestionados por RevenueCat. Las suscripciones se renuevan automáticamente salvo cancelación al menos 24 horas antes del final del periodo vigente. Los reembolsos se gestionan conforme a las políticas de Google Play o Apple App Store. Los precios pueden cambiar con un aviso razonable."
+      },
+      "conduct": {
+        "title": "Conducta del usuario",
+        "content": "Te comprometes a no:\n\n• usar ZYRCA con fines ilegales\n• intentar realizar ingeniería inversa o descompilar la aplicación\n• interferir con las funciones de seguridad de la app\n• compartir tus credenciales de cuenta con otras personas\n• usar sistemas automatizados para acceder al servicio\n• subir contenido malicioso o intentar comprometer nuestros sistemas"
+      },
+      "health": {
+        "title": "Aviso de salud",
+        "content": "ZYRCA proporciona información general de salud y bienestar únicamente con fines educativos. No está destinada a diagnosticar, tratar, curar o prevenir ninguna enfermedad. Consulta siempre a un profesional sanitario cualificado antes de iniciar cualquier régimen de ayuno, especialmente si tienes condiciones médicas, estás embarazada, amamantando o tomas medicación."
+      },
+      "ip": {
+        "title": "Propiedad intelectual",
+        "content": "Todo el contenido, las funciones y la funcionalidad de ZYRCA — incluidos textos, gráficos, logotipos, iconos y software — son propiedad de ZYRCA y están protegidos por leyes internacionales de derechos de autor, marcas registradas y otras leyes de propiedad intelectual. No puedes reproducir, distribuir ni crear obras derivadas sin nuestro permiso por escrito."
+      },
+      "liability": {
+        "title": "Limitación de responsabilidad",
+        "content": "En la máxima medida permitida por la ley, ZYRCA no será responsable de daños indirectos, incidentales, especiales, consecuentes o punitivos derivados de tu uso de la aplicación. Nuestra responsabilidad total no excederá el importe que hayas pagado por el servicio en los doce meses anteriores a la reclamación."
+      },
+      "termination": {
+        "title": "Rescisión",
+        "content": "Podemos suspender o rescindir tu acceso a ZYRCA en cualquier momento por incumplimiento de estos términos. Puedes eliminar tu cuenta en cualquier momento. Tras la rescisión, tu derecho a usar la aplicación cesa de inmediato y eliminaremos tus datos conforme a nuestra política de privacidad."
+      },
+      "governing": {
+        "title": "Legislación aplicable",
+        "content": "Estos términos se regirán e interpretarán conforme a las leyes aplicables, sin tener en cuenta los principios de conflicto de leyes. Cualquier disputa se resolverá mediante negociación de buena fe o, si es necesario, arbitraje vinculante."
+      },
+      "changes": {
+        "title": "Cambios en los términos",
+        "content": "Nos reservamos el derecho de modificar estos términos en cualquier momento. Los cambios importantes se comunicarán a través de la app o por correo electrónico. El uso continuado tras los cambios constituye la aceptación de los términos revisados."
+      },
+      "contact": {
+        "title": "Contacto",
+        "content": "Para preguntas sobre estos términos de servicio, contáctanos en nextlevelapps81@gmail.com."
+      }
+    }
+  },
+  "support": {
+    "title": "Soporte",
+    "subtitle": "¿Dudas sobre la app de ayuno intermitente, el temporizador de ayuno o tu plan de ayuno? Te ayudamos.",
+    "contactTitle": "Contacto",
+    "contactDescription": "Nuestro equipo de soporte suele responder en un plazo de 24 horas.",
+    "email": "nextlevelapps81@gmail.com",
+    "emailLabel": "Soporte por correo",
+    "faqTitle": "Preguntas frecuentes",
+    "faqs": [
+      {
+        "question": "¿ZYRCA es solo un temporizador de ayuno?",
+        "answer": "No — ZYRCA es un rastreador de ayuno completo. Además del temporizador de ayuno, incluye contador de agua, registro de peso, estadísticas de ayuno, historial, recordatorio de ayuno, orientación integrada y exportación PDF/CSV."
+      },
+      {
+        "question": "¿Cómo empiezo con el ayuno 16:8 en ZYRCA?",
+        "answer": "Abre la app, elige tu protocolo — 16:8, 18:6 u OMAD — y pulsa Iniciar ayuno. Tu plan de ayuno se acompaña de recordatorios e historial completo."
+      },
+      {
+        "question": "¿Cómo funciona la orientación de ayuno en ZYRCA?",
+        "answer": "ZYRCA ofrece orientación integrada con respuestas prácticas a preguntas frecuentes sobre el ayuno. El contenido se basa en conocimiento de salud seleccionado — no es un chatbot de IA dinámico que aprende de tus conversaciones."
+      },
+      {
+        "question": "¿Puedo exportar mis estadísticas de ayuno y datos de salud?",
+        "answer": "Sí. Exporta un informe de salud PDF o archivos CSV con tu progreso de ayuno, ingesta de agua y registros de peso — para tus archivos personales o para compartir con un profesional."
+      },
+      {
+        "question": "¿La app de ayuno es gratuita?",
+        "answer": "ZYRCA ofrece una versión gratuita con temporizador de ayuno, rastreador de ayuno y las funciones esenciales. Premium desbloquea estadísticas de ayuno avanzadas, exportación de informes, más orientación y una experiencia sin anuncios."
+      },
+      {
+        "question": "¿Cómo cancelo mi suscripción premium?",
+        "answer": "Las suscripciones se gestionan a través de Google Play o Apple App Store. Ve a la configuración de tu cuenta, busca ZYRCA en Suscripciones y selecciona Cancelar."
+      },
+      {
+        "question": "¿Qué idiomas admite la app de ayuno intermitente?",
+        "answer": "ZYRCA está disponible en español, inglés, alemán, francés, italiano, portugués y árabe — con soporte completo de escritura de derecha a izquierda para el árabe."
+      },
+      {
+        "question": "¿Mis datos de salud están protegidos en la app?",
+        "answer": "Sí. Tus datos están cifrados y almacenados de forma segura. Nunca vendemos tu información personal. Consulta nuestra política de privacidad para más detalles."
+      }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Eliminar cuenta",
+    "subtitle": "Respetamos tu derecho a controlar tus datos personales.",
+    "howTitle": "Cómo solicitar la eliminación de la cuenta",
+    "steps": [
+      "Abre la app ZYRCA en tu dispositivo",
+      "Ve a Ajustes → Cuenta → Eliminar cuenta",
+      "Confirma tu solicitud de eliminación",
+      "Tu cuenta y todos los datos asociados se eliminarán permanentemente en un plazo de 30 días"
+    ],
+    "alternativeTitle": "Método alternativo",
+    "alternativeDescription": "Si no puedes acceder a la app, envía un correo a nextlevelapps81@gmail.com con el asunto \"Solicitud de eliminación de cuenta\" e incluye la dirección de correo asociada a tu cuenta.",
+    "dataTitle": "Datos que se eliminarán",
+    "dataItems": [
+      "Tu perfil de cuenta y datos de autenticación",
+      "Todo el historial y horarios de ayuno",
+      "Registros de ingesta de agua",
+      "Mediciones de peso y datos de progreso",
+      "Respuestas de orientación de ayuno guardadas",
+      "Logros y estadísticas",
+      "Preferencias y ajustes de la app"
+    ],
+    "retentionTitle": "Conservación de datos",
+    "retentionDescription": "Algunos datos analíticos anonimizados pueden conservarse hasta 90 días para mejorar el servicio. Los registros de suscripción pueden conservarse según lo exija la ley con fines fiscales y contables.",
+    "contactTitle": "¿Preguntas?",
+    "contactDescription": "Si tienes preguntas sobre la eliminación de datos, contáctanos en nextlevelapps81@gmail.com."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "backHome": "Volver al inicio"
+  },
+  "images": {
+    "logo": "Logo ZYRCA – app de ayuno intermitente y rastreador de ayuno",
+    "heroScreenshot": "ZYRCA app de ayuno intermitente: panel con temporizador de ayuno, contador de agua y progreso de ayuno",
+    "storePlay": "Descargar la app de ayuno intermitente ZYRCA en Google Play",
+    "storeAppStore": "Descargar la app de ayuno ZYRCA en Apple App Store",
+    "screenshotLight": "Captura de pantalla ZYRCA: {screen} en modo claro",
+    "screenshotDark": "Captura de pantalla ZYRCA: {screen} en modo oscuro"
+  },
+  "seo": {
+    "home": {
+      "title": "ZYRCA – App ayuno intermitente | Temporizador ayuno, rastreador ayuno & contador agua",
+      "description": "Registra el ayuno intermitente con ZYRCA: temporizador de ayuno, plan de ayuno, contador de agua, registro de peso, estadísticas de ayuno, recordatorio de ayuno y orientación integrada. Informes PDF de salud.",
+      "keywords": "app ayuno intermitente, temporizador ayuno, rastreador ayuno, ayuno 16:8, contador agua, registro peso, recordatorio ayuno, estadísticas ayuno, app salud, ayuno principiantes, historial ayuno, informe salud PDF, exportar CSV, ZYRCA"
+    },
+    "features": {
+      "title": "Funciones – ZYRCA App ayuno intermitente & rastreador de ayuno",
+      "description": "Todas las funciones de la app de ayuno ZYRCA: temporizador de ayuno, contador de agua, registro de peso, historial de ayuno, estadísticas de ayuno, recordatorio de ayuno, orientación integrada, exportación PDF/CSV y guías de ayuno.",
+      "keywords": "funciones app ayuno, rastreador ayuno intermitente, temporizador ayuno, contador agua, registro peso, estadísticas ayuno, plan de ayuno, recordatorio ayuno, ayuno principiantes, ayuno 16:8, informe salud PDF, app salud"
+    },
+    "privacy": {
+      "title": "Política de privacidad – ZYRCA App de ayuno",
+      "description": "Descubre cómo ZYRCA protege tus datos en la app de ayuno intermitente. Política conforme al RGPD sobre recopilación de datos, Firebase, RevenueCat, Google Sign-In y AdMob.",
+      "keywords": "privacidad ZYRCA, app ayuno privacidad, RGPD, app salud privacidad, privacidad Firebase"
+    },
+    "terms": {
+      "title": "Términos de servicio – ZYRCA App ayuno intermitente",
+      "description": "Términos de servicio de la app de ayuno ZYRCA. Tus derechos y responsabilidades al usar el rastreador de ayuno con contador de agua y registro de peso.",
+      "keywords": "términos ZYRCA, términos app ayuno, términos app salud, términos suscripción"
+    },
+    "support": {
+      "title": "Soporte – ZYRCA App ayuno intermitente & rastreador de ayuno",
+      "description": "Ayuda para la app de ayuno ZYRCA: FAQ sobre ayuno 16:8, temporizador de ayuno, plan de ayuno, estadísticas de ayuno, suscripciones y gestión de cuenta.",
+      "keywords": "soporte ZYRCA, ayuda app ayuno, ayuda ayuno intermitente, soporte rastreador ayuno, FAQ ayuno principiantes, contactar soporte"
+    },
+    "deleteAccount": {
+      "title": "Eliminar cuenta – ZYRCA App de ayuno",
+      "description": "Cómo eliminar tu cuenta ZYRCA y tus datos de salud. Guía paso a paso para la eliminación de cuenta en la app de ayuno intermitente.",
+      "keywords": "eliminar cuenta ZYRCA, eliminar datos app ayuno, borrar cuenta, derecho supresión RGPD"
+    },
+    "structuredData": {
+      "ogAlt": "ZYRCA – App ayuno intermitente | Temporizador ayuno, rastreador ayuno & contador agua",
+      "appDescription": "App de ayuno intermitente con temporizador de ayuno, contador de agua, registro de peso, orientación integrada, estadísticas de ayuno y exportación de informes PDF de salud.",
+      "appFeatures": "Temporizador de ayuno intermitente|Contador de agua|Registro de peso|Historial y calendario de ayuno|Orientación de ayuno integrada|Informes de salud PDF y CSV|Guías de ayuno de expertos|Logros y motivación",
+      "websiteDescription": "Sitio web oficial de ZYRCA para la app premium de ayuno intermitente con contador de agua, registro de peso y rastreador de ayuno.",
+      "organizationDescription": "ZYRCA desarrolla apps de salud premium para ayuno intermitente, seguimiento de hidratación y progreso de ayuno sostenible.",
+      "contactType": "atención al cliente"
+    }
+  }
+}

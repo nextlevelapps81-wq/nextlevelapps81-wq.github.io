@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "siteName": "ZYRCA",
+    "tagline": "App Digiuno Intermittente"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Funzionalità",
+    "journey": "Come Funziona",
+    "premium": "Premium",
+    "about": "Chi siamo",
+    "screenshots": "Anteprime",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di servizio",
+    "support": "Assistenza",
+    "deleteAccount": "Elimina account",
+    "download": "Scarica",
+    "menu": "Apri menu",
+    "close": "Chiudi menu",
+    "skipToContent": "Vai al contenuto principale"
+  },
+  "hero": {
+    "badge": "App Digiuno Intermittente e Benessere",
+    "title": "ZYRCA",
+    "subtitle": "La Tua App per il Digiuno Intermittente",
+    "description": "Timer digiuno, tracker acqua e diario peso in un'unica app benessere. Segui il digiuno 16:8, consulta statistiche digiuno, ricevi promemoria digiuno e guida pratica — pensata per principianti e per chi digiuna da tempo.",
+    "ctaPlay": "Scarica su Google Play",
+    "ctaAppStore": "Presto su App Store",
+    "statsProtocols": "5+",
+    "statsProtocolsLabel": "Protocolli di Digiuno",
+    "statsLanguages": "7",
+    "statsLanguagesLabel": "Lingue",
+    "statsGuides": "11+",
+    "statsGuidesLabel": "Guide di Esperti"
+  },
+  "features": {
+    "title": "L'App Completa per il Digiuno Intermittente",
+    "subtitle": "Timer digiuno, tracker acqua, diario peso e statistiche digiuno — tutto ciò che serve per restare costante con il tuo programma di digiuno.",
+    "pageTitle": "Funzionalità App Digiuno Intermittente",
+    "pageSubtitle": "Da promemoria digiuno e cronologia alle statistiche e ai report PDF — scopri ogni strumento di ZYRCA per il digiuno per principianti e per utenti avanzati.",
+    "smartAssistant": {
+      "title": "Guida al Digiuno Integrata",
+      "description": "Ricevi consigli sul digiuno, approfondimenti quotidiani sul benessere e risposte utili alle domande più comuni — basati sulla conoscenza sanitaria integrata di ZYRCA."
+    },
+    "fasting": {
+      "title": "Tracker Digiuno Intermittente",
+      "description": "Timer digiuno preciso per 16:8, 18:6, OMAD e programmi personalizzati. Consulta la cronologia del digiuno e resta in carreggiata con promemoria digiuno."
+    },
+    "water": {
+      "title": "Tracker Acqua",
+      "description": "Registra l'assunzione giornaliera d'acqua, raggiungi i tuoi obiettivi di idratazione e consulta statistiche che supportano la tua routine di digiuno."
+    },
+    "weight": {
+      "title": "Diario Peso",
+      "description": "Registra il peso corporeo, segui le tendenze nel tempo e monitora i progressi verso i tuoi obiettivi di benessere."
+    },
+    "analytics": {
+      "title": "Statistiche e Progressi",
+      "description": "Visualizza insieme digiuno, idratazione e peso con grafici chiari e il punteggio benessere ZYRCA."
+    },
+    "statistics": {
+      "title": "Statistiche Digiuno",
+      "description": "Consulta statistiche digiuno dettagliate, riepiloghi sull'idratazione e tendenze del peso per capire i tuoi progressi."
+    },
+    "history": {
+      "title": "Cronologia e Calendario Digiuno",
+      "description": "Sfoglia la cronologia completa del digiuno in vista calendario e costruisci abitudini costanti nel tempo."
+    },
+    "fastingGuide": {
+      "title": "Guida Digiuno per Principianti",
+      "description": "Impara con guide esperte e articoli educativi — ideali per chi inizia il digiuno intermittente e per utenti esperti."
+    },
+    "achievements": {
+      "title": "Obiettivi e Motivazione",
+      "description": "Ottieni badge, raggiungi traguardi e resta motivato mentre costruisci abitudini durature di digiuno intermittente."
+    },
+    "notifications": {
+      "title": "Promemoria Digiuno",
+      "description": "Ricevi promemoria tempestivi per le finestre di digiuno, l'idratazione e i check-in quotidiani."
+    },
+    "pdfExport": {
+      "title": "Report Sanitario PDF",
+      "description": "Esporta un report sanitario PDF chiaro con i progressi di digiuno, l'assunzione d'acqua e i dati sul peso."
+    },
+    "csvExport": {
+      "title": "Esportazione Dati CSV",
+      "description": "Scarica i tuoi dati di digiuno e benessere in CSV per archivi personali o revisione professionale."
+    },
+    "shareReports": {
+      "title": "Condividi Report Sanitari",
+      "description": "Condividi report PDF o CSV con medico, nutrizionista o personal trainer quando ti serve un parere professionale."
+    },
+    "darkTheme": {
+      "title": "Modalità Scura",
+      "description": "Un'interfaccia scura raffinata con toni profondi, accenti viola e uso confortevole la sera."
+    },
+    "lightTheme": {
+      "title": "Modalità Chiara",
+      "description": "Un layout pulito e luminoso con accenti delicati e ottima leggibilità di giorno."
+    },
+    "languages": {
+      "title": "Supporto Multilingue",
+      "description": "Usa ZYRCA in 7 lingue con supporto RTL completo per l'arabo."
+    },
+    "privacy": {
+      "title": "Privacy e Dati Sicuri",
+      "description": "I tuoi dati sanitari sono crittografati e protetti. Non vendiamo mai le tue informazioni personali."
+    },
+    "dashboard": {
+      "title": "Dashboard Benessere",
+      "description": "Visualizza digiuno, acqua, peso e approfondimenti sul benessere in un'unica dashboard chiara."
+    }
+  },
+  "journey": {
+    "title": "Il Tuo Percorso di Digiuno Intermittente",
+    "subtitle": "Dal primo digiuno 16:8 all'esportazione del report PDF — ZYRCA ti accompagna in ogni fase del tuo percorso benessere.",
+    "steps": {
+      "discover": {
+        "title": "Scopri ZYRCA",
+        "description": "Configura il profilo, scegli un protocollo di digiuno e esplora la tua dashboard benessere personale."
+      },
+      "track": {
+        "title": "Monitora con il Timer Digiuno",
+        "description": "Registra sessioni di digiuno, assunzione d'acqua e peso corporeo in un'app semplice e dal design curato."
+      },
+      "analyze": {
+        "title": "Consulta le Statistiche Digiuno",
+        "description": "Rivedi statistiche digiuno, cronologia sul calendario, tendenze del peso e dati sull'idratazione con visualizzazioni chiare."
+      },
+      "guidance": {
+        "title": "Ricevi Guida Pratica",
+        "description": "Accedi ad approfondimenti sul benessere, consigli sul digiuno e risposte utili dalla conoscenza sanitaria integrata di ZYRCA."
+      },
+      "export": {
+        "title": "Esporta Report Sanitari",
+        "description": "Crea report PDF e CSV per rivedere i progressi o condividerli con professionisti sanitari."
+      },
+      "achieve": {
+        "title": "Raggiungi i Tuoi Obiettivi",
+        "description": "Ottieni obiettivi raggiunti, resta motivato e costruisci abitudini sane di digiuno che contano per te."
+      }
+    }
+  },
+  "premium": {
+    "title": "Strumenti Avanzati per Chi Vuole Risultati",
+    "subtitle": "Vai oltre il timer digiuno con report professionali, statistiche digiuno dettagliate e guida pratica al benessere.",
+    "pdfReports": {
+      "title": "Report Sanitari PDF",
+      "description": "Esporta un report sanitario PDF curato con progressi di digiuno, assunzione d'acqua, tendenze del peso e riepiloghi benessere."
+    },
+    "csvExport": {
+      "title": "Esportazione Dati CSV",
+      "description": "Scarica i tuoi dati di digiuno e benessere in CSV per backup, analisi o revisione professionale."
+    },
+    "shareProfessionals": {
+      "title": "Condividi con i Professionisti",
+      "description": "Invia report PDF o CSV a medico, nutrizionista o trainer quando desideri un parere esperto sui tuoi progressi."
+    },
+    "smartGuidance": {
+      "title": "Guida Pratica al Digiuno",
+      "description": "Ricevi approfondimenti sul benessere e consigli utili sul digiuno basati sulla conoscenza sanitaria integrata di ZYRCA — non un chatbot."
+    },
+    "calendar": {
+      "title": "Calendario e Cronologia Digiuno",
+      "description": "Consulta il programma di digiuno e la cronologia completa su un calendario facile da leggere."
+    },
+    "visualization": {
+      "title": "Grafici dei Progressi",
+      "description": "Segui la tua trasformazione con grafici chiari e un monitoraggio visivo dei progressi di digiuno."
+    },
+    "weightTrends": {
+      "title": "Andamento del Peso",
+      "description": "Monitora il peso corporeo nel tempo con avanzamento verso l'obiettivo e tracciamento dei traguardi."
+    },
+    "waterStats": {
+      "title": "Statistiche Idratazione",
+      "description": "Analizza schemi di idratazione giornalieri e settimanali per supportare la tua routine di digiuno."
+    },
+    "achievements": {
+      "title": "Sistema Obiettivi Raggiunti",
+      "description": "Sblocca badge e celebra i traguardi per restare motivato nel tuo percorso di digiuno."
+    },
+    "expertGuides": {
+      "title": "Guide per il Digiuno per Principianti",
+      "description": "Leggi guide educative e articoli di esperti — inclusi consigli per chi inizia il digiuno intermittente."
+    }
+  },
+  "whyChoose": {
+    "title": "Perché Scegliere ZYRCA?",
+    "subtitle": "Un'app benessere per il digiuno intermittente che unisce tracker digiuno, diario peso e strumenti di progresso in un'esperienza onesta e dal design curato.",
+    "reasons": {
+      "allInOne": {
+        "title": "Più di un Timer Digiuno",
+        "description": "Timer digiuno, tracker acqua e diario peso con statistiche digiuno e promemoria digiuno — tutto in un'unica app benessere."
+      },
+      "smartGuidance": {
+        "title": "Guida al Digiuno Integrata",
+        "description": "Consigli pratici e risposte alle domande comuni sul digiuno — basati su conoscenze sanitarie curate, non su chat IA dinamica."
+      },
+      "professional": {
+        "title": "Esportazione PDF e CSV",
+        "description": "Esporta i progressi di digiuno come report sanitario PDF o file CSV — utile per archivi personali e condivisione professionale."
+      },
+      "beautiful": {
+        "title": "Bella e Intuitiva",
+        "description": "Design premium con temi scuro e chiaro, pensato per chiarezza, comfort e uso quotidiano."
+      },
+      "global": {
+        "title": "Pensata per il Mondo",
+        "description": "Disponibile in 7 lingue con supporto RTL per l'arabo."
+      },
+      "secure": {
+        "title": "Privata e Sicura",
+        "description": "Archiviazione dati crittografata, conformità GDPR e l'impegno a non vendere mai le tue informazioni."
+      }
+    }
+  },
+  "about": {
+    "title": "Informazioni su ZYRCA",
+    "subtitle": "App digiuno intermittente con timer digiuno, tracker acqua, diario peso e strumenti onesti per il benessere.",
+    "whatIs": {
+      "title": "Cos'è ZYRCA?",
+      "description": "ZYRCA è un'app digiuno intermittente che ti aiuta a seguire programmi di digiuno, idratazione e peso corporeo. Offre timer digiuno, statistiche digiuno, guida pratica, guide per principianti e export PDF/CSV — tutto in un'app benessere dal design curato."
+    },
+    "whyFasting": {
+      "title": "Perché il Digiuno Intermittente?",
+      "description": "Il digiuno intermittente è uno degli approcci più cercati per gestire il peso e uno stile di vita sano. Con il digiuno 16:8, buone abitudini di idratazione e un tracker digiuno affidabile, puoi costruire routine costanti nel tempo."
+    },
+    "whyGuidance": {
+      "title": "Perché la Guida Integrata?",
+      "description": "Il digiuno funziona meglio quando capisci il processo. ZYRCA offre consigli pratici, contenuti educativi e risposte alle domande comuni — supporto reale senza promesse fuorvianti sull'IA."
+    },
+    "benefits": {
+      "title": "Come ZYRCA ti Aiuta",
+      "items": [
+        "Segui il digiuno intermittente con timer digiuno e programma personalizzato",
+        "Usa tracker acqua e diario peso nella stessa app benessere",
+        "Consulta cronologia, statistiche digiuno e analisi dei progressi",
+        "Ricevi promemoria digiuno e guida pratica al benessere",
+        "Impara con guide per il digiuno per principianti",
+        "Esporta report sanitari PDF e file dati CSV",
+        "Usa l'app in 7 lingue con supporto RTL completo"
+      ]
+    }
+  },
+  "screenshots": {
+    "title": "ZYRCA in Azione",
+    "subtitle": "Scopri l'app reale — dalla dashboard benessere al timer digiuno, fino alle statistiche digiuno e alla guida pratica.",
+    "darkMode": "Modalità Scura",
+    "lightMode": "Modalità Chiara",
+    "prev": "Screenshot precedente",
+    "next": "Screenshot successivo",
+    "captions": {
+      "dashboard": "Dashboard Benessere",
+      "intelligence": "Guida ZYRCA",
+      "fasting": "Protocolli Digiuno 16:8",
+      "water": "Tracker Acqua",
+      "weight": "Diario Peso",
+      "analytics": "Statistiche Digiuno",
+      "achievements": "Obiettivi Raggiunti",
+      "fastingGuide": "Guida Digiuno"
+    }
+  },
+  "cta": {
+    "title": "Inizia il Digiuno Intermittente",
+    "description": "Scarica ZYRCA: timer digiuno, tracker acqua, diario peso e promemoria digiuno in un'app benessere pensata anche per principianti.",
+    "button": "Scarica su Google Play",
+    "appStore": "Presto su App Store"
+  },
+  "footer": {
+    "description": "App digiuno intermittente con timer digiuno, tracker acqua, diario peso, statistiche digiuno e guida pratica al benessere.",
+    "product": "Prodotto",
+    "legal": "Legale",
+    "connect": "Contatti",
+    "copyright": "© {year} ZYRCA. Tutti i diritti riservati.",
+    "theme": "Tema",
+    "language": "Lingua",
+    "themeLight": "Chiaro",
+    "themeDark": "Scuro",
+    "themeSystem": "Sistema"
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "lastUpdated": "Ultimo aggiornamento: 14 luglio 2026",
+    "intro": "In ZYRCA prendiamo sul serio la tua privacy. La presente Informativa sulla privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando utilizzi la nostra applicazione mobile e il nostro sito web.",
+    "sections": {
+      "collection": {
+        "title": "Informazioni che Raccogliamo",
+        "content": "Potremmo raccogliere i seguenti tipi di informazioni:\n\n• Informazioni sull'account: indirizzo e-mail, nome visualizzato e foto del profilo quando accedi con Google.\n• Dati sanitari: programmi di digiuno, assunzione d'acqua, misurazioni del peso e statistiche sui progressi inserite volontariamente.\n• Informazioni sul dispositivo: tipo di dispositivo, versione del sistema operativo, identificatori univoci del dispositivo e informazioni sulla rete mobile.\n• Dati di utilizzo: interazioni con l'app, modelli di utilizzo delle funzionalità, segnalazioni di crash e analisi delle prestazioni.\n• Informazioni di pagamento: stato dell'abbonamento e cronologia degli acquisti gestiti tramite RevenueCat (non memorizziamo i dati della carta di pagamento)."
+      },
+      "usage": {
+        "title": "Come Utilizziamo le Tue Informazioni",
+        "content": "Utilizziamo le informazioni raccolte per:\n\n• Fornire e mantenere l'applicazione ZYRCA e le sue funzionalità\n• Fornire guida al digiuno, approfondimenti sul benessere e contenuti educativi\n• Gestire abbonamenti e acquisti in-app tramite RevenueCat\n• Inviare notifiche relative al tuo programma di digiuno e ai tuoi obiettivi di salute\n• Analizzare l'utilizzo dell'app per migliorare funzionalità e prestazioni\n• Mostrare annunci pertinenti tramite Google AdMob\n• Adempiere agli obblighi legali e far rispettare i nostri Termini di servizio"
+      },
+      "thirdParty": {
+        "title": "Servizi di Terze Parti",
+        "content": "ZYRCA si integra con i seguenti servizi di terze parti:\n\n• Firebase (Google): autenticazione, archiviazione cloud, analisi e segnalazione crash\n• Google Sign-In: autenticazione dell'account\n• RevenueCat: gestione di abbonamenti e acquisti\n• Google AdMob: servizi pubblicitari\n• Google Analytics: analisi dell'utilizzo e monitoraggio delle prestazioni dell'app\n\nOgni servizio di terze parti dispone di una propria informativa sulla privacy che regola l'utilizzo delle tue informazioni. Ti invitiamo a consultarle."
+      },
+      "ads": {
+        "title": "Pubblicità",
+        "content": "ZYRCA può mostrare annunci forniti da Google AdMob. AdMob può utilizzare identificatori del dispositivo e dati di utilizzo per offrire annunci personalizzati. Puoi gestire la personalizzazione degli annunci dalle impostazioni del dispositivo o dalle preferenze del tuo account Google. Gli abbonati premium possono vedere pubblicità ridotta o assente."
+      },
+      "storage": {
+        "title": "Archiviazione e Sicurezza dei Dati",
+        "content": "I tuoi dati sono archiviati in modo sicuro tramite l'infrastruttura cloud Firebase con crittografia conforme agli standard del settore. Adottiamo misure tecniche e organizzative adeguate per proteggere le tue informazioni personali da accessi non autorizzati, alterazioni, divulgazioni o distruzioni. Tuttavia, nessun metodo di archiviazione elettronica è sicuro al 100%."
+      },
+      "retention": {
+        "title": "Conservazione dei Dati",
+        "content": "Conserviamo le tue informazioni personali finché il tuo account è attivo o per il tempo necessario a fornirti i servizi. Puoi richiedere l'eliminazione del tuo account e dei dati associati in qualsiasi momento tramite la pagina Elimina account o contattando nextlevelapps81@gmail.com."
+      },
+      "rights": {
+        "title": "I Tuoi Diritti (GDPR e CCPA)",
+        "content": "A seconda della tua posizione, potresti avere i seguenti diritti:\n\n• Accesso: richiedere una copia dei tuoi dati personali\n• Rettifica: correggere dati personali inesatti\n• Cancellazione: richiedere l'eliminazione dei tuoi dati personali\n• Portabilità: ricevere i tuoi dati in un formato strutturato e leggibile da dispositivo automatico\n• Opposizione: opporti al trattamento dei tuoi dati personali\n• Limitazione: richiedere la limitazione del trattamento\n\nPer esercitare questi diritti, contattaci a nextlevelapps81@gmail.com. Risponderemo entro 30 giorni."
+      },
+      "children": {
+        "title": "Privacy dei Minori",
+        "content": "ZYRCA non è destinata a minori di 16 anni. Non raccogliamo consapevolmente informazioni personali da minori. Se venissimo a sapere che un minore ci ha fornito informazioni personali, le elimineremo tempestivamente."
+      },
+      "international": {
+        "title": "Trasferimenti Internazionali di Dati",
+        "content": "Le tue informazioni possono essere trasferite e trattate in paesi diversi da quello di residenza. Garantiamo l'adozione di adeguate misure di tutela per tali trasferimenti, in conformità con le leggi applicabili in materia di protezione dei dati."
+      },
+      "changes": {
+        "title": "Modifiche alla Presente Informativa",
+        "content": "Potremmo aggiornare periodicamente la presente Informativa sulla privacy. Ti informeremo delle modifiche sostanziali tramite l'app o via e-mail. L'uso continuato di ZYRCA dopo le modifiche costituisce accettazione dell'informativa aggiornata."
+      },
+      "contact": {
+        "title": "Contattaci",
+        "content": "Per domande sulla presente Informativa sulla privacy, contattaci a:\n\nE-mail: nextlevelapps81@gmail.com\nSito web: https://zyrca.app"
+      }
+    }
+  },
+  "terms": {
+    "title": "Termini di Servizio",
+    "lastUpdated": "Ultimo aggiornamento: 14 luglio 2026",
+    "intro": "Leggi attentamente i presenti Termini di servizio prima di utilizzare l'applicazione ZYRCA. Accedendo o utilizzando ZYRCA, accetti di essere vincolato da questi termini.",
+    "sections": {
+      "acceptance": {
+        "title": "Accettazione dei Termini",
+        "content": "Scaricando, installando o utilizzando ZYRCA, dichiari di aver letto, compreso e accettato di essere vincolato dai presenti Termini di servizio e dalla nostra Informativa sulla privacy. Se non accetti, non utilizzare l'applicazione."
+      },
+      "description": {
+        "title": "Descrizione del Servizio",
+        "content": "ZYRCA è un'applicazione per la salute e il benessere che offre monitoraggio del digiuno intermittente, controllo dell'idratazione, gestione del peso, analisi dei progressi, guida pratica al digiuno e contenuti educativi sul benessere. ZYRCA è pensata per supportare il tuo percorso di benessere, ma non sostituisce il parere medico professionale."
+      },
+      "account": {
+        "title": "Account Utente",
+        "content": "Puoi creare un account tramite Google Sign-In. Sei responsabile della riservatezza delle credenziali del tuo account e di tutte le attività svolte tramite esso. Devi fornire informazioni accurate e aggiornare tempestivamente eventuali modifiche."
+      },
+      "subscriptions": {
+        "title": "Abbonamenti e Pagamenti",
+        "content": "ZYRCA offre funzionalità premium tramite piani di abbonamento gestiti da RevenueCat. Gli abbonamenti si rinnovano automaticamente salvo disdetta almeno 24 ore prima della fine del periodo in corso. I rimborsi sono gestiti secondo le policy di Google Play o dell'Apple App Store. I prezzi possono variare con un preavviso ragionevole."
+      },
+      "conduct": {
+        "title": "Condotta dell'Utente",
+        "content": "Accetti di non:\n\n• Utilizzare ZYRCA per scopi illeciti\n• Tentare di decodificare o decompilare l'applicazione\n• Interferire con le funzionalità di sicurezza dell'app\n• Condividere le credenziali del tuo account con altri\n• Utilizzare sistemi automatizzati per accedere al servizio\n• Caricare contenuti dannosi o tentare di compromettere i nostri sistemi"
+      },
+      "health": {
+        "title": "Disclaimer Sanitario",
+        "content": "ZYRCA fornisce informazioni generali su salute e benessere esclusivamente a scopo informativo. Non è destinata a diagnosticare, trattare, curare o prevenire alcuna malattia. Consulta sempre un professionista sanitario qualificato prima di iniziare qualsiasi regime di digiuno, soprattutto se hai patologie, sei in gravidanza, stai allattando o assumi farmaci."
+      },
+      "ip": {
+        "title": "Proprietà Intellettuale",
+        "content": "Tutti i contenuti, le funzionalità e le caratteristiche di ZYRCA — inclusi testi, grafica, loghi, icone e software — sono di proprietà di ZYRCA e protetti dalle leggi internazionali sul copyright, sui marchi e su altre forme di proprietà intellettuale. Non puoi riprodurre, distribuire o creare opere derivate senza la nostra autorizzazione scritta."
+      },
+      "liability": {
+        "title": "Limitazione di Responsabilità",
+        "content": "Nella misura massima consentita dalla legge, ZYRCA non sarà responsabile per danni indiretti, incidentali, speciali, consequenziali o punitivi derivanti dall'utilizzo dell'applicazione. La nostra responsabilità totale non supererà l'importo da te pagato per il servizio nei dodici mesi precedenti al reclamo."
+      },
+      "termination": {
+        "title": "Risoluzione",
+        "content": "Possiamo sospendere o terminare il tuo accesso a ZYRCA in qualsiasi momento per violazione dei presenti termini. Puoi eliminare il tuo account in qualsiasi momento. Alla risoluzione, il tuo diritto di utilizzare l'applicazione cessa immediatamente e cancelleremo i tuoi dati conformemente alla nostra Informativa sulla privacy."
+      },
+      "governing": {
+        "title": "Legge Applicabile",
+        "content": "I presenti Termini sono regolati e interpretati in conformità con le leggi applicabili, senza riguardo ai principi sul conflitto di leggi. Eventuali controversie saranno risolte mediante negoziato in buona fede o, se necessario, arbitrato vincolante."
+      },
+      "changes": {
+        "title": "Modifiche ai Termini",
+        "content": "Ci riserviamo il diritto di modificare i presenti Termini in qualsiasi momento. Le modifiche sostanziali saranno comunicate tramite l'app o via e-mail. L'uso continuato dopo le modifiche costituisce accettazione dei termini aggiornati."
+      },
+      "contact": {
+        "title": "Contatti",
+        "content": "Per domande sui presenti Termini di servizio, contattaci a nextlevelapps81@gmail.com."
+      }
+    }
+  },
+  "support": {
+    "title": "Assistenza",
+    "subtitle": "Risposte alle domande più frequenti su digiuno intermittente, timer digiuno e account ZYRCA.",
+    "contactTitle": "Contattaci",
+    "contactDescription": "Il nostro team di assistenza risponde generalmente entro 24 ore.",
+    "email": "nextlevelapps81@gmail.com",
+    "emailLabel": "Assistenza via e-mail",
+    "faqTitle": "Domande Frequenti",
+    "faqs": [
+      {
+        "question": "ZYRCA è solo un timer digiuno?",
+        "answer": "ZYRCA include un timer digiuno affidabile, ma offre anche tracker acqua, diario peso, statistiche digiuno, promemoria digiuno, guide per principianti e export di report sanitari PDF/CSV."
+      },
+      {
+        "question": "Come inizio il digiuno intermittente con ZYRCA?",
+        "answer": "Apri l'app, scegli il protocollo preferito — ad esempio digiuno 16:8, 18:6 o OMAD — e tocca Avvia digiuno. ZYRCA ti aiuta con promemoria digiuno e cronologia completa."
+      },
+      {
+        "question": "Come funziona la guida ZYRCA?",
+        "answer": "La guida ZYRCA offre consigli sul benessere e risposte alle domande comuni sul digiuno. Usa conoscenze sanitarie integrate e contenuti predefiniti — non è un chatbot IA dinamico e non impara dalle tue conversazioni."
+      },
+      {
+        "question": "Posso esportare i miei dati di digiuno e salute?",
+        "answer": "Sì. ZYRCA ti permette di esportare un report sanitario PDF e file CSV con progressi di digiuno, assunzione d'acqua e registrazioni del peso."
+      },
+      {
+        "question": "ZYRCA è gratuita?",
+        "answer": "ZYRCA offre un piano gratuito con timer digiuno, tracker acqua e funzioni essenziali. Gli abbonamenti premium sbloccano statistiche digiuno avanzate, export report e un'esperienza senza pubblicità."
+      },
+      {
+        "question": "Come annullo il mio abbonamento?",
+        "answer": "Gli abbonamenti sono gestiti tramite Google Play o l'Apple App Store. Vai alle impostazioni del tuo account nello store, trova ZYRCA tra gli abbonamenti e seleziona Annulla."
+      },
+      {
+        "question": "Quali lingue supporta ZYRCA?",
+        "answer": "ZYRCA è disponibile in inglese, tedesco, francese, spagnolo, italiano, portoghese e arabo, con supporto completo da destra a sinistra per l'arabo."
+      },
+      {
+        "question": "I miei dati sanitari sono al sicuro?",
+        "answer": "Sì. I tuoi dati sono crittografati e archiviati in modo sicuro. Non vendiamo mai le tue informazioni personali. Consulta la nostra Informativa sulla privacy per tutti i dettagli."
+      }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Elimina Account",
+    "subtitle": "Rispettiamo il tuo diritto di controllare i tuoi dati personali.",
+    "howTitle": "Come Richiedere l'Eliminazione dell'Account",
+    "steps": [
+      "Apri l'app ZYRCA sul tuo dispositivo",
+      "Vai su Impostazioni → Account → Elimina account",
+      "Conferma la richiesta di eliminazione",
+      "Il tuo account e tutti i dati associati saranno eliminati definitivamente entro 30 giorni"
+    ],
+    "alternativeTitle": "Metodo Alternativo",
+    "alternativeDescription": "Se non riesci ad accedere all'app, invia un'e-mail a nextlevelapps81@gmail.com con oggetto \"Richiesta eliminazione account\" indicando l'indirizzo e-mail associato al tuo account.",
+    "dataTitle": "Quali Dati Verranno Eliminati",
+    "dataItems": [
+      "Profilo dell'account e dati di autenticazione",
+      "Tutta la cronologia e i programmi di digiuno",
+      "Registri dell'assunzione d'acqua",
+      "Misurazioni del peso e dati sui progressi",
+      "Risposte di guida al digiuno salvate",
+      "Obiettivi raggiunti e statistiche",
+      "Preferenze e impostazioni dell'app"
+    ],
+    "retentionTitle": "Conservazione dei Dati",
+    "retentionDescription": "Alcuni dati analitici anonimizzati possono essere conservati fino a 90 giorni per migliorare il servizio. I registri degli abbonamenti possono essere conservati per obblighi legali fiscali e contabili.",
+    "contactTitle": "Domande?",
+    "contactDescription": "Per domande sull'eliminazione dei dati, contattaci a nextlevelapps81@gmail.com."
+  },
+  "notFound": {
+    "title": "Pagina Non Trovata",
+    "description": "La pagina che stai cercando non esiste o è stata spostata.",
+    "backHome": "Torna alla home"
+  },
+  "images": {
+    "logo": "Logo ZYRCA – app digiuno intermittente e tracker digiuno",
+    "heroScreenshot": "Dashboard ZYRCA con timer digiuno, tracker acqua e progressi benessere",
+    "storePlay": "Scarica l'app digiuno intermittente ZYRCA su Google Play",
+    "storeAppStore": "Scarica ZYRCA sull'Apple App Store",
+    "screenshotLight": "Screenshot app ZYRCA: {screen} in modalità chiara",
+    "screenshotDark": "Screenshot app ZYRCA: {screen} in modalità scura"
+  },
+  "seo": {
+    "home": {
+      "title": "ZYRCA – App Digiuno Intermittente | Timer Digiuno e Tracker Acqua",
+      "description": "App digiuno intermittente con timer digiuno, tracker acqua, diario peso e statistiche digiuno. Promemoria digiuno, digiuno 16:8, guida pratica e report PDF — ideale per digiuno per principianti.",
+      "keywords": "digiuno intermittente app, timer digiuno, tracker digiuno, digiuno 16:8, tracker acqua, diario peso, promemoria digiuno, statistiche digiuno, app benessere, digiuno per principianti, app digiuno, calendario digiuno, cronologia digiuno, report sanitario PDF, esportazione CSV, ZYRCA"
+    },
+    "features": {
+      "title": "Funzionalità – App Digiuno Intermittente ZYRCA",
+      "description": "Scopri le funzionalità di ZYRCA: timer digiuno, tracker acqua, diario peso, statistiche digiuno, promemoria digiuno, guide per principianti ed export PDF/CSV.",
+      "keywords": "app digiuno intermittente, timer digiuno, tracker digiuno, tracker acqua, diario peso, statistiche digiuno, promemoria digiuno, digiuno 16:8, digiuno per principianti, app benessere"
+    },
+    "privacy": {
+      "title": "Informativa sulla Privacy – ZYRCA",
+      "description": "Scopri come ZYRCA protegge la tua privacy. Informativa conforme al GDPR su raccolta dati, Firebase, RevenueCat, Google Sign-In e AdMob.",
+      "keywords": "informativa privacy ZYRCA, protezione dati, GDPR, privacy app salute, privacy Firebase"
+    },
+    "terms": {
+      "title": "Termini di Servizio – ZYRCA",
+      "description": "Leggi i Termini di servizio di ZYRCA. Comprendi i tuoi diritti e le tue responsabilità nell'utilizzo della nostra app digiuno intermittente.",
+      "keywords": "termini servizio ZYRCA, termini app, termini app salute, termini abbonamento"
+    },
+    "support": {
+      "title": "Assistenza – App Digiuno Intermittente ZYRCA",
+      "description": "Assistenza ZYRCA: FAQ su digiuno intermittente, timer digiuno, digiuno 16:8, abbonamenti e gestione account.",
+      "keywords": "assistenza ZYRCA, aiuto app digiuno, timer digiuno, digiuno per principianti, FAQ app digiuno, contatto assistenza"
+    },
+    "deleteAccount": {
+      "title": "Elimina Account – ZYRCA",
+      "description": "Scopri come eliminare il tuo account ZYRCA e i tuoi dati personali. Guida passo passo per richieste di eliminazione account e dati.",
+      "keywords": "eliminare account ZYRCA, cancellazione dati, rimuovere account, diritto alla cancellazione GDPR"
+    },
+    "structuredData": {
+      "ogAlt": "ZYRCA – App Digiuno Intermittente | Timer Digiuno e Tracker Acqua",
+      "appDescription": "App digiuno intermittente con timer digiuno, tracker acqua, diario peso, statistiche digiuno, promemoria digiuno e export report sanitari PDF.",
+      "appFeatures": "Timer digiuno intermittente|Tracker acqua|Diario peso|Cronologia e calendario digiuno|Guida pratica al digiuno|Report sanitari PDF e CSV|Guide digiuno per principianti|Obiettivi e motivazione",
+      "websiteDescription": "Sito ufficiale ZYRCA: app digiuno intermittente con timer digiuno, tracker acqua e diario peso.",
+      "organizationDescription": "ZYRCA sviluppa app benessere per digiuno intermittente, idratazione e monitoraggio del peso.",
+      "contactType": "assistenza clienti"
+    }
+  }
+}
