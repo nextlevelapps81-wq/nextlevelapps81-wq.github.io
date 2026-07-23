@@ -17,7 +17,10 @@
     "download": "Télécharger",
     "menu": "Ouvrir le menu",
     "close": "Fermer le menu",
-    "skipToContent": "Aller au contenu principal"
+    "skipToContent": "Aller au contenu principal",
+    "mainNavigation": "Navigation principale",
+    "selectLanguage": "Choisir la langue",
+    "languageList": "Langues"
   },
   "hero": {
     "badge": "Application jeûne intermittent & app santé",
@@ -26,6 +29,8 @@
     "description": "Calendrier jeûne, tracker eau et suivi poids réunis dans une seule app. Minuteur jeûne fiable, statistiques jeûne, rappel jeûne et export PDF — avec accompagnement intelligent pour le jeûne débutant comme pour les habitués.",
     "ctaPlay": "Disponible sur Google Play",
     "ctaAppStore": "Bientôt sur l'App Store",
+    "storeGroup": "Télécharger ZYRCA",
+    "appStoreSoon": "Bientôt",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "Protocoles de jeûne",
     "statsLanguages": "7",
@@ -250,6 +255,8 @@
     "lightMode": "Mode clair",
     "prev": "Capture précédente",
     "next": "Capture suivante",
+    "themeTabs": "Thème des captures",
+    "slideLabel": "Capture {number}",
     "captions": {
       "dashboard": "Tableau de bord bien-être",
       "intelligence": "ZYRCA Intelligence",

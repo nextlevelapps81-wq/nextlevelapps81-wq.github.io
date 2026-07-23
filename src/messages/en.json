@@ -17,7 +17,10 @@
     "download": "Download",
     "menu": "Open menu",
     "close": "Close menu",
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Skip to main content",
+    "mainNavigation": "Main navigation",
+    "selectLanguage": "Select language",
+    "languageList": "Languages"
   },
   "hero": {
     "badge": "Intermittent Fasting & Wellness App",
@@ -26,6 +29,8 @@
     "description": "Track fasting schedules, water intake, and weight in one app. Use a reliable fasting timer, review fasting history, get intelligent guidance, and export PDF health reports — built for beginners and experienced fasters alike.",
     "ctaPlay": "Get it on Google Play",
     "ctaAppStore": "Coming Soon on App Store",
+    "storeGroup": "Download ZYRCA",
+    "appStoreSoon": "Soon",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "Fasting Protocols",
     "statsLanguages": "7",
@@ -250,6 +255,8 @@
     "lightMode": "Light Mode",
     "prev": "Previous screenshot",
     "next": "Next screenshot",
+    "themeTabs": "Screenshot theme",
+    "slideLabel": "Screenshot {number}",
     "captions": {
       "dashboard": "Wellness Dashboard",
       "intelligence": "ZYRCA Intelligence",

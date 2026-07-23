@@ -17,7 +17,10 @@
     "download": "Herunterladen",
     "menu": "Menü öffnen",
     "close": "Menü schließen",
-    "skipToContent": "Zum Hauptinhalt springen"
+    "skipToContent": "Zum Hauptinhalt springen",
+    "mainNavigation": "Hauptnavigation",
+    "selectLanguage": "Sprache wählen",
+    "languageList": "Sprachen"
   },
   "hero": {
     "badge": "Intervallfasten App & Gesundheits-App",
@@ -26,6 +29,8 @@
     "description": "Fastenplan, Wassertracker und Gewichtstracker in einer App. Mit zuverlässigem Fasten Timer, Fastenhistorie, Fastenerinnerung und Fastenstatistik — plus intelligenter Beratung und PDF-Gesundheitsbericht. Ideal als Fasten App für Anfänger und Fortgeschrittene.",
     "ctaPlay": "Bei Google Play laden",
     "ctaAppStore": "Demnächst im App Store",
+    "storeGroup": "ZYRCA herunterladen",
+    "appStoreSoon": "Bald",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "Fastenprotokolle",
     "statsLanguages": "7",
@@ -250,6 +255,8 @@
     "lightMode": "Hellmodus",
     "prev": "Vorheriger Screenshot",
     "next": "Nächster Screenshot",
+    "themeTabs": "Screenshot-Thema",
+    "slideLabel": "Screenshot {number}",
     "captions": {
       "dashboard": "Wellness-Dashboard",
       "intelligence": "ZYRCA Intelligence",

@@ -1,5 +1,3 @@
-import type { ReactNode } from "react";
-
 interface LegalDocumentProps {
   title: string;
   lastUpdated: string;

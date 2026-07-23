@@ -3,8 +3,9 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useTranslations } from "next-intl";
-import { useEffect, useState, type ReactNode } from "react";
+import { type ReactNode } from "react";
 import { GOOGLE_PLAY_URL } from "@/lib/constants";
+import { useClientMounted } from "@/lib/useClientMounted";
 import { assetPath, cn } from "@/lib/utils";
 
 interface StoreButtonsProps {
@@ -51,7 +52,7 @@ function BadgeShell({
   return (
     <div
       className={cn(
-        "relative flex shrink-0 items-center justify-center overflow-hidden bg-black",
+        "relative flex w-full max-w-[168px] shrink-0 items-center justify-center overflow-hidden bg-black sm:w-auto",
         s.shell,
         s.radius,
         "ring-1 ring-inset ring-white/[0.08]",
@@ -74,12 +75,9 @@ export function StoreButtons({
   const t = useTranslations("hero");
   const tImages = useTranslations("images");
   const { resolvedTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => setMounted(true), []);
+  const mounted = useClientMounted();
 
   const s = SIZES[size];
-  const isPlaceholder = GOOGLE_PLAY_URL === "YOUR_GOOGLE_PLAY_URL";
 
   const appStoreBadge =
     mounted && resolvedTheme === "dark"
@@ -89,9 +87,9 @@ export function StoreButtons({
   return (
     <div
       role="group"
-      aria-label="Download ZYRCA"
+      aria-label={t("storeGroup")}
       className={cn(
-        "inline-flex items-center",
+        "flex w-full max-w-full min-w-0 items-center justify-center",
         s.gap,
         layout === "vertical"
           ? "flex-col"
@@ -100,10 +98,10 @@ export function StoreButtons({
       )}
     >
       <a
-        href={isPlaceholder ? "#download" : GOOGLE_PLAY_URL}
-        target={isPlaceholder ? undefined : "_blank"}
-        rel={isPlaceholder ? undefined : "noopener noreferrer"}
-        className="focus-ring shrink-0 rounded-[11px]"
+        href={GOOGLE_PLAY_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="focus-ring inline-flex min-h-12 shrink-0 items-center rounded-[11px]"
         aria-label={t("ctaPlay")}
       >
         <BadgeShell size={size} interactive>
@@ -119,11 +117,8 @@ export function StoreButtons({
       </a>
 
       <div
-        className="focus-ring shrink-0 rounded-[11px]"
-        aria-label={t("ctaAppStore")}
+        className="inline-flex min-h-12 shrink-0 items-center rounded-[11px]"
         title={t("ctaAppStore")}
-        role="button"
-        aria-disabled="true"
       >
         <BadgeShell size={size}>
           <Image
@@ -133,8 +128,8 @@ export function StoreButtons({
             height={83}
             className={cn(s.apple, "object-contain object-center")}
           />
-          <span className="pointer-events-none absolute right-1.5 top-1.5 rounded-full bg-accent-purple px-1.5 py-px text-[7px] font-bold uppercase tracking-wider text-white shadow-sm">
-            Soon
+          <span className="pointer-events-none absolute end-1.5 top-1.5 rounded-full bg-accent-purple px-1.5 py-px text-[7px] font-bold uppercase tracking-wider text-white shadow-sm">
+            {t("appStoreSoon")}
           </span>
         </BadgeShell>
       </div>

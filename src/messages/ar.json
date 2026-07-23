@@ -17,7 +17,10 @@
     "download": "تنزيل",
     "menu": "فتح القائمة",
     "close": "إغلاق القائمة",
-    "skipToContent": "الانتقال إلى المحتوى الرئيسي"
+    "skipToContent": "الانتقال إلى المحتوى الرئيسي",
+    "mainNavigation": "التنقل الرئيسي",
+    "selectLanguage": "اختر اللغة",
+    "languageList": "اللغات"
   },
   "hero": {
     "badge": "تطبيق صيام متقطع وصحة",
@@ -26,6 +29,8 @@
     "description": "مؤقت صيام ومتتبع الماء ومتتبع الوزن في تطبيق صحة واحد. تابع صيام 16:8، راجع إحصائيات الصيام، واحصل على تذكير الصيام وإرشاد عملي — مناسب للمبتدئين ولمن يصوم منذ وقت.",
     "ctaPlay": "متوفّر على Google Play",
     "ctaAppStore": "قريباً على App Store",
+    "storeGroup": "تنزيل ZYRCA",
+    "appStoreSoon": "قريباً",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "بروتوكولات صيام",
     "statsLanguages": "7",
@@ -250,6 +255,8 @@
     "lightMode": "الوضع الفاتح",
     "prev": "لقطة الشاشة السابقة",
     "next": "لقطة الشاشة التالية",
+    "themeTabs": "سمة لقطات الشاشة",
+    "slideLabel": "لقطة الشاشة {number}",
     "captions": {
       "dashboard": "لوحة الصحة",
       "intelligence": "إرشاد ZYRCA",

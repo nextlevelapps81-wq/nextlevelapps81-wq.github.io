@@ -46,13 +46,14 @@ const PREMIUM_ICONS: Record<(typeof PREMIUM_KEYS)[number], LucideIcon> = {
 
 export function PremiumSection() {
   const t = useTranslations("premium");
+  const tNav = useTranslations("nav");
 
   return (
     <AnimatedSection id="premium" className="py-24 lg:py-32">
       <Container>
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <span className="mb-4 inline-block rounded-full border border-accent-purple/20 bg-accent-purple/10 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-accent-purple">
-            Premium
+            {tNav("premium")}
           </span>
           <h2 className="font-display text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">
             {t("title")}

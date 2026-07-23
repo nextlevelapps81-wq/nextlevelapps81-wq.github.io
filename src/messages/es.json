@@ -17,7 +17,10 @@
     "download": "Descargar",
     "menu": "Abrir menú",
     "close": "Cerrar menú",
-    "skipToContent": "Ir al contenido principal"
+    "skipToContent": "Ir al contenido principal",
+    "mainNavigation": "Navegación principal",
+    "selectLanguage": "Seleccionar idioma",
+    "languageList": "Idiomas"
   },
   "hero": {
     "badge": "App de ayuno intermitente y salud",
@@ -26,6 +29,8 @@
     "description": "Plan de ayuno, contador de agua y registro de peso en una sola app. Temporizador de ayuno fiable, estadísticas de ayuno, recordatorio de ayuno y exportación PDF — con orientación inteligente para ayuno principiantes y usuarios avanzados.",
     "ctaPlay": "Disponible en Google Play",
     "ctaAppStore": "Próximamente en App Store",
+    "storeGroup": "Descargar ZYRCA",
+    "appStoreSoon": "Pronto",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "Protocolos de ayuno",
     "statsLanguages": "7",
@@ -250,6 +255,8 @@
     "lightMode": "Modo claro",
     "prev": "Captura anterior",
     "next": "Captura siguiente",
+    "themeTabs": "Tema de capturas",
+    "slideLabel": "Captura {number}",
     "captions": {
       "dashboard": "Panel de bienestar",
       "intelligence": "ZYRCA Intelligence",

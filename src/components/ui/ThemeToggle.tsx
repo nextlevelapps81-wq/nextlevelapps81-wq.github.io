@@ -3,15 +3,13 @@
 import { useTheme } from "next-themes";
 import { Monitor, Moon, Sun } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
+import { useClientMounted } from "@/lib/useClientMounted";
 import { cn } from "@/lib/utils";
 
 export function ThemeToggle({ className }: { className?: string }) {
   const { theme, setTheme } = useTheme();
   const t = useTranslations("footer");
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => setMounted(true), []);
+  const mounted = useClientMounted();
 
   if (!mounted) {
     return (
@@ -43,7 +41,7 @@ export function ThemeToggle({ className }: { className?: string }) {
           type="button"
           onClick={() => setTheme(value)}
           className={cn(
-            "focus-ring flex h-7 w-7 items-center justify-center rounded-full transition-all duration-200",
+            "focus-ring flex h-12 w-12 shrink-0 items-center justify-center rounded-full transition-all duration-200 sm:h-7 sm:w-7",
             theme === value
               ? "bg-accent-purple text-white shadow-sm"
               : "text-text-secondary hover:text-text-primary"

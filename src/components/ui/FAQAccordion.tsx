@@ -31,10 +31,10 @@ export function FAQAccordion({ items, className }: FAQAccordionProps) {
             <button
               type="button"
               onClick={() => setOpenIndex(isOpen ? null : index)}
-              className="focus-ring flex w-full items-center justify-between gap-4 px-5 py-4 text-start"
+              className="focus-ring flex min-h-12 w-full items-center justify-between gap-4 px-5 py-4 text-start"
               aria-expanded={isOpen}
             >
-              <span className="font-medium text-text-primary">
+              <span className="min-w-0 flex-1 break-words font-medium text-text-primary">
                 {item.question}
               </span>
               <ChevronDown
@@ -53,7 +53,7 @@ export function FAQAccordion({ items, className }: FAQAccordionProps) {
                   exit={prefersReducedMotion ? undefined : { height: 0, opacity: 0 }}
                   transition={{ duration: 0.25, ease: "easeInOut" }}
                 >
-                  <p className="border-t border-border px-5 py-4 text-sm leading-relaxed text-text-secondary">
+                  <p className="border-t border-border px-5 py-4 text-sm leading-relaxed text-text-secondary break-words">
                     {item.answer}
                   </p>
                 </motion.div>

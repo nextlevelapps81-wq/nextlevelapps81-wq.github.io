@@ -163,11 +163,6 @@ export async function getWebsiteJsonLd(locale: Locale) {
     url: SITE_URL,
     description: t("websiteDescription"),
     inLanguage: locale,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${SITE_URL}/${locale}/support?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
   };
 }
 

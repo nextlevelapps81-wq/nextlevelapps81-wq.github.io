@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { routing } from "@/i18n/routing";
 import { RTL_LOCALES, type Locale } from "@/lib/constants";
+import { cn } from "@/lib/utils";
 import type { ReactNode } from "react";
 
 export function generateStaticParams() {
@@ -36,7 +37,10 @@ export default async function LocaleLayout({
     <div
       lang={locale}
       dir={isRtl ? "rtl" : "ltr"}
-      className={isRtl ? "font-[family-name:var(--font-arabic)]" : ""}
+      className={cn(
+        "min-w-0 overflow-x-clip",
+        isRtl ? "font-[family-name:var(--font-arabic)]" : ""
+      )}
     >
       <NextIntlClientProvider messages={messages}>
         <ThemeProvider>
@@ -44,7 +48,9 @@ export default async function LocaleLayout({
             {t("skipToContent")}
           </a>
           <Header />
-          <main id="main-content">{children}</main>
+          <main id="main-content" className="min-w-0 overflow-x-clip">
+            {children}
+          </main>
           <Footer />
         </ThemeProvider>
       </NextIntlClientProvider>

@@ -12,10 +12,10 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border bg-bg-secondary">
+    <footer className="overflow-x-clip border-t border-border bg-bg-secondary">
       <Container className="py-16">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
-          <div className="lg:col-span-1">
+        <div className="grid min-w-0 gap-12 md:grid-cols-2 lg:grid-cols-4">
+          <div className="min-w-0 lg:col-span-1">
             <Logo size="md" />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-text-secondary">
               {t("description")}

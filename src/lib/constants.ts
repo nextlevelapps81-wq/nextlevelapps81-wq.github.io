@@ -4,7 +4,8 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://zyrca.app";
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const SUPPORT_EMAIL = "nextlevelapps81@gmail.com";
-export const GOOGLE_PLAY_URL = "YOUR_GOOGLE_PLAY_URL";
+export const GOOGLE_PLAY_URL =
+  "https://play.google.com/store/apps/details?id=com.vitality.fasting";
 export const APP_STORE_URL = "#";
 
 export const LOCALES = [

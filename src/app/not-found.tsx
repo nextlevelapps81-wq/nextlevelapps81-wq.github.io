@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { Container } from "@/components/ui/Container";
+import { BASE_PATH } from "@/lib/constants";
 
 export default function GlobalNotFound() {
   return (
@@ -13,12 +15,12 @@ export default function GlobalNotFound() {
         <p className="mt-2 text-text-secondary">
           The page you&apos;re looking for doesn&apos;t exist.
         </p>
-        <a
-          href="/en/"
-          className="mt-8 inline-flex rounded-full bg-accent-purple px-6 py-3 text-sm font-semibold text-white"
+        <Link
+          href={`${BASE_PATH}/en/`}
+          className="focus-ring mt-8 inline-flex min-h-12 items-center rounded-full bg-accent-purple px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-accent-purple-dark"
         >
           Back to Home
-        </a>
+        </Link>
       </Container>
     </div>
   );

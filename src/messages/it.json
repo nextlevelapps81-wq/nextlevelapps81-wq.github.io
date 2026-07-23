@@ -17,7 +17,10 @@
     "download": "Scarica",
     "menu": "Apri menu",
     "close": "Chiudi menu",
-    "skipToContent": "Vai al contenuto principale"
+    "skipToContent": "Vai al contenuto principale",
+    "mainNavigation": "Navigazione principale",
+    "selectLanguage": "Seleziona lingua",
+    "languageList": "Lingue"
   },
   "hero": {
     "badge": "App Digiuno Intermittente e Benessere",
@@ -26,6 +29,8 @@
     "description": "Timer digiuno, tracker acqua e diario peso in un'unica app benessere. Segui il digiuno 16:8, consulta statistiche digiuno, ricevi promemoria digiuno e guida pratica — pensata per principianti e per chi digiuna da tempo.",
     "ctaPlay": "Scarica su Google Play",
     "ctaAppStore": "Presto su App Store",
+    "storeGroup": "Scarica ZYRCA",
+    "appStoreSoon": "Presto",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "Protocolli di Digiuno",
     "statsLanguages": "7",
@@ -250,6 +255,8 @@
     "lightMode": "Modalità Chiara",
     "prev": "Screenshot precedente",
     "next": "Screenshot successivo",
+    "themeTabs": "Tema screenshot",
+    "slideLabel": "Screenshot {number}",
     "captions": {
       "dashboard": "Dashboard Benessere",
       "intelligence": "Guida ZYRCA",

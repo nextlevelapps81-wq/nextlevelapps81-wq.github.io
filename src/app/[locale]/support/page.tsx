@@ -41,27 +41,31 @@ export default async function SupportPage({ params }: PageProps) {
       <div className="pt-24 pb-24 lg:pt-32">
         <Container className="max-w-3xl">
           <div className="mb-12 text-center">
-            <h1 className="font-display text-4xl font-bold tracking-tight text-text-primary sm:text-5xl">
+            <h1 className="font-display text-3xl font-bold tracking-tight text-text-primary break-words sm:text-5xl">
               {t("title")}
             </h1>
             <p className="mt-4 text-lg text-text-secondary">{t("subtitle")}</p>
           </div>
 
-          <div className="mb-16 rounded-2xl border border-border bg-bg-card p-8 text-center">
+          <div className="mb-16 min-w-0 overflow-hidden rounded-2xl border border-border bg-bg-card p-5 text-center sm:p-8">
             <h2 className="font-display text-xl font-semibold text-text-primary">
               {t("contactTitle")}
             </h2>
             <p className="mt-2 text-sm text-text-secondary">
               {t("contactDescription")}
             </p>
-            <a
-              href={`mailto:${SUPPORT_EMAIL}`}
-              className="focus-ring mt-6 inline-flex items-center gap-2 rounded-full bg-accent-purple px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-accent-purple-dark"
-              aria-label={t("emailLabel")}
-            >
-              <Mail className="h-4 w-4" aria-hidden />
-              {t("email")}
-            </a>
+            <div className="mt-6 flex w-full min-w-0 justify-center">
+              <a
+                href={`mailto:${SUPPORT_EMAIL}`}
+                className="focus-ring mx-auto flex min-h-12 w-full max-w-md items-center justify-center gap-2 rounded-full bg-accent-purple px-4 py-3 text-sm font-semibold leading-snug text-white transition-colors hover:bg-accent-purple-dark sm:inline-flex sm:w-auto sm:max-w-none sm:px-6"
+                aria-label={t("emailLabel")}
+              >
+                <Mail className="h-4 w-4 shrink-0" aria-hidden />
+                <span className="min-w-0 break-all text-center sm:break-normal">
+                  {t("email")}
+                </span>
+              </a>
+            </div>
           </div>
 
           <h2 className="mb-6 font-display text-2xl font-semibold text-text-primary">

@@ -1,6 +1,6 @@
 "use client";
 
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { getPathname, usePathname } from "@/i18n/navigation";
 import { ChevronDown, Globe } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
@@ -19,6 +19,7 @@ export function LanguageSwitcher({
   placement: placementProp = "auto",
 }: LanguageSwitcherProps) {
   const locale = useLocale() as Locale;
+  const tNav = useTranslations("nav");
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [placement, setPlacement] = useState<"above" | "below">("below");
@@ -66,10 +67,10 @@ export function LanguageSwitcher({
       <button
         type="button"
         onClick={toggleOpen}
-        className="focus-ring flex items-center gap-1.5 rounded-full border border-border bg-bg-card px-3 py-1.5 text-sm font-medium text-text-primary transition-colors hover:bg-bg-secondary"
+        className="focus-ring flex min-h-12 items-center gap-1.5 rounded-full border border-border bg-bg-card px-3 py-2 text-sm font-medium text-text-primary transition-colors hover:bg-bg-secondary"
         aria-expanded={open}
         aria-haspopup="listbox"
-        aria-label="Select language"
+        aria-label={tNav("selectLanguage")}
       >
         <Globe className="h-3.5 w-3.5 text-text-secondary" aria-hidden />
         <span>{LOCALE_NAMES[locale]}</span>
@@ -85,9 +86,9 @@ export function LanguageSwitcher({
       {open && (
         <ul
           role="listbox"
-          aria-label="Languages"
+          aria-label={tNav("languageList")}
           className={cn(
-            "absolute left-0 z-[100] min-w-[160px] overflow-hidden rounded-xl border border-border bg-bg-card py-1 shadow-lg",
+            "absolute start-0 z-[100] min-w-[160px] max-w-[min(100vw-2rem,240px)] overflow-hidden rounded-xl border border-border bg-bg-card py-1 shadow-lg",
             placement === "above" ? "bottom-full mb-2" : "top-full mt-2"
           )}
         >
@@ -97,7 +98,7 @@ export function LanguageSwitcher({
                 type="button"
                 onClick={() => switchLocale(loc)}
                 className={cn(
-                  "focus-ring w-full px-4 py-2 text-start text-sm transition-colors hover:bg-bg-secondary",
+                  "focus-ring flex min-h-12 w-full items-center px-4 py-2.5 text-start text-sm transition-colors hover:bg-bg-secondary",
                   loc === locale
                     ? "font-semibold text-accent-purple"
                     : "text-text-primary"

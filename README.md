@@ -72,7 +72,7 @@ Or use the included GitHub Actions workflow (`.github/workflows/deploy.yml`).
 |----------|-------------|---------|
 | `NEXT_PUBLIC_SITE_URL` | Canonical site URL | `https://zyrca.app` |
 | `NEXT_PUBLIC_BASE_PATH` | GitHub Pages base path | `""` |
-| Google Play URL | Edit in `src/lib/constants.ts` | `YOUR_GOOGLE_PLAY_URL` |
+| Google Play URL | `src/lib/constants.ts` | `GOOGLE_PLAY_URL` |
 
 ## Pages
 

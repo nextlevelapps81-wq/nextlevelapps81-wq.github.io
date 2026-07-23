@@ -9,7 +9,7 @@ export function CTASection() {
   return (
     <AnimatedSection className="py-24 lg:py-32">
       <Container>
-        <div className="relative overflow-hidden rounded-3xl border border-border px-8 py-16 text-center lg:px-16 lg:py-20">
+        <div className="relative min-w-0 overflow-hidden rounded-3xl border border-border px-5 py-12 text-center sm:px-8 sm:py-16 lg:px-16 lg:py-20">
           <div
             className="absolute inset-0 opacity-50"
             style={{ background: "var(--gradient-card)" }}
@@ -21,13 +21,13 @@ export function CTASection() {
           />
 
           <div className="relative">
-            <h2 className="font-display text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">
+            <h2 className="font-display text-2xl font-bold tracking-tight text-text-primary break-words sm:text-4xl">
               {t("title")}
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-text-secondary sm:text-lg">
               {t("description")}
             </p>
-            <div className="mt-8 flex justify-center">
+            <div className="mt-8 flex w-full min-w-0 justify-center">
               <StoreButtons size="lg" />
             </div>
           </div>

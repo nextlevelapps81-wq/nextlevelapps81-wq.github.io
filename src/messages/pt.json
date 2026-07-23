@@ -17,7 +17,10 @@
     "download": "Baixar",
     "menu": "Abrir menu",
     "close": "Fechar menu",
-    "skipToContent": "Ir para o conteúdo principal"
+    "skipToContent": "Ir para o conteúdo principal",
+    "mainNavigation": "Navegação principal",
+    "selectLanguage": "Selecionar idioma",
+    "languageList": "Idiomas"
   },
   "hero": {
     "badge": "App de Jejum Intermitente e Saúde",
@@ -26,6 +29,8 @@
     "description": "Timer de jejum, rastreador de água e controle de peso em um só app de saúde. Acompanhe o jejum 16:8, veja estatísticas de jejum, receba lembrete de jejum e orientação prática — feito para iniciantes e para quem já jejuava.",
     "ctaPlay": "Disponível no Google Play",
     "ctaAppStore": "Em breve na App Store",
+    "storeGroup": "Baixar ZYRCA",
+    "appStoreSoon": "Em breve",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "Protocolos de Jejum",
     "statsLanguages": "7",
@@ -250,6 +255,8 @@
     "lightMode": "Modo Claro",
     "prev": "Captura anterior",
     "next": "Próxima captura",
+    "themeTabs": "Tema das capturas",
+    "slideLabel": "Captura {number}",
     "captions": {
       "dashboard": "Painel de Saúde",
       "intelligence": "Orientação ZYRCA",

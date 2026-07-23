@@ -40,11 +40,11 @@ export function ScreenshotCarousel({
   }
 
   return (
-    <div className={cn("flex flex-col items-center", className)}>
+    <div className={cn("flex w-full min-w-0 max-w-full flex-col items-center", className)}>
       <div
-        className="mb-8 inline-flex rounded-full border border-border bg-bg-card p-1"
+        className="mb-8 inline-flex max-w-full flex-wrap justify-center gap-1 rounded-full border border-border bg-bg-card p-1"
         role="tablist"
-        aria-label="Screenshot theme"
+        aria-label={t("themeTabs")}
       >
         {(["dark", "light"] as const).map((m) => (
           <button
@@ -57,7 +57,7 @@ export function ScreenshotCarousel({
               setIndex(0);
             }}
             className={cn(
-              "focus-ring rounded-full px-5 py-2 text-sm font-medium transition-all",
+              "focus-ring min-h-12 rounded-full px-4 py-2.5 text-sm font-medium transition-all sm:px-5",
               mode === m
                 ? "bg-accent-purple text-white shadow-sm"
                 : "text-text-secondary hover:text-text-primary"
@@ -68,17 +68,17 @@ export function ScreenshotCarousel({
         ))}
       </div>
 
-      <div className="relative flex w-full items-center justify-center gap-4">
+      <div className="relative flex w-full min-w-0 max-w-full items-center justify-center gap-2 px-1 sm:gap-4">
         <button
           type="button"
           onClick={prev}
-          className="focus-ring absolute left-0 z-10 hidden h-10 w-10 items-center justify-center rounded-full border border-border bg-bg-card text-text-primary transition-colors hover:bg-bg-secondary sm:flex"
+          className="focus-ring absolute start-0 z-10 hidden h-12 w-12 items-center justify-center rounded-full border border-border bg-bg-card text-text-primary transition-colors hover:bg-bg-secondary sm:flex"
           aria-label={t("prev")}
         >
           <ChevronLeft className="h-5 w-5 rtl-flip" aria-hidden />
         </button>
 
-        <div className="relative min-h-[580px] w-full max-w-[300px]">
+        <div className="relative min-h-[min(580px,70dvh)] w-full max-w-[min(100%,300px)] min-w-0">
           <AnimatePresence mode="wait">
             <motion.div
               key={`${mode}-${index}`}
@@ -93,7 +93,7 @@ export function ScreenshotCarousel({
                 alt={screenshots[index].alt}
                 priority={index === 0}
               />
-              <p className="mt-5 text-center font-display text-sm font-semibold text-text-primary">
+              <p className="mt-5 max-w-full px-2 text-center font-display text-sm font-semibold text-text-primary break-words">
                 {t(`captions.${screenshots[index].captionKey}`)}
               </p>
             </motion.div>
@@ -103,63 +103,74 @@ export function ScreenshotCarousel({
         <button
           type="button"
           onClick={next}
-          className="focus-ring absolute right-0 z-10 hidden h-10 w-10 items-center justify-center rounded-full border border-border bg-bg-card text-text-primary transition-colors hover:bg-bg-secondary sm:flex"
+          className="focus-ring absolute end-0 z-10 hidden h-12 w-12 items-center justify-center rounded-full border border-border bg-bg-card text-text-primary transition-colors hover:bg-bg-secondary sm:flex"
           aria-label={t("next")}
         >
           <ChevronRight className="h-5 w-5 rtl-flip" aria-hidden />
         </button>
       </div>
 
-      <div className="mt-6 flex items-center gap-3 sm:hidden">
+      <div className="mt-6 flex w-full min-w-0 max-w-full items-center justify-center gap-2 sm:hidden">
         <button
           type="button"
           onClick={prev}
-          className="focus-ring flex h-10 w-10 items-center justify-center rounded-full border border-border bg-bg-card"
+          className="focus-ring flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-border bg-bg-card"
           aria-label={t("prev")}
         >
           <ChevronLeft className="h-5 w-5 rtl-flip" aria-hidden />
         </button>
-        <div className="flex gap-2" role="tablist" aria-label="Screenshot pages">
+        <div className="flex min-w-0 flex-1 flex-wrap justify-center gap-1">
           {screenshots.map((_, i) => (
             <button
               key={i}
               type="button"
               onClick={() => setIndex(i)}
-              className={cn(
-                "h-2 rounded-full transition-all",
-                i === index
-                  ? "w-6 bg-accent-purple"
-                  : "w-2 bg-border hover:bg-text-muted"
-              )}
-              aria-label={`Screenshot ${i + 1}`}
-              aria-selected={i === index}
-            />
+              className="focus-ring flex h-12 w-12 items-center justify-center rounded-full"
+              aria-label={t("slideLabel", { number: i + 1 })}
+              aria-current={i === index ? "true" : undefined}
+            >
+              <span
+                className={cn(
+                  "block h-2 rounded-full transition-all",
+                  i === index
+                    ? "w-6 bg-accent-purple"
+                    : "w-2 bg-border"
+                )}
+                aria-hidden
+              />
+            </button>
           ))}
         </div>
         <button
           type="button"
           onClick={next}
-          className="focus-ring flex h-10 w-10 items-center justify-center rounded-full border border-border bg-bg-card"
+          className="focus-ring flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-border bg-bg-card"
           aria-label={t("next")}
         >
           <ChevronRight className="h-5 w-5 rtl-flip" aria-hidden />
         </button>
       </div>
 
-      <div className="mt-4 hidden gap-2 sm:flex" role="tablist">
+      <div className="mt-4 hidden flex-wrap justify-center gap-1 sm:flex">
         {screenshots.map((_, i) => (
           <button
             key={i}
             type="button"
             onClick={() => setIndex(i)}
-            className={cn(
-              "h-2 rounded-full transition-all",
-              i === index
-                ? "w-6 bg-accent-purple"
-                : "w-2 bg-border hover:bg-text-muted"
-            )}
-            aria-label={`Screenshot ${i + 1}`}
-          />
+            className="focus-ring flex h-12 w-12 items-center justify-center rounded-full"
+            aria-label={t("slideLabel", { number: i + 1 })}
+            aria-current={i === index ? "true" : undefined}
+          >
+            <span
+              className={cn(
+                "block h-2 rounded-full transition-all",
+                i === index
+                  ? "w-6 bg-accent-purple"
+                  : "w-2 bg-border hover:bg-text-muted"
+              )}
+              aria-hidden
+            />
+          </button>
         ))}
       </div>
     </div>

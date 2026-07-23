@@ -5,7 +5,7 @@ interface JsonLdProps {
 function getSchemaId(schema: Record<string, unknown>, index: number): string {
   const type = schema["@type"];
   if (typeof type === "string") {
-    return `json-ld-${type.toLowerCase()}`;
+    return `json-ld-${type.toLowerCase()}-${index}`;
   }
   return `json-ld-${index}`;
 }

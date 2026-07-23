@@ -66,7 +66,7 @@ export function JourneySection() {
                     delay: index * 0.08,
                     ease: [0.22, 1, 0.36, 1],
                   }}
-                  className="flex gap-5 pb-8"
+                  className="flex min-w-0 gap-4 pb-8 sm:gap-5"
                 >
                   <div className="flex flex-col items-center">
                     <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent-purple/10 text-accent-purple ring-1 ring-accent-purple/20">
@@ -79,13 +79,13 @@ export function JourneySection() {
                     )}
                   </div>
 
-                  <div className={cn("pb-2 pt-1", isLast && "pb-0")}>
+                  <div className={cn("min-w-0 flex-1 pb-2 pt-1", isLast && "pb-0")}>
                     <div className="mb-1 flex items-center gap-2">
                       <span className="text-xs font-semibold uppercase tracking-wider text-accent-purple">
                         {String(index + 1).padStart(2, "0")}
                       </span>
                     </div>
-                    <h3 className="font-display text-lg font-semibold text-text-primary">
+                    <h3 className="break-words font-display text-lg font-semibold text-text-primary">
                       {t(`steps.${key}.title`)}
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-text-secondary">

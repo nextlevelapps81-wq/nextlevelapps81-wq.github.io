@@ -24,21 +24,21 @@ export function HeroSection() {
         aria-hidden
       />
 
-      <Container className="relative flex min-h-[calc(100vh-72px)] flex-col items-center justify-center py-20 lg:flex-row lg:gap-16">
-        <div className="flex-1 text-center lg:text-start">
+      <Container className="relative flex min-h-[calc(100vh-72px)] min-w-0 flex-col items-center justify-center py-16 sm:py-20 lg:flex-row lg:gap-16">
+        <div className="min-w-0 flex-1 text-center lg:text-start">
           <motion.div
             initial={prefersReducedMotion ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
-            <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-accent-purple/20 bg-accent-purple/10 px-4 py-1.5 text-sm font-medium text-accent-purple">
+            <span className="mb-6 inline-flex max-w-full items-center gap-2 rounded-full border border-accent-purple/20 bg-accent-purple/10 px-4 py-1.5 text-sm font-medium text-accent-purple">
               <Sparkles className="h-4 w-4" aria-hidden />
               {t("badge")}
             </span>
           </motion.div>
 
           <motion.h1
-            className="font-display text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl"
+            className="font-display text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl"
             initial={prefersReducedMotion ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
@@ -47,7 +47,7 @@ export function HeroSection() {
           </motion.h1>
 
           <motion.p
-            className="mt-2 font-display text-2xl font-semibold text-text-primary sm:text-3xl"
+            className="mt-2 font-display text-xl font-semibold text-text-primary sm:text-3xl"
             initial={prefersReducedMotion ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
@@ -66,7 +66,7 @@ export function HeroSection() {
 
           <motion.div
             id="download"
-            className="mt-8 flex justify-center lg:justify-start"
+            className="mt-8 flex w-full min-w-0 justify-center lg:justify-start"
             initial={prefersReducedMotion ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
@@ -75,7 +75,7 @@ export function HeroSection() {
           </motion.div>
 
           <motion.div
-            className="mt-12 flex justify-center gap-8 lg:justify-start lg:gap-12"
+            className="mt-12 flex flex-wrap justify-center gap-x-6 gap-y-4 sm:gap-x-8 lg:justify-start lg:gap-x-12"
             initial={prefersReducedMotion ? false : { opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
@@ -89,14 +89,16 @@ export function HeroSection() {
                 <p className="font-display text-2xl font-bold text-text-primary">
                   {stat.value}
                 </p>
-                <p className="text-xs text-text-muted">{stat.label}</p>
+                <p className="max-w-[8.5rem] text-xs text-text-muted sm:max-w-none">
+                  {stat.label}
+                </p>
               </div>
             ))}
           </motion.div>
         </div>
 
         <motion.div
-          className="mt-16 flex-1 lg:mt-0"
+          className="mt-12 min-w-0 flex-1 lg:mt-0"
           initial={prefersReducedMotion ? false : { opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}

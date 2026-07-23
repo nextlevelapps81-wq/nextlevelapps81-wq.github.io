@@ -41,14 +41,14 @@ export default async function DeleteAccountPage({ params }: PageProps) {
             <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-red-500/10 text-red-500">
               <Trash2 className="h-8 w-8" aria-hidden />
             </div>
-            <h1 className="font-display text-4xl font-bold tracking-tight text-text-primary sm:text-5xl">
+            <h1 className="font-display text-3xl font-bold tracking-tight text-text-primary break-words sm:text-5xl">
               {t("title")}
             </h1>
             <p className="mt-4 text-lg text-text-secondary">{t("subtitle")}</p>
           </div>
 
           <div className="space-y-8">
-            <section className="rounded-2xl border border-border bg-bg-card p-8">
+            <section className="min-w-0 overflow-hidden rounded-2xl border border-border bg-bg-card p-5 sm:p-8">
               <h2 className="mb-6 font-display text-xl font-semibold text-text-primary">
                 {t("howTitle")}
               </h2>
@@ -66,7 +66,7 @@ export default async function DeleteAccountPage({ params }: PageProps) {
               </ol>
             </section>
 
-            <section className="rounded-2xl border border-border bg-bg-card p-8">
+            <section className="min-w-0 overflow-hidden rounded-2xl border border-border bg-bg-card p-5 sm:p-8">
               <h2 className="mb-4 font-display text-xl font-semibold text-text-primary">
                 {t("alternativeTitle")}
               </h2>
@@ -75,14 +75,14 @@ export default async function DeleteAccountPage({ params }: PageProps) {
               </p>
               <a
                 href={`mailto:${SUPPORT_EMAIL}?subject=Account%20Deletion%20Request`}
-                className="focus-ring inline-flex items-center gap-2 text-sm font-medium text-accent-purple hover:underline"
+                className="focus-ring inline-flex min-h-12 max-w-full items-center gap-2 break-all text-sm font-medium text-accent-purple hover:underline"
               >
                 <Mail className="h-4 w-4" aria-hidden />
                 {SUPPORT_EMAIL}
               </a>
             </section>
 
-            <section className="rounded-2xl border border-border bg-bg-card p-8">
+            <section className="min-w-0 overflow-hidden rounded-2xl border border-border bg-bg-card p-5 sm:p-8">
               <h2 className="mb-4 font-display text-xl font-semibold text-text-primary">
                 {t("dataTitle")}
               </h2>
@@ -99,7 +99,7 @@ export default async function DeleteAccountPage({ params }: PageProps) {
               </ul>
             </section>
 
-            <section className="flex items-start gap-4 rounded-2xl border border-amber-500/20 bg-amber-500/5 p-6">
+            <section className="flex min-w-0 items-start gap-4 rounded-2xl border border-amber-500/20 bg-amber-500/5 p-5 sm:p-6">
               <AlertTriangle
                 className="mt-0.5 h-5 w-5 shrink-0 text-amber-500"
                 aria-hidden
