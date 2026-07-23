@@ -57,13 +57,11 @@ export default async function SupportPage({ params }: PageProps) {
             <div className="mt-6 flex w-full min-w-0 justify-center">
               <a
                 href={`mailto:${SUPPORT_EMAIL}`}
-                className="focus-ring mx-auto flex min-h-12 w-full max-w-md items-center justify-center gap-2 rounded-full bg-accent-purple px-4 py-3 text-sm font-semibold leading-snug text-white transition-colors hover:bg-accent-purple-dark sm:inline-flex sm:w-auto sm:max-w-none sm:px-6"
-                aria-label={t("emailLabel")}
+                className="focus-ring inline-flex min-h-12 max-w-full items-center justify-center gap-2.5 whitespace-nowrap rounded-full bg-accent-purple px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-accent-purple-dark sm:px-8"
+                aria-label={`${t("emailLabel")}: ${SUPPORT_EMAIL}`}
               >
-                <Mail className="h-4 w-4 shrink-0" aria-hidden />
-                <span className="min-w-0 break-all text-center sm:break-normal">
-                  {t("email")}
-                </span>
+                <Mail className="h-[1.125rem] w-[1.125rem] shrink-0" aria-hidden />
+                <span>{t("contactButton")}</span>
               </a>
             </div>
           </div>
