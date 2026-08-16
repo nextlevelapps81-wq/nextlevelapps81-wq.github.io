@@ -9,7 +9,6 @@ import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
 import { Container } from "@/components/ui/Container";
 import { cn } from "@/lib/utils";
-import { GOOGLE_PLAY_URL } from "@/lib/constants";
 
 const navLinks = [
   { href: "/#journey" as const, label: "journey" },
@@ -49,14 +48,6 @@ export function Header() {
           <div className="relative hidden items-center gap-3 lg:flex">
             <ThemeToggle />
             <LanguageSwitcher />
-            <a
-              href={GOOGLE_PLAY_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="focus-ring inline-flex min-h-12 items-center rounded-full bg-accent-purple px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-purple-dark"
-            >
-              {t("download")}
-            </a>
           </div>
 
           <button
@@ -96,15 +87,6 @@ export function Header() {
             <ThemeToggle />
             <LanguageSwitcher />
           </div>
-          <a
-            href={GOOGLE_PLAY_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => setMobileOpen(false)}
-            className="focus-ring mt-3 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-accent-purple px-5 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-accent-purple-dark"
-          >
-            {t("download")}
-          </a>
         </Container>
       </div>
     </header>
