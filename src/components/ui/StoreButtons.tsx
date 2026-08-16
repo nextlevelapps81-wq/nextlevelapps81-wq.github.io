@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useTranslations } from "next-intl";
 import { type ReactNode } from "react";
-import { GOOGLE_PLAY_URL } from "@/lib/constants";
+import { GOOGLE_PLAY_URL, APP_STORE_URL } from "@/lib/constants";
 import { useClientMounted } from "@/lib/useClientMounted";
 import { assetPath, cn } from "@/lib/utils";
 
@@ -116,11 +116,14 @@ export function StoreButtons({
         </BadgeShell>
       </a>
 
-      <div
-        className="inline-flex min-h-12 shrink-0 items-center rounded-[11px]"
-        title={t("ctaAppStore")}
+      <a
+        href={APP_STORE_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="focus-ring inline-flex min-h-12 shrink-0 items-center rounded-[11px]"
+        aria-label={tImages("storeAppStore")}
       >
-        <BadgeShell size={size}>
+        <BadgeShell size={size} interactive>
           <Image
             src={appStoreBadge}
             alt={tImages("storeAppStore")}
@@ -128,11 +131,8 @@ export function StoreButtons({
             height={83}
             className={cn(s.apple, "object-contain object-center")}
           />
-          <span className="pointer-events-none absolute end-1.5 top-1.5 rounded-full bg-accent-purple px-1.5 py-px text-[7px] font-bold uppercase tracking-wider text-white shadow-sm">
-            {t("appStoreSoon")}
-          </span>
         </BadgeShell>
-      </div>
+      </a>
     </div>
   );
 }

@@ -28,9 +28,8 @@
     "subtitle": "Seu Rastreador de Jejum Intermitente",
     "description": "Timer de jejum, rastreador de água e controle de peso em um só app de saúde. Acompanhe o jejum 16:8, veja estatísticas de jejum, receba lembrete de jejum e orientação prática — feito para iniciantes e para quem já jejuava.",
     "ctaPlay": "Disponível no Google Play",
-    "ctaAppStore": "Em breve na App Store",
+    "ctaAppStore": "Baixar na App Store",
     "storeGroup": "Baixar ZYRCA",
-    "appStoreSoon": "Em breve",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "Protocolos de Jejum",
     "statsLanguages": "7",
@@ -272,7 +271,7 @@
     "title": "Comece o Jejum Intermitente",
     "description": "Baixe a ZYRCA: timer de jejum, rastreador de água, controle de peso e lembrete de jejum em um app de saúde feito também para iniciantes.",
     "button": "Baixar no Google Play",
-    "appStore": "Em breve na App Store"
+    "appStore": "Baixar na App Store"
   },
   "footer": {
     "description": "App de jejum intermitente com timer de jejum, rastreador de água, controle de peso, estatísticas de jejum e orientação prática de saúde.",
@@ -339,12 +338,12 @@
   },
   "terms": {
     "title": "Termos de Serviço",
-    "lastUpdated": "Última atualização: 14 de julho de 2026",
-    "intro": "Leia estes Termos de Serviço com atenção antes de usar o aplicativo ZYRCA. Ao acessar ou usar a ZYRCA, você concorda em estar vinculado a estes termos.",
+    "lastUpdated": "Última atualização: 16 de agosto de 2026",
+    "intro": "Leia estes Termos de Serviço com atenção antes de usar o aplicativo ZYRCA. Estes Termos também constituem os Termos de Uso do app ZYRCA e dos serviços relacionados. Ao acessar ou usar o ZYRCA, você concorda em estar vinculado a estes termos.",
     "sections": {
       "acceptance": {
         "title": "Aceitação dos Termos",
-        "content": "Ao baixar, instalar ou usar a ZYRCA, você declara que leu, compreendeu e concorda em estar vinculado a estes Termos de Serviço e à nossa Política de Privacidade. Se não concordar, não utilize o aplicativo."
+        "content": "Ao baixar, instalar ou usar o ZYRCA, você reconhece que leu, entendeu e concorda em estar vinculado a estes Termos de Serviço e à nossa {privacyPolicyLink}. Se não concordar, não utilize o aplicativo."
       },
       "description": {
         "title": "Descrição do Serviço",
@@ -355,8 +354,8 @@
         "content": "Você pode criar uma conta usando o Google Sign-In. Você é responsável por manter a confidencialidade das credenciais da sua conta e por todas as atividades realizadas nela. Deve fornecer informações precisas e atualizá-las prontamente quando houver alterações."
       },
       "subscriptions": {
-        "title": "Assinaturas e Pagamentos",
-        "content": "A ZYRCA oferece recursos premium por meio de planos de assinatura gerenciados pelo RevenueCat. As assinaturas são renovadas automaticamente, salvo cancelamento com pelo menos 24 horas de antecedência do fim do período vigente. Reembolsos seguem as políticas do Google Play ou da Apple App Store. Os preços podem ser alterados com aviso prévio razoável."
+        "title": "Assinaturas e pagamentos",
+        "content": "A ZYRCA oferece recursos premium por meio de assinaturas com renovação automática.\n\nAs compras são processadas pela Apple pela App Store em dispositivos Apple e pelo Google pelo Google Play em Android. A RevenueCat nos ajuda a gerenciar direitos e status de assinatura no app; ela não processa seus pagamentos.\n\nAs assinaturas são renovadas automaticamente, salvo cancelamento antes do fim do período de cobrança atual. Você pode gerenciar ou cancelar sua assinatura a qualquer momento nas configurações da sua Apple ID (App Store) ou da sua conta Google Play.\n\nCobrança, cancelamentos e reembolsos estão sujeitos às políticas da Apple ou do Google, conforme aplicável. Não oferecemos teste gratuito, salvo indicação expressa na listagem da loja no momento da compra. Os preços das assinaturas são exibidos na App Store ou no Google Play no checkout; não os listamos aqui.\n\nReembolsos, quando disponíveis, devem ser solicitados à Apple ou ao Google de acordo com as respectivas políticas de reembolso."
       },
       "conduct": {
         "title": "Conduta do Usuário",
@@ -376,7 +375,7 @@
       },
       "termination": {
         "title": "Rescisão",
-        "content": "Podemos suspender ou encerrar seu acesso à ZYRCA a qualquer momento por violação destes termos. Você pode excluir sua conta a qualquer momento. Após a rescisão, seu direito de usar o aplicativo cessa imediatamente, e excluiremos seus dados conforme nossa Política de Privacidade."
+        "content": "Podemos suspender ou encerrar seu acesso ao ZYRCA a qualquer momento por violação destes termos. Você pode excluir sua conta a qualquer momento. Após o encerramento, seu direito de usar o aplicativo cessa imediatamente e excluiremos seus dados de acordo com nossa {privacyPolicyLink}."
       },
       "governing": {
         "title": "Lei Aplicável",
@@ -390,7 +389,8 @@
         "title": "Contato",
         "content": "Para dúvidas sobre estes Termos de Serviço, entre em contato conosco em nextlevelapps81@gmail.com."
       }
-    }
+    },
+    "privacyPolicyLink": "Política de Privacidade"
   },
   "support": {
     "title": "Suporte",

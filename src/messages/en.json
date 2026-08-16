@@ -28,9 +28,8 @@
     "subtitle": "Your Intermittent Fasting Tracker",
     "description": "Track fasting schedules, water intake, and weight in one app. Use a reliable fasting timer, review fasting history, get intelligent guidance, and export PDF health reports — built for beginners and experienced fasters alike.",
     "ctaPlay": "Get it on Google Play",
-    "ctaAppStore": "Coming Soon on App Store",
+    "ctaAppStore": "Download on the App Store",
     "storeGroup": "Download ZYRCA",
-    "appStoreSoon": "Soon",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "Fasting Protocols",
     "statsLanguages": "7",
@@ -272,7 +271,7 @@
     "title": "Start Your Fasting Journey",
     "description": "Download ZYRCA and track intermittent fasting, water intake, and weight progress with intelligent guidance and beautiful design.",
     "button": "Download on Google Play",
-    "appStore": "Coming Soon on App Store"
+    "appStore": "Download on the App Store"
   },
   "footer": {
     "description": "The premium intermittent fasting tracker with water and weight monitoring, intelligent guidance, and wellness progress tools.",
@@ -339,12 +338,12 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last updated: July 14, 2026",
-    "intro": "Please read these Terms of Service carefully before using the ZYRCA application. By accessing or using ZYRCA, you agree to be bound by these terms.",
+    "lastUpdated": "Last updated: August 16, 2026",
+    "intro": "Please read these Terms of Service carefully before using the ZYRCA application. These Terms also constitute the Terms of Use for the ZYRCA app and related services. By accessing or using ZYRCA, you agree to be bound by these terms.",
     "sections": {
       "acceptance": {
         "title": "Acceptance of Terms",
-        "content": "By downloading, installing, or using ZYRCA, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree, do not use the application."
+        "content": "By downloading, installing, or using ZYRCA, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our {privacyPolicyLink}. If you do not agree, do not use the application."
       },
       "description": {
         "title": "Service Description",
@@ -356,7 +355,7 @@
       },
       "subscriptions": {
         "title": "Subscriptions and Payments",
-        "content": "ZYRCA offers premium features through subscription plans managed by RevenueCat. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period. Refunds are handled according to the policies of Google Play or the Apple App Store. Prices may change with reasonable notice."
+        "content": "ZYRCA offers premium features through auto-renewable subscriptions.\n\nPurchases are processed by Apple through the App Store on Apple devices and by Google through Google Play on Android devices. RevenueCat helps us manage subscription entitlements and status in the app; it does not process your payments.\n\nSubscriptions automatically renew unless you cancel before the end of the current billing period. You can manage or cancel your subscription at any time through your Apple ID account settings (App Store) or your Google Play account settings.\n\nBilling, cancellations, and refunds are subject to the policies of Apple or Google, as applicable. We do not offer a free trial unless explicitly stated in the store listing at the time of purchase. Subscription prices are displayed in the App Store or Google Play at checkout; we do not list prices here.\n\nRefunds, if available, must be requested through Apple or Google according to their respective refund policies."
       },
       "conduct": {
         "title": "User Conduct",
@@ -376,7 +375,7 @@
       },
       "termination": {
         "title": "Termination",
-        "content": "We may suspend or terminate your access to ZYRCA at any time for violation of these terms. You may delete your account at any time. Upon termination, your right to use the application ceases immediately, and we will delete your data in accordance with our Privacy Policy."
+        "content": "We may suspend or terminate your access to ZYRCA at any time for violation of these terms. You may delete your account at any time. Upon termination, your right to use the application ceases immediately, and we will delete your data in accordance with our {privacyPolicyLink}."
       },
       "governing": {
         "title": "Governing Law",
@@ -390,7 +389,8 @@
         "title": "Contact",
         "content": "For questions about these Terms of Service, contact us at nextlevelapps81@gmail.com."
       }
-    }
+    },
+    "privacyPolicyLink": "Privacy Policy"
   },
   "support": {
     "title": "Support",

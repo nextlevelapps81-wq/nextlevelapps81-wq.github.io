@@ -28,9 +28,8 @@
     "subtitle": "Dein Fasten Tracker mit integrierter Beratung",
     "description": "Fastenplan, Wassertracker und Gewichtstracker in einer App. Mit zuverlässigem Fasten Timer, Fastenhistorie, Fastenerinnerung und Fastenstatistik — plus intelligenter Beratung und PDF-Gesundheitsbericht. Ideal als Fasten App für Anfänger und Fortgeschrittene.",
     "ctaPlay": "Bei Google Play laden",
-    "ctaAppStore": "Demnächst im App Store",
+    "ctaAppStore": "Im App Store laden",
     "storeGroup": "ZYRCA herunterladen",
-    "appStoreSoon": "Bald",
     "statsProtocols": "5+",
     "statsProtocolsLabel": "Fastenprotokolle",
     "statsLanguages": "7",
@@ -272,7 +271,7 @@
     "title": "Starte jetzt mit Intervallfasten",
     "description": "Lade ZYRCA herunter — deine Fasten App mit Timer, Tracker, Fastenplan und intelligenter Beratung für 16:8 Fasten und mehr.",
     "button": "Bei Google Play laden",
-    "appStore": "Demnächst im App Store"
+    "appStore": "Im App Store laden"
   },
   "footer": {
     "description": "Der intelligente Fasten Tracker mit Fasten Timer, Wassertracker, Gewichtstracker, Fastenstatistik und integrierter Beratung.",
@@ -339,12 +338,12 @@
   },
   "terms": {
     "title": "Nutzungsbedingungen",
-    "lastUpdated": "Zuletzt aktualisiert: 14. Juli 2026",
-    "intro": "Bitte lies diese Nutzungsbedingungen sorgfältig durch, bevor du die ZYRCA-App nutzt. Durch den Zugriff auf oder die Nutzung von ZYRCA erklärst du dich mit diesen Bedingungen einverstanden.",
+    "lastUpdated": "Zuletzt aktualisiert: 16. August 2026",
+    "intro": "Bitte lies diese Nutzungsbedingungen sorgfältig durch, bevor du die ZYRCA-App nutzt. Diese Bedingungen stellen zugleich die Nutzungsbedingungen für die ZYRCA-App und die damit verbundenen Dienste dar. Durch den Zugriff auf oder die Nutzung von ZYRCA erklärst du dich mit diesen Bedingungen einverstanden.",
     "sections": {
       "acceptance": {
         "title": "Annahme der Bedingungen",
-        "content": "Durch das Herunterladen, Installieren oder Nutzen von ZYRCA bestätigst du, dass du diese Nutzungsbedingungen und unsere Datenschutzerklärung gelesen, verstanden und akzeptiert hast. Wenn du nicht einverstanden bist, nutze die App nicht."
+        "content": "Durch das Herunterladen, Installieren oder Nutzen von ZYRCA bestätigst du, dass du diese Nutzungsbedingungen gelesen und verstanden hast und dich an sie sowie an unsere {privacyPolicyLink} gebunden fühlst. Wenn du nicht einverstanden bist, nutze die App nicht."
       },
       "description": {
         "title": "Beschreibung des Dienstes",
@@ -356,7 +355,7 @@
       },
       "subscriptions": {
         "title": "Abonnements und Zahlungen",
-        "content": "ZYRCA bietet Premium-Funktionen über Abonnementpläne an, die von RevenueCat verwaltet werden. Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt werden. Rückerstattungen erfolgen gemäß den Richtlinien von Google Play oder dem Apple App Store. Preisänderungen erfolgen mit angemessener Vorankündigung."
+        "content": "ZYRCA bietet Premium-Funktionen über automatisch verlängernde Abonnements an.\n\nKäufe werden auf Apple-Geräten von Apple über den App Store und auf Android-Geräten von Google über Google Play abgewickelt. RevenueCat unterstützt uns bei der Verwaltung von Abonnement-Berechtigungen und -Status in der App; es verarbeitet deine Zahlungen nicht.\n\nAbonnements verlängern sich automatisch, sofern du nicht vor Ende des aktuellen Abrechnungszeitraums kündigst. Du kannst dein Abonnement jederzeit in den Einstellungen deiner Apple-ID (App Store) oder deines Google-Play-Kontos verwalten oder kündigen.\n\nAbrechnung, Kündigungen und Erstattungen unterliegen den Richtlinien von Apple oder Google, je nachdem, welcher Store genutzt wird. Wir bieten keine kostenlose Testphase an, sofern dies nicht zum Zeitpunkt des Kaufs ausdrücklich im Store-Eintrag angegeben ist. Abonnementpreise werden beim Checkout im App Store oder bei Google Play angezeigt; wir führen hier keine Preise auf.\n\nErstattungen, sofern verfügbar, müssen gemäß den jeweiligen Erstattungsrichtlinien von Apple oder Google über den entsprechenden Store beantragt werden."
       },
       "conduct": {
         "title": "Nutzerverhalten",
@@ -376,7 +375,7 @@
       },
       "termination": {
         "title": "Kündigung",
-        "content": "Wir können deinen Zugang zu ZYRCA jederzeit bei Verstoß gegen diese Bedingungen sperren oder beenden. Du kannst dein Konto jederzeit löschen. Mit der Beendigung erlischt dein Recht zur Nutzung der App sofort, und wir löschen deine Daten gemäß unserer Datenschutzerklärung."
+        "content": "Wir können deinen Zugang zu ZYRCA jederzeit bei Verstoß gegen diese Bedingungen sperren oder beenden. Du kannst dein Konto jederzeit löschen. Mit der Beendigung endet dein Recht zur Nutzung der App sofort, und wir löschen deine Daten gemäß unserer {privacyPolicyLink}."
       },
       "governing": {
         "title": "Anwendbares Recht",
@@ -390,7 +389,8 @@
         "title": "Kontakt",
         "content": "Bei Fragen zu diesen Nutzungsbedingungen kontaktiere uns unter nextlevelapps81@gmail.com."
       }
-    }
+    },
+    "privacyPolicyLink": "Datenschutzerklärung"
   },
   "support": {
     "title": "Support",

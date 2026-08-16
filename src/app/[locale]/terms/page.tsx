@@ -35,6 +35,7 @@ export default async function TermsPage({ params }: PageProps) {
             lastUpdated={t("lastUpdated")}
             intro={t("intro")}
             sections={t.raw("sections")}
+            privacyPolicyLinkLabel={t("privacyPolicyLink")}
           />
         </Container>
       </div>
