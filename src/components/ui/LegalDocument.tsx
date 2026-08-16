@@ -9,35 +9,58 @@ interface LegalDocumentProps {
   intro: string;
   sections: Record<string, { title: string; content: string }>;
   privacyPolicyLinkLabel?: string;
+  deleteAccountLinkLabel?: string;
 }
 
 const PRIVACY_LINK_PLACEHOLDER = "{privacyPolicyLink}";
+const DELETE_ACCOUNT_LINK_PLACEHOLDER = "{deleteAccountLink}";
 
-function renderContentWithPrivacyLink(
+function renderContentWithLegalLinks(
   content: string,
-  privacyPolicyLinkLabel?: string
+  privacyPolicyLinkLabel?: string,
+  deleteAccountLinkLabel?: string
 ) {
-  if (
-    !privacyPolicyLinkLabel ||
-    !content.includes(PRIVACY_LINK_PLACEHOLDER)
-  ) {
+  const hasPrivacyLink =
+    privacyPolicyLinkLabel && content.includes(PRIVACY_LINK_PLACEHOLDER);
+  const hasDeleteAccountLink =
+    deleteAccountLinkLabel && content.includes(DELETE_ACCOUNT_LINK_PLACEHOLDER);
+
+  if (!hasPrivacyLink && !hasDeleteAccountLink) {
     return content;
   }
 
-  const parts = content.split(PRIVACY_LINK_PLACEHOLDER);
-  return parts.map((part, index) => (
-    <Fragment key={index}>
-      {part}
-      {index < parts.length - 1 ? (
+  const splitPattern = new RegExp(
+    `(${PRIVACY_LINK_PLACEHOLDER.replace(/[{}]/g, "\\$&")}|${DELETE_ACCOUNT_LINK_PLACEHOLDER.replace(/[{}]/g, "\\$&")})`
+  );
+  const parts = content.split(splitPattern);
+
+  return parts.map((part, index) => {
+    if (part === PRIVACY_LINK_PLACEHOLDER && privacyPolicyLinkLabel) {
+      return (
         <Link
+          key={index}
           href="/privacy"
           className="font-medium text-accent-purple underline underline-offset-2 transition-colors hover:text-accent-purple-dark"
         >
           {privacyPolicyLinkLabel}
         </Link>
-      ) : null}
-    </Fragment>
-  ));
+      );
+    }
+
+    if (part === DELETE_ACCOUNT_LINK_PLACEHOLDER && deleteAccountLinkLabel) {
+      return (
+        <Link
+          key={index}
+          href="/delete-account"
+          className="font-medium text-accent-purple underline underline-offset-2 transition-colors hover:text-accent-purple-dark"
+        >
+          {deleteAccountLinkLabel}
+        </Link>
+      );
+    }
+
+    return <Fragment key={index}>{part}</Fragment>;
+  });
 }
 
 export function LegalDocument({
@@ -46,6 +69,7 @@ export function LegalDocument({
   intro,
   sections,
   privacyPolicyLinkLabel,
+  deleteAccountLinkLabel,
 }: LegalDocumentProps) {
   return (
     <article className="prose-legal">
@@ -68,9 +92,10 @@ export function LegalDocument({
             <div className="space-y-3 text-sm leading-relaxed text-text-secondary">
               {section.content.split("\n\n").map((paragraph, i) => (
                 <p key={i} className="whitespace-pre-line">
-                  {renderContentWithPrivacyLink(
+                  {renderContentWithLegalLinks(
                     paragraph,
-                    privacyPolicyLinkLabel
+                    privacyPolicyLinkLabel,
+                    deleteAccountLinkLabel
                   )}
                 </p>
               ))}

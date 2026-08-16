@@ -287,32 +287,36 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "lastUpdated": "Zuletzt aktualisiert: 14. Juli 2026",
-    "intro": "Bei ZYRCA nehmen wir deine Privatsphäre ernst. Diese Datenschutzerklärung erläutert, wie wir deine Informationen erfassen, verwenden, offenlegen und schützen, wenn du unsere mobile App und Website nutzt.",
+    "lastUpdated": "Zuletzt aktualisiert: 16. August 2026",
+    "intro": "Bei ZYRCA nehmen wir deine Privatsphäre ernst. Diese Datenschutzerklärung erläutert, wie wir deine Informationen erfassen, verwenden, offenlegen und schützen, wenn du unsere mobile App und Website nutzt. Verantwortlicher für deine personenbezogenen Daten ist Driss Belhoussine.",
     "sections": {
+      "controller": {
+        "title": "Verantwortlicher",
+        "content": "Verantwortlicher für deine personenbezogenen Daten ist:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nDeutschland\n\nE-Mail: nextlevelapps81@gmail.com"
+      },
       "collection": {
         "title": "Welche Informationen wir erfassen",
-        "content": "Wir können folgende Arten von Informationen erfassen:\n\n• Kontoinformationen: E-Mail-Adresse, Anzeigename und Profilfoto, wenn du dich mit Google anmeldest.\n• Gesundheitsdaten: Fastenpläne, Wasseraufnahme, Gewichtsmessungen und Fortschrittsstatistiken, die du freiwillig eingibst.\n• Geräteinformationen: Gerätetyp, Betriebssystemversion, eindeutige Gerätekennungen und Informationen zum Mobilfunknetz.\n• Nutzungsdaten: App-Interaktionen, Nutzungsmuster von Funktionen, Absturzberichte und Leistungsanalysen.\n• Zahlungsinformationen: Abonnementstatus und Kaufhistorie, verarbeitet über RevenueCat (wir speichern keine Zahlungskartendaten)."
+        "content": "Wir können folgende Arten von Informationen erfassen:\n\n• Kontoinformationen: E-Mail-Adresse, Anzeigename und Profilfoto, wenn du dich mit Google oder Sign in with Apple über Firebase Authentication anmeldest.\n• Gesundheits- und Wellness-Daten: Fastenpläne und -historie, Wasseraufnahme, Gewichtsmessungen, Tagebuch- oder Reflexionseinträge, Schlaf-, Aktivitäts- und Mahlzeitendaten, die du freiwillig eingibst, sowie Erfolge und zugehörige Fortschrittsstatistiken.\n• Gast- und lokale Daten: Wenn du ZYRCA ohne Anmeldung nutzt, werden diese Daten lokal auf deinem Gerät gespeichert. Wenn du später ein Konto erstellst, kannst du lokale Daten optional in die Cloud synchronisieren.\n• Abonnementinformationen: Berechtigungsstatus und Metadaten zur Kaufhistorie, verwaltet über RevenueCat. Apple oder Google verarbeiten Zahlungen; wir erhalten oder speichern keine Zahlungskartendaten.\n• Geräte- und technische Informationen: Gerätetyp, Betriebssystemversion, App-Version und Spracheinstellungen.\n• Werbedaten: Gerätekennungen und zugehörige Daten, die Google AdMob zur Auslieferung und Messung von Anzeigen verwendet.\n• Diagnoseinformationen: Begrenzte technische Protokolle und Fehlerinformationen zur Diagnose von Problemen und zur Aufrechterhaltung der App-Stabilität. Wir verwenden kein separates First-Party-Analytics-SDK."
       },
       "usage": {
         "title": "Wie wir deine Informationen verwenden",
-        "content": "Wir verwenden die erfassten Informationen, um:\n\n• die ZYRCA-App und ihre Funktionen bereitzustellen und zu pflegen\n• Fastenberatung, Wellness-Einblicke und informative Inhalte bereitzustellen\n• Abonnements und In-App-Käufe über RevenueCat zu verarbeiten\n• Benachrichtigungen zu deinem Fastenplan und deinen Gesundheitszielen zu senden\n• die App-Nutzung zu analysieren, um Funktionen und Leistung zu verbessern\n• relevante Werbung über Google AdMob anzuzeigen\n• gesetzliche Verpflichtungen zu erfüllen und unsere Nutzungsbedingungen durchzusetzen"
+        "content": "Wir verwenden die erfassten Informationen, um:\n\n• die ZYRCA-App und ihre Funktionen bereitzustellen und zu pflegen\n• Konten zu authentifizieren und Daten über Firebase Authentication und Cloud Firestore zu synchronisieren\n• Fastenberatung, Wellness-Einblicke und informative Inhalte bereitzustellen\n• Premium-Abonnement-Berechtigungen und -Status über RevenueCat zu verwalten (Zahlungen werden von Apple oder Google verarbeitet)\n• Benachrichtigungen zu deinem Fastenplan und deinen Gesundheitszielen zu senden\n• relevante Werbung über Google AdMob anzuzeigen\n• Fehler zu diagnostizieren und die App-Stabilität aufrechtzuerhalten\n• gesetzliche Verpflichtungen zu erfüllen und unsere Nutzungsbedingungen durchzusetzen"
       },
       "thirdParty": {
         "title": "Drittanbieter-Dienste",
-        "content": "ZYRCA integriert folgende Drittanbieter-Dienste:\n\n• Firebase (Google): Authentifizierung, Cloud-Speicher, Analysen und Absturzberichte\n• Google Sign-In: Kontoverifizierung\n• RevenueCat: Abonnement- und Kaufverwaltung\n• Google AdMob: Werbedienste\n• Google Analytics: Nutzungsanalysen und App-Leistungsüberwachung\n\nJeder Drittanbieter-Dienst hat seine eigene Datenschutzerklärung für die Nutzung deiner Informationen. Wir empfehlen dir, diese Richtlinien zu lesen."
+        "content": "ZYRCA integriert folgende Drittanbieter-Dienste:\n\n• Firebase Authentication (Google): Anmeldung mit Google oder Sign in with Apple\n• Cloud Firestore (Google): Cloud-Speicher und Synchronisation kontobezogener Wellness-Daten\n• Google Sign-In: Kontoverifizierung auf unterstützten Plattformen\n• Sign in with Apple: Kontoverifizierung auf iOS\n• RevenueCat: Verwaltung von Abonnement-Berechtigungen und -Status (keine Zahlungsabwicklung)\n• Apple App Store: In-App-Abonnementkäufe auf iOS\n• Google Play: In-App-Abonnementkäufe auf Android\n• Google AdMob: Werbedienste\n\nZahlungen für Abonnements werden von Apple oder Google verarbeitet. RevenueCat erhält Abonnementstatusinformationen von diesen Stores, um Premium-Zugang in der App zu gewähren oder zu entziehen. Jeder Drittanbieter-Dienst hat seine eigene Datenschutzerklärung. Wir empfehlen dir, diese zu lesen."
       },
       "ads": {
         "title": "Werbung",
-        "content": "ZYRCA kann Werbung von Google AdMob anzeigen. AdMob kann Gerätekennungen und Nutzungsdaten verwenden, um personalisierte Anzeigen auszuspielen. Du kannst die Anzeigenpersonalisierung in deinen Geräteeinstellungen oder Google-Kontoeinstellungen verwalten. Premium-Abonnenten können weniger oder gar keine Werbung sehen."
+        "content": "ZYRCA kann Werbung von Google AdMob anzeigen. AdMob kann Gerätekennungen und zugehörige Daten verwenden, um Anzeigen auszuspielen und zu messen, einschließlich personalisierter Anzeigen, sofern zulässig. Du kannst die Anzeigenpersonalisierung in deinen Geräteeinstellungen oder Google-Kontoeinstellungen verwalten. Premium-Abonnenten können weniger oder gar keine Werbung sehen."
       },
       "storage": {
         "title": "Datenspeicherung und Sicherheit",
-        "content": "Deine Daten werden sicher in der Firebase-Cloud-Infrastruktur mit branchenüblicher Verschlüsselung gespeichert. Wir setzen angemessene technische und organisatorische Maßnahmen ein, um deine personenbezogenen Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Zerstörung zu schützen. Keine Methode der elektronischen Speicherung ist jedoch zu 100 % sicher."
+        "content": "Kontobezogene Daten werden in Cloud Firestore mit Firebase-Cloud-Infrastruktur und branchenüblicher Verschlüsselung gespeichert. Gastdaten und App-Einstellungen können lokal auf deinem Gerät gespeichert werden. Diese Website kann Theme- und Spracheinstellungen im lokalen Speicher deines Browsers speichern. Wir verwenden auf dieser Website keine Tracking-Cookies.\n\nWir setzen angemessene technische und organisatorische Maßnahmen ein, um deine personenbezogenen Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Zerstörung zu schützen. Keine Methode der elektronischen Speicherung ist jedoch zu 100 % sicher."
       },
       "retention": {
         "title": "Datenspeicherung (Aufbewahrung)",
-        "content": "Wir bewahren deine personenbezogenen Daten so lange auf, wie dein Konto aktiv ist oder wie es zur Bereitstellung unserer Dienste erforderlich ist. Du kannst jederzeit die Löschung deines Kontos und der zugehörigen Daten über die Seite „Konto löschen“ oder per E-Mail an nextlevelapps81@gmail.com beantragen."
+        "content": "Wir bewahren deine personenbezogenen Daten so lange auf, wie dein Konto aktiv ist oder wie es zur Bereitstellung unserer Dienste erforderlich ist. Wenn du dein Konto über den In-App-Löschvorgang löschst, löschen wir umgehend deine zugehörigen Cloud- und lokalen Daten und entfernen dein Firebase-Authentifizierungskonto, vorbehaltlich gesetzlicher Aufbewahrungspflichten für Abonnement- oder Steuerunterlagen bei Apple oder Google.\n\nDu kannst die Löschung auch über unsere Seite „Konto löschen“ oder per E-Mail an nextlevelapps81@gmail.com beantragen."
       },
       "rights": {
         "title": "Deine Rechte (DSGVO & CCPA)",
@@ -324,7 +328,7 @@
       },
       "international": {
         "title": "Internationale Datenübermittlung",
-        "content": "Deine Informationen können in Länder außerhalb deines Wohnsitzlandes übermittelt und dort verarbeitet werden. Wir stellen sicher, dass angemessene Schutzmaßnahmen für solche Übermittlungen gemäß den geltenden Datenschutzgesetzen vorhanden sind."
+        "content": "Deine Informationen können in Länder außerhalb deines Wohnsitzlandes übermittelt und dort verarbeitet werden, unter anderem über Firebase-, RevenueCat-, Apple-, Google- und AdMob-Infrastruktur. Wir stellen sicher, dass angemessene Schutzmaßnahmen für solche Übermittlungen gemäß den geltenden Datenschutzgesetzen vorhanden sind."
       },
       "changes": {
         "title": "Änderungen dieser Richtlinie",
@@ -332,7 +336,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "content": "Bei Fragen zu dieser Datenschutzerklärung kontaktiere uns bitte unter:\n\nE-Mail: nextlevelapps81@gmail.com\nWebsite: https://zyrca.app"
+        "content": "Bei Fragen zu dieser Datenschutzerklärung kontaktiere uns bitte unter:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nDeutschland\n\nE-Mail: nextlevelapps81@gmail.com\nWebsite: https://nextlevelapps81-wq.github.io"
       }
     }
   },
@@ -349,13 +353,21 @@
         "title": "Beschreibung des Dienstes",
         "content": "ZYRCA ist eine Gesundheits- und Wellness-App, die Intervallfasten-Tracking, Wasserüberwachung, Gewichtsmanagement, Fortschrittsanalysen, intelligente Fastenberatung und informative Wellness-Inhalte bietet. ZYRCA unterstützt deine Wellness-Reise, ersetzt jedoch keine professionelle medizinische Beratung."
       },
+      "operator": {
+        "title": "Betreiber / Rechtlicher Hinweis",
+        "content": "ZYRCA wird betrieben von:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nDeutschland\n\nE-Mail: nextlevelapps81@gmail.com"
+      },
       "account": {
         "title": "Benutzerkonten",
-        "content": "Du kannst ein Konto über Google Sign-In erstellen. Du bist dafür verantwortlich, die Vertraulichkeit deiner Zugangsdaten zu wahren und für alle Aktivitäten unter deinem Konto. Du musst korrekte Angaben machen und Änderungen umgehend aktualisieren."
+        "content": "Du kannst ZYRCA als Gast mit lokal auf deinem Gerät gespeicherten Daten nutzen oder ein Konto erstellen, um Daten geräteübergreifend zu synchronisieren.\n\nAuf iOS kannst du dich mit Apple anmelden. Auf Android und optional auf iOS kannst du dich mit Google anmelden. Die Kontoverifizierung erfolgt über Firebase Authentication.\n\nDu bist dafür verantwortlich, die Vertraulichkeit deiner Zugangsdaten zu wahren und für alle Aktivitäten unter deinem Konto. Du musst korrekte Angaben machen und Änderungen umgehend aktualisieren."
       },
       "subscriptions": {
         "title": "Abonnements und Zahlungen",
-        "content": "ZYRCA bietet Premium-Funktionen über automatisch verlängernde Abonnements an.\n\nKäufe werden auf Apple-Geräten von Apple über den App Store und auf Android-Geräten von Google über Google Play abgewickelt. RevenueCat unterstützt uns bei der Verwaltung von Abonnement-Berechtigungen und -Status in der App; es verarbeitet deine Zahlungen nicht.\n\nAbonnements verlängern sich automatisch, sofern du nicht vor Ende des aktuellen Abrechnungszeitraums kündigst. Du kannst dein Abonnement jederzeit in den Einstellungen deiner Apple-ID (App Store) oder deines Google-Play-Kontos verwalten oder kündigen.\n\nAbrechnung, Kündigungen und Erstattungen unterliegen den Richtlinien von Apple oder Google, je nachdem, welcher Store genutzt wird. Wir bieten keine kostenlose Testphase an, sofern dies nicht zum Zeitpunkt des Kaufs ausdrücklich im Store-Eintrag angegeben ist. Abonnementpreise werden beim Checkout im App Store oder bei Google Play angezeigt; wir führen hier keine Preise auf.\n\nErstattungen, sofern verfügbar, müssen gemäß den jeweiligen Erstattungsrichtlinien von Apple oder Google über den entsprechenden Store beantragt werden."
+        "content": "ZYRCA bietet Premium-Funktionen über automatisch verlängernde Abonnements an.\n\nAuf iOS verarbeitet Apple In-App-Käufe über den Apple App Store. Auf Android verarbeitet Google In-App-Käufe über Google Play. RevenueCat unterstützt uns bei der Verwaltung von Abonnement-Berechtigungen und -Status in der App; es verarbeitet deine Zahlungen nicht und erhält keine Zahlungskartendaten.\n\nAbonnements verlängern sich automatisch, sofern du nicht vor Ende des aktuellen Abrechnungszeitraums kündigst. Du kannst dein Abonnement jederzeit in den Einstellungen deiner Apple-ID (App Store) oder deines Google-Play-Kontos verwalten oder kündigen.\n\nAbrechnung, Kündigungen und Erstattungen unterliegen den Richtlinien von Apple oder Google, je nachdem, welcher Store genutzt wird. Wir bieten keine kostenlose Testphase an, sofern dies nicht zum Zeitpunkt des Kaufs ausdrücklich im Store-Eintrag angegeben ist. Abonnementpreise werden beim Checkout im App Store oder bei Google Play angezeigt; wir führen hier keine Preise auf.\n\nErstattungen, sofern verfügbar, müssen gemäß den jeweiligen Erstattungsrichtlinien von Apple oder Google über den entsprechenden Store beantragt werden."
+      },
+      "accountDeletion": {
+        "title": "Kontolöschung",
+        "content": "Du kannst dein Konto und zugehörige Daten jederzeit über den In-App-Kontolöschvorgang löschen. Öffne Einstellungen → Konto, scrolle zum Bereich Gefahrenzone und folge den Schritten zur Kontolöschung oder Werksreset, um deine Daten dauerhaft zu entfernen.\n\nAusführliche Anweisungen findest du auf unserer Seite {deleteAccountLink}. Wenn du keinen Zugriff auf die App hast, kontaktiere uns unter nextlevelapps81@gmail.com.\n\nWenn du die Löschung in der App bestätigst, löschen wir umgehend deine Cloud- und lokalen Daten und entfernen dein Firebase-Authentifizierungskonto, vorbehaltlich gesetzlicher Aufbewahrungspflichten für Abonnement- oder Steuerunterlagen bei Apple oder Google."
       },
       "conduct": {
         "title": "Nutzerverhalten",
@@ -367,7 +379,7 @@
       },
       "ip": {
         "title": "Geistiges Eigentum",
-        "content": "Alle Inhalte, Funktionen und Merkmale von ZYRCA — einschließlich Text, Grafiken, Logos, Symbole und Software — sind Eigentum von ZYRCA und durch internationale Urheber-, Marken- und andere Rechte des geistigen Eigentums geschützt. Du darfst ohne unsere schriftliche Genehmigung nichts reproduzieren, verbreiten oder abgeleitete Werke erstellen."
+        "content": "Alle Inhalte, Funktionen und Merkmale von ZYRCA — einschließlich Text, Grafiken, Logos, Symbole und Software — sind Eigentum von Driss Belhoussaine und durch internationale Urheber-, Marken- und andere Rechte des geistigen Eigentums geschützt. Du darfst ohne unsere schriftliche Genehmigung nichts reproduzieren, verbreiten oder abgeleitete Werke erstellen."
       },
       "liability": {
         "title": "Haftungsbeschränkung",
@@ -379,7 +391,7 @@
       },
       "governing": {
         "title": "Anwendbares Recht",
-        "content": "Diese Bedingungen unterliegen dem anwendbaren Recht und werden entsprechend ausgelegt, ohne Berücksichtigung kollisionsrechtlicher Grundsätze. Streitigkeiten werden durch Verhandlungen in gutem Glauben oder, falls erforderlich, durch ein verbindliches Schiedsverfahren beigelegt."
+        "content": "Diese Bedingungen unterliegen dem Recht der Bundesrepublik Deutschland und werden entsprechend ausgelegt, ohne Berücksichtigung kollisionsrechtlicher Grundsätze. Streitigkeiten werden durch Verhandlungen in gutem Glauben oder, falls erforderlich, durch ein verbindliches Schiedsverfahren gemäß geltendem Recht beigelegt."
       },
       "changes": {
         "title": "Änderungen der Bedingungen",
@@ -387,10 +399,11 @@
       },
       "contact": {
         "title": "Kontakt",
-        "content": "Bei Fragen zu diesen Nutzungsbedingungen kontaktiere uns unter nextlevelapps81@gmail.com."
+        "content": "Bei Fragen zu diesen Nutzungsbedingungen kontaktiere:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nDeutschland\n\nE-Mail: nextlevelapps81@gmail.com"
       }
     },
-    "privacyPolicyLink": "Datenschutzerklärung"
+    "privacyPolicyLink": "Datenschutzerklärung",
+    "deleteAccountLink": "Konto löschen"
   },
   "support": {
     "title": "Support",
@@ -439,29 +452,33 @@
   "deleteAccount": {
     "title": "Konto löschen",
     "subtitle": "Wir respektieren dein Recht, deine personenbezogenen Daten zu kontrollieren.",
-    "howTitle": "So beantragst du die Kontolöschung",
+    "howTitle": "So löschst du dein Konto",
     "steps": [
       "Öffne die ZYRCA-App auf deinem Gerät",
-      "Gehe zu Einstellungen → Konto → Konto löschen",
-      "Bestätige deine Löschanfrage",
-      "Dein Konto und alle zugehörigen Daten werden innerhalb von 30 Tagen dauerhaft gelöscht"
+      "Gehe zu Einstellungen → Konto",
+      "Scrolle zum Bereich Gefahrenzone",
+      "Tippe auf die Option zur Kontolöschung oder zum Werksreset und bestätige deine Anfrage",
+      "Die App löscht bei erfolgreicher Löschung sofort deine Cloud- und lokalen Daten und entfernt dein Firebase-Authentifizierungskonto"
     ],
     "alternativeTitle": "Alternative Methode",
-    "alternativeDescription": "Wenn du keinen Zugriff auf die App hast, sende eine E-Mail an nextlevelapps81@gmail.com mit dem Betreff „Kontolöschung“ und gib die mit deinem Konto verknüpfte E-Mail-Adresse an.",
+    "alternativeDescription": "Wenn du keinen Zugriff auf die App hast, sende eine E-Mail an nextlevelapps81@gmail.com mit dem Betreff „Kontolöschung“ und gib die mit deinem Konto verknüpfte E-Mail-Adresse an. Wir unterstützen dich bei der Kontolöschung.",
     "dataTitle": "Welche Daten gelöscht werden",
     "dataItems": [
-      "Dein Kontoprofil und Authentifizierungsdaten",
+      "Dein Kontoprofil und Firebase-Authentifizierungsdaten",
+      "Cloud-Firestore-Profil und synchronisierte Wellness-Daten",
       "Gesamte Fastenhistorie und -pläne",
       "Wasseraufnahme-Einträge",
       "Gewichtsmessungen und Fortschrittsdaten",
+      "Tagebuch- und Reflexionseinträge",
+      "Schlaf-, Aktivitäts- und Mahlzeitendaten",
+      "Erfolge und zugehörige Fortschrittsstatistiken",
       "Gespeicherte Fastenberatungs-Antworten",
-      "Erfolge und Statistiken",
-      "App-Einstellungen und Präferenzen"
+      "Lokaler Gerätespeicher und App-Einstellungen"
     ],
-    "retentionTitle": "Datenaufbewahrung",
-    "retentionDescription": "Einige anonymisierte Analysedaten können bis zu 90 Tage zur Verbesserung des Dienstes aufbewahrt werden. Abonnementdatensätze können gesetzlich für steuerliche und buchhalterische Zwecke aufbewahrt werden.",
+    "retentionTitle": "Datenaufbewahrung nach der Löschung",
+    "retentionDescription": "Die Löschung in der App wird bei Bestätigung sofort verarbeitet. Einige Abonnement-Abrechnungsdatensätze können von Apple oder Google gemäß deren Richtlinien und geltendem Recht aufbewahrt werden. Begrenzte anonymisierte oder aggregierte Diagnosedaten von Drittanbietern können unter deren Aufbewahrungsrichtlinien verbleiben.",
     "contactTitle": "Fragen?",
-    "contactDescription": "Bei Fragen zur Datenlöschung kontaktiere uns unter nextlevelapps81@gmail.com."
+    "contactDescription": "Bei Fragen zur Datenlöschung kontaktiere Driss Belhoussaine unter nextlevelapps81@gmail.com."
   },
   "notFound": {
     "title": "Seite nicht gefunden",

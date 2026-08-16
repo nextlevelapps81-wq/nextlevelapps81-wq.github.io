@@ -287,32 +287,36 @@
   },
   "privacy": {
     "title": "Informativa sulla Privacy",
-    "lastUpdated": "Ultimo aggiornamento: 14 luglio 2026",
-    "intro": "In ZYRCA prendiamo sul serio la tua privacy. La presente Informativa sulla privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando utilizzi la nostra applicazione mobile e il nostro sito web.",
+    "lastUpdated": "Ultimo aggiornamento: 16 agosto 2026",
+    "intro": "In ZYRCA prendiamo sul serio la tua privacy. La presente Informativa sulla privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando utilizzi la nostra applicazione mobile e il nostro sito web. Il titolare del trattamento dei dati personali è Driss Belhoussaine.",
     "sections": {
+      "controller": {
+        "title": "Titolare del Trattamento",
+        "content": "Il titolare del trattamento responsabile dei tuoi dati personali è:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nGermania\n\nE-mail: nextlevelapps81@gmail.com"
+      },
       "collection": {
         "title": "Informazioni che Raccogliamo",
-        "content": "Potremmo raccogliere i seguenti tipi di informazioni:\n\n• Informazioni sull'account: indirizzo e-mail, nome visualizzato e foto del profilo quando accedi con Google.\n• Dati sanitari: programmi di digiuno, assunzione d'acqua, misurazioni del peso e statistiche sui progressi inserite volontariamente.\n• Informazioni sul dispositivo: tipo di dispositivo, versione del sistema operativo, identificatori univoci del dispositivo e informazioni sulla rete mobile.\n• Dati di utilizzo: interazioni con l'app, modelli di utilizzo delle funzionalità, segnalazioni di crash e analisi delle prestazioni.\n• Informazioni di pagamento: stato dell'abbonamento e cronologia degli acquisti gestiti tramite RevenueCat (non memorizziamo i dati della carta di pagamento)."
+        "content": "Potremmo raccogliere i seguenti tipi di informazioni:\n\n• Informazioni sull'account: indirizzo e-mail, nome visualizzato e foto del profilo quando accedi con Google o Accedi con Apple tramite Firebase Authentication.\n• Dati sanitari e di benessere: programmi e cronologia di digiuno, assunzione d'acqua, misurazioni del peso, voci di diario o riflessioni quotidiane, dati su sonno, attività e pasti inseriti volontariamente, oltre a obiettivi raggiunti e statistiche sui progressi correlate.\n• Dati ospite e locali: se utilizzi ZYRCA senza accedere, questi dati vengono archiviati localmente sul tuo dispositivo. Se in seguito crei un account, puoi scegliere di sincronizzare i dati locali nel cloud.\n• Informazioni sull'abbonamento: stato dei diritti di abbonamento e metadati della cronologia acquisti gestiti tramite RevenueCat. Apple o Google elaborano i pagamenti; non riceviamo né memorizziamo i dati della carta di pagamento.\n• Informazioni sul dispositivo e tecniche: tipo di dispositivo, versione del sistema operativo, versione dell'app e impostazioni della lingua.\n• Dati pubblicitari: identificatori del dispositivo e dati correlati utilizzati da Google AdMob per erogare e misurare gli annunci.\n• Informazioni diagnostiche: log tecnici limitati e informazioni sugli errori utilizzate per diagnosticare problemi e mantenere la stabilità dell'app. Non utilizziamo un SDK di analisi proprietario separato."
       },
       "usage": {
         "title": "Come Utilizziamo le Tue Informazioni",
-        "content": "Utilizziamo le informazioni raccolte per:\n\n• Fornire e mantenere l'applicazione ZYRCA e le sue funzionalità\n• Fornire guida al digiuno, approfondimenti sul benessere e contenuti educativi\n• Gestire abbonamenti e acquisti in-app tramite RevenueCat\n• Inviare notifiche relative al tuo programma di digiuno e ai tuoi obiettivi di salute\n• Analizzare l'utilizzo dell'app per migliorare funzionalità e prestazioni\n• Mostrare annunci pertinenti tramite Google AdMob\n• Adempiere agli obblighi legali e far rispettare i nostri Termini di servizio"
+        "content": "Utilizziamo le informazioni raccolte per:\n\n• Fornire e mantenere l'applicazione ZYRCA e le sue funzionalità\n• Autenticare gli account e sincronizzare i dati tramite Firebase Authentication e Cloud Firestore\n• Fornire guida al digiuno, approfondimenti sul benessere e contenuti educativi\n• Gestire i diritti e lo stato degli abbonamenti premium tramite RevenueCat (i pagamenti sono elaborati da Apple o Google)\n• Inviare notifiche relative al tuo programma di digiuno e ai tuoi obiettivi di salute\n• Mostrare annunci pertinenti tramite Google AdMob\n• Diagnosticare errori e mantenere la stabilità dell'app\n• Adempiere agli obblighi legali e far rispettare i nostri Termini di servizio"
       },
       "thirdParty": {
         "title": "Servizi di Terze Parti",
-        "content": "ZYRCA si integra con i seguenti servizi di terze parti:\n\n• Firebase (Google): autenticazione, archiviazione cloud, analisi e segnalazione crash\n• Google Sign-In: autenticazione dell'account\n• RevenueCat: gestione di abbonamenti e acquisti\n• Google AdMob: servizi pubblicitari\n• Google Analytics: analisi dell'utilizzo e monitoraggio delle prestazioni dell'app\n\nOgni servizio di terze parti dispone di una propria informativa sulla privacy che regola l'utilizzo delle tue informazioni. Ti invitiamo a consultarle."
+        "content": "ZYRCA si integra con i seguenti servizi di terze parti:\n\n• Firebase Authentication (Google): accesso all'account con Google o Accedi con Apple\n• Cloud Firestore (Google): archiviazione cloud e sincronizzazione dei dati di benessere collegati all'account\n• Google Sign-In: autenticazione dell'account sulle piattaforme supportate\n• Accedi con Apple: autenticazione dell'account su iOS\n• RevenueCat: gestione dei diritti e dello stato degli abbonamenti (non elaborazione dei pagamenti)\n• Apple App Store: acquisti di abbonamenti in-app su iOS\n• Google Play: acquisti di abbonamenti in-app su Android\n• Google AdMob: servizi pubblicitari\n\nI pagamenti per gli abbonamenti sono elaborati da Apple o Google. RevenueCat riceve informazioni sullo stato dell'abbonamento da tali store per concedere o revocare l'accesso premium nell'app. Ogni servizio di terze parti dispone di una propria informativa sulla privacy. Ti invitiamo a consultarle."
       },
       "ads": {
         "title": "Pubblicità",
-        "content": "ZYRCA può mostrare annunci forniti da Google AdMob. AdMob può utilizzare identificatori del dispositivo e dati di utilizzo per offrire annunci personalizzati. Puoi gestire la personalizzazione degli annunci dalle impostazioni del dispositivo o dalle preferenze del tuo account Google. Gli abbonati premium possono vedere pubblicità ridotta o assente."
+        "content": "ZYRCA può mostrare annunci forniti da Google AdMob. AdMob può utilizzare identificatori del dispositivo e dati correlati per erogare e misurare gli annunci, inclusi annunci personalizzati ove consentito. Puoi gestire la personalizzazione degli annunci dalle impostazioni del dispositivo o dalle preferenze del tuo account Google. Gli abbonati premium possono vedere pubblicità ridotta o assente."
       },
       "storage": {
         "title": "Archiviazione e Sicurezza dei Dati",
-        "content": "I tuoi dati sono archiviati in modo sicuro tramite l'infrastruttura cloud Firebase con crittografia conforme agli standard del settore. Adottiamo misure tecniche e organizzative adeguate per proteggere le tue informazioni personali da accessi non autorizzati, alterazioni, divulgazioni o distruzioni. Tuttavia, nessun metodo di archiviazione elettronica è sicuro al 100%."
+        "content": "I dati collegati all'account sono archiviati in Cloud Firestore utilizzando l'infrastruttura cloud Firebase con crittografia conforme agli standard del settore. I dati ospite e le preferenze dell'app possono essere archiviati localmente sul tuo dispositivo. Questo sito web può memorizzare le preferenze di tema e lingua nel local storage del browser. Non utilizziamo cookie di tracciamento su questo sito web.\n\nAdottiamo misure tecniche e organizzative adeguate per proteggere le tue informazioni personali da accessi non autorizzati, alterazioni, divulgazioni o distruzioni. Tuttavia, nessun metodo di archiviazione elettronica è sicuro al 100%."
       },
       "retention": {
         "title": "Conservazione dei Dati",
-        "content": "Conserviamo le tue informazioni personali finché il tuo account è attivo o per il tempo necessario a fornirti i servizi. Puoi richiedere l'eliminazione del tuo account e dei dati associati in qualsiasi momento tramite la pagina Elimina account o contattando nextlevelapps81@gmail.com."
+        "content": "Conserviamo le tue informazioni personali finché il tuo account è attivo o per il tempo necessario a fornirti i servizi. Quando elimini il tuo account tramite il flusso di eliminazione in-app, eliminiamo tempestivamente i dati cloud e locali associati e rimuoviamo il tuo account di autenticazione Firebase, fatto salvo qualsiasi obbligo legale di conservazione per registri di abbonamento o fiscali detenuti da Apple o Google.\n\nPuoi anche richiedere l'eliminazione tramite la nostra pagina Elimina account o contattando nextlevelapps81@gmail.com."
       },
       "rights": {
         "title": "I Tuoi Diritti (GDPR e CCPA)",
@@ -324,7 +328,7 @@
       },
       "international": {
         "title": "Trasferimenti Internazionali di Dati",
-        "content": "Le tue informazioni possono essere trasferite e trattate in paesi diversi da quello di residenza. Garantiamo l'adozione di adeguate misure di tutela per tali trasferimenti, in conformità con le leggi applicabili in materia di protezione dei dati."
+        "content": "Le tue informazioni possono essere trasferite e trattate in paesi diversi da quello di residenza, anche tramite l'infrastruttura di Firebase, RevenueCat, Apple, Google e AdMob. Garantiamo l'adozione di adeguate misure di tutela per tali trasferimenti, in conformità con le leggi applicabili in materia di protezione dei dati."
       },
       "changes": {
         "title": "Modifiche alla Presente Informativa",
@@ -332,7 +336,7 @@
       },
       "contact": {
         "title": "Contattaci",
-        "content": "Per domande sulla presente Informativa sulla privacy, contattaci a:\n\nE-mail: nextlevelapps81@gmail.com\nSito web: https://zyrca.app"
+        "content": "Per domande sulla presente Informativa sulla privacy, contattaci a:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nGermania\n\nE-mail: nextlevelapps81@gmail.com\nSito web: https://nextlevelapps81-wq.github.io"
       }
     }
   },
@@ -349,13 +353,21 @@
         "title": "Descrizione del Servizio",
         "content": "ZYRCA è un'applicazione per la salute e il benessere che offre monitoraggio del digiuno intermittente, controllo dell'idratazione, gestione del peso, analisi dei progressi, guida pratica al digiuno e contenuti educativi sul benessere. ZYRCA è pensata per supportare il tuo percorso di benessere, ma non sostituisce il parere medico professionale."
       },
+      "operator": {
+        "title": "Operatore / Note Legali",
+        "content": "ZYRCA è gestita da:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nGermania\n\nE-mail: nextlevelapps81@gmail.com"
+      },
       "account": {
         "title": "Account Utente",
-        "content": "Puoi creare un account tramite Google Sign-In. Sei responsabile della riservatezza delle credenziali del tuo account e di tutte le attività svolte tramite esso. Devi fornire informazioni accurate e aggiornare tempestivamente eventuali modifiche."
+        "content": "Puoi utilizzare ZYRCA come ospite con i dati archiviati localmente sul tuo dispositivo, oppure creare un account per sincronizzare i dati tra dispositivi.\n\nSu iOS, puoi accedere con Apple. Su Android e facoltativamente su iOS, puoi accedere con Google. L'autenticazione dell'account è gestita tramite Firebase Authentication.\n\nSei responsabile della riservatezza delle credenziali del tuo account e di tutte le attività svolte tramite esso. Devi fornire informazioni accurate e aggiornare tempestivamente eventuali modifiche."
       },
       "subscriptions": {
-        "title": "Abbonamenti e pagamenti",
-        "content": "ZYRCA offre funzionalità premium tramite abbonamenti con rinnovo automatico.\n\nGli acquisti sono elaborati da Apple tramite l'App Store su dispositivi Apple e da Google tramite Google Play su Android. RevenueCat ci aiuta a gestire diritti e stato dell'abbonamento nell'app; non elabora i tuoi pagamenti.\n\nGli abbonamenti si rinnovano automaticamente salvo disdetta prima della fine del periodo di fatturazione in corso. Puoi gestire o annullare l'abbonamento in qualsiasi momento dalle impostazioni del tuo ID Apple (App Store) o del tuo account Google Play.\n\nFatturazione, cancellazioni e rimborsi sono soggetti alle policy di Apple o Google, a seconda dello store utilizzato. Non offriamo una prova gratuita salvo indicazione esplicita nella scheda dello store al momento dell'acquisto. I prezzi degli abbonamenti sono mostrati nell'App Store o su Google Play al checkout; non li elenchiamo qui.\n\nI rimborsi, se disponibili, devono essere richiesti ad Apple o Google secondo le rispettive policy di rimborso."
+        "title": "Abbonamenti e Pagamenti",
+        "content": "ZYRCA offre funzionalità premium tramite abbonamenti con rinnovo automatico.\n\nSu iOS, Apple elabora gli acquisti in-app tramite l'Apple App Store. Su Android, Google elabora gli acquisti in-app tramite Google Play. RevenueCat ci aiuta a gestire i diritti e lo stato degli abbonamenti nell'app; non elabora i tuoi pagamenti e non riceve informazioni sulla carta di pagamento.\n\nGli abbonamenti si rinnovano automaticamente salvo disdetta prima della fine del periodo di fatturazione in corso. Puoi gestire o annullare l'abbonamento in qualsiasi momento dalle impostazioni del tuo ID Apple (App Store) o del tuo account Google Play.\n\nFatturazione, cancellazioni e rimborsi sono soggetti alle policy di Apple o Google, a seconda dello store utilizzato. Non offriamo una prova gratuita salvo indicazione esplicita nella scheda dello store al momento dell'acquisto. I prezzi degli abbonamenti sono mostrati nell'App Store o su Google Play al checkout; non li elenchiamo qui.\n\nI rimborsi, se disponibili, devono essere richiesti ad Apple o Google secondo le rispettive policy di rimborso."
+      },
+      "accountDeletion": {
+        "title": "Eliminazione dell'Account",
+        "content": "Puoi eliminare il tuo account e i dati associati in qualsiasi momento tramite il flusso di eliminazione account in-app. Apri Impostazioni → Account, scorri fino alla sezione Danger Zone e segui i passaggi di eliminazione account o ripristino di fabbrica per rimuovere definitivamente i tuoi dati.\n\nPer istruzioni dettagliate, consulta la nostra pagina {deleteAccountLink}. Se non riesci ad accedere all'app, contattaci a nextlevelapps81@gmail.com.\n\nQuando confermi l'eliminazione nell'app, eliminiamo tempestivamente i tuoi dati cloud e locali e rimuoviamo il tuo account di autenticazione Firebase, fatto salvo qualsiasi obbligo legale di conservazione per registri di abbonamento o fiscali detenuti da Apple o Google."
       },
       "conduct": {
         "title": "Condotta dell'Utente",
@@ -367,7 +379,7 @@
       },
       "ip": {
         "title": "Proprietà Intellettuale",
-        "content": "Tutti i contenuti, le funzionalità e le caratteristiche di ZYRCA — inclusi testi, grafica, loghi, icone e software — sono di proprietà di ZYRCA e protetti dalle leggi internazionali sul copyright, sui marchi e su altre forme di proprietà intellettuale. Non puoi riprodurre, distribuire o creare opere derivate senza la nostra autorizzazione scritta."
+        "content": "Tutti i contenuti, le funzionalità e le caratteristiche di ZYRCA — inclusi testi, grafica, loghi, icone e software — sono di proprietà di Driss Belhoussaine e protetti dalle leggi internazionali sul copyright, sui marchi e su altre forme di proprietà intellettuale. Non puoi riprodurre, distribuire o creare opere derivate senza la nostra autorizzazione scritta."
       },
       "liability": {
         "title": "Limitazione di Responsabilità",
@@ -379,7 +391,7 @@
       },
       "governing": {
         "title": "Legge Applicabile",
-        "content": "I presenti Termini sono regolati e interpretati in conformità con le leggi applicabili, senza riguardo ai principi sul conflitto di leggi. Eventuali controversie saranno risolte mediante negoziato in buona fede o, se necessario, arbitrato vincolante."
+        "content": "I presenti Termini sono regolati e interpretati in conformità con le leggi della Germania, senza riguardo ai principi sul conflitto di leggi. Eventuali controversie saranno risolte mediante negoziato in buona fede o, se necessario, arbitrato vincolante in conformità con la legge applicabile."
       },
       "changes": {
         "title": "Modifiche ai Termini",
@@ -387,10 +399,11 @@
       },
       "contact": {
         "title": "Contatti",
-        "content": "Per domande sui presenti Termini di servizio, contattaci a nextlevelapps81@gmail.com."
+        "content": "Per domande sui presenti Termini di servizio, contattaci:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nGermania\n\nE-mail: nextlevelapps81@gmail.com"
       }
     },
-    "privacyPolicyLink": "Informativa sulla privacy"
+    "privacyPolicyLink": "Informativa sulla privacy",
+    "deleteAccountLink": "Elimina account"
   },
   "support": {
     "title": "Assistenza",
@@ -439,29 +452,33 @@
   "deleteAccount": {
     "title": "Elimina Account",
     "subtitle": "Rispettiamo il tuo diritto di controllare i tuoi dati personali.",
-    "howTitle": "Come Richiedere l'Eliminazione dell'Account",
+    "howTitle": "Come Eliminare il Tuo Account",
     "steps": [
       "Apri l'app ZYRCA sul tuo dispositivo",
-      "Vai su Impostazioni → Account → Elimina account",
-      "Conferma la richiesta di eliminazione",
-      "Il tuo account e tutti i dati associati saranno eliminati definitivamente entro 30 giorni"
+      "Vai su Impostazioni → Account",
+      "Scorri fino alla sezione Danger Zone",
+      "Tocca l'opzione di eliminazione account o ripristino di fabbrica e conferma la richiesta",
+      "L'app eliminerà immediatamente i tuoi dati cloud e locali e rimuoverà il tuo account di autenticazione Firebase al completamento dell'eliminazione"
     ],
     "alternativeTitle": "Metodo Alternativo",
-    "alternativeDescription": "Se non riesci ad accedere all'app, invia un'e-mail a nextlevelapps81@gmail.com con oggetto \"Richiesta eliminazione account\" indicando l'indirizzo e-mail associato al tuo account.",
+    "alternativeDescription": "Se non riesci ad accedere all'app, invia un'e-mail a nextlevelapps81@gmail.com con oggetto \"Richiesta eliminazione account\" indicando l'indirizzo e-mail associato al tuo account. Ti assisteremo con l'eliminazione dell'account.",
     "dataTitle": "Quali Dati Verranno Eliminati",
     "dataItems": [
-      "Profilo dell'account e dati di autenticazione",
+      "Profilo dell'account e dati di Firebase Authentication",
+      "Profilo Cloud Firestore e dati di benessere sincronizzati",
       "Tutta la cronologia e i programmi di digiuno",
       "Registri dell'assunzione d'acqua",
       "Misurazioni del peso e dati sui progressi",
+      "Voci di diario e riflessioni quotidiane",
+      "Dati su sonno, attività e pasti",
+      "Obiettivi raggiunti e statistiche sui progressi correlate",
       "Risposte di guida al digiuno salvate",
-      "Obiettivi raggiunti e statistiche",
-      "Preferenze e impostazioni dell'app"
+      "Archiviazione locale del dispositivo e preferenze dell'app"
     ],
-    "retentionTitle": "Conservazione dei Dati",
-    "retentionDescription": "Alcuni dati analitici anonimizzati possono essere conservati fino a 90 giorni per migliorare il servizio. I registri degli abbonamenti possono essere conservati per obblighi legali fiscali e contabili.",
+    "retentionTitle": "Conservazione dei Dati dopo l'Eliminazione",
+    "retentionDescription": "L'eliminazione nell'app viene elaborata immediatamente al momento della conferma. Alcuni registri di fatturazione degli abbonamenti possono essere conservati da Apple o Google come richiesto dalle loro policy e dalla legge applicabile. Dati diagnostici anonimizzati o aggregati limitati da servizi di terze parti possono permanere secondo le policy di conservazione di tali provider.",
     "contactTitle": "Domande?",
-    "contactDescription": "Per domande sull'eliminazione dei dati, contattaci a nextlevelapps81@gmail.com."
+    "contactDescription": "Per domande sull'eliminazione dei dati, contatta Driss Belhoussaine a nextlevelapps81@gmail.com."
   },
   "notFound": {
     "title": "Pagina Non Trovata",

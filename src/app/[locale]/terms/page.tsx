@@ -36,6 +36,7 @@ export default async function TermsPage({ params }: PageProps) {
             intro={t("intro")}
             sections={t.raw("sections")}
             privacyPolicyLinkLabel={t("privacyPolicyLink")}
+            deleteAccountLinkLabel={t("deleteAccountLink")}
           />
         </Container>
       </div>

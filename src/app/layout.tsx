@@ -1,5 +1,6 @@
 import { Inter, Noto_Sans_Arabic, Outfit } from "next/font/google";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/constants";
 import "./globals.css";
 
 const inter = Inter({
@@ -21,9 +22,7 @@ const notoArabic = Noto_Sans_Arabic({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://zyrca.app"
-  ),
+  metadataBase: new URL(SITE_URL),
 };
 
 export default function RootLayout({

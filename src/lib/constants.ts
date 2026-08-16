@@ -1,7 +1,7 @@
 export const APP_NAME = "ZYRCA";
 export const APP_TAGLINE = "Smart Fasting Tracker";
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://zyrca.app";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://nextlevelapps81-wq.github.io";
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const SUPPORT_EMAIL = "nextlevelapps81@gmail.com";
 export const GOOGLE_PLAY_URL =

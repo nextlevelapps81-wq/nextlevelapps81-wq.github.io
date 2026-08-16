@@ -56,11 +56,9 @@ Output is in the `out/` directory.
 
 ```bash
 # .env.production
-NEXT_PUBLIC_BASE_PATH=/zyrca-privacy
-NEXT_PUBLIC_SITE_URL=https://yourusername.github.io/zyrca-privacy
+NEXT_PUBLIC_BASE_PATH=
+NEXT_PUBLIC_SITE_URL=https://nextlevelapps81-wq.github.io
 ```
-
-For custom domain (`zyrca.app`), leave `NEXT_PUBLIC_BASE_PATH` empty.
 
 2. Build and deploy the `out/` folder to GitHub Pages.
 
@@ -70,7 +68,7 @@ Or use the included GitHub Actions workflow (`.github/workflows/deploy.yml`).
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `NEXT_PUBLIC_SITE_URL` | Canonical site URL | `https://zyrca.app` |
+| `NEXT_PUBLIC_SITE_URL` | Canonical site URL | `https://nextlevelapps81-wq.github.io` |
 | `NEXT_PUBLIC_BASE_PATH` | GitHub Pages base path | `""` |
 | Google Play URL | `src/lib/constants.ts` | `GOOGLE_PLAY_URL` |
 
