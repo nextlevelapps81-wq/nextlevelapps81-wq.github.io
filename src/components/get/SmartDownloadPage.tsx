@@ -1,13 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Timer, Droplets, BarChart3, Apple } from "lucide-react";
+import { Timer, Droplets, BarChart3 } from "lucide-react";
+import { GetStoreBadges } from "@/components/get/GetStoreBadges";
 import { PhoneMockup } from "@/components/ui/PhoneMockup";
-import {
-  APP_NAME,
-  GOOGLE_PLAY_URL,
-  IOS_APP_STORE_URL,
-} from "@/lib/constants";
-import { assetPath, cn } from "@/lib/utils";
+import { APP_NAME } from "@/lib/constants";
+import { assetPath } from "@/lib/utils";
 
 const FEATURES = [
   {
@@ -30,8 +27,6 @@ const FEATURES = [
 ] as const;
 
 export function SmartDownloadPage() {
-  const iosLive = IOS_APP_STORE_URL.length > 0;
-
   return (
     <div className="relative flex min-h-dvh flex-col overflow-x-clip">
       <div
@@ -74,59 +69,8 @@ export function SmartDownloadPage() {
             one simple app.
           </p>
 
-          <div className="mt-8 flex w-full max-w-xs flex-col items-stretch gap-4">
-            <a
-              href={GOOGLE_PLAY_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="focus-ring inline-flex min-h-[52px] items-center justify-center rounded-[11px] bg-black ring-1 ring-inset ring-white/[0.08] shadow-[0_2px_8px_rgba(0,0,0,0.2)] transition-transform active:scale-[0.98]"
-              aria-label="Get ZYRCA on Google Play"
-            >
-              <Image
-                src={assetPath("/images/badges/google-play-badge.png")}
-                alt="Get ZYRCA on Google Play"
-                width={646}
-                height={250}
-                className="h-[46px] w-auto max-w-[92%] object-contain"
-                priority
-              />
-            </a>
-
-            {iosLive ? (
-              <a
-                href={IOS_APP_STORE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="focus-ring inline-flex min-h-[52px] items-center justify-center rounded-[11px] bg-black ring-1 ring-inset ring-white/[0.08]"
-                aria-label="Download ZYRCA on the App Store"
-              >
-                <Image
-                  src={assetPath("/images/badges/app-store-badge-black.svg")}
-                  alt="Download on the App Store"
-                  width={250}
-                  height={83}
-                  className="h-[38px] w-auto max-w-[85%] object-contain dark:hidden"
-                />
-                <Image
-                  src={assetPath("/images/badges/app-store-badge-white.svg")}
-                  alt="Download on the App Store"
-                  width={250}
-                  height={83}
-                  className="hidden h-[38px] w-auto max-w-[85%] object-contain dark:block"
-                />
-              </a>
-            ) : (
-              <div
-                className={cn(
-                  "flex min-h-[52px] items-center justify-center gap-2.5 rounded-2xl border border-border bg-bg-card px-4",
-                  "text-sm font-medium text-text-secondary"
-                )}
-                aria-label="Coming Soon to the App Store"
-              >
-                <Apple className="h-5 w-5 shrink-0 text-text-muted" aria-hidden />
-                <span>Coming Soon to the App Store</span>
-              </div>
-            )}
+          <div className="mt-8 w-full max-w-xs">
+            <GetStoreBadges />
           </div>
         </div>
 
