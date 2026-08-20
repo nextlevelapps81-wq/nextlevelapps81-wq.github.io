@@ -6,6 +6,8 @@ export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const SUPPORT_EMAIL = "nextlevelapps81@gmail.com";
 export const GOOGLE_PLAY_URL =
   "https://play.google.com/store/apps/details?id=com.vitality.fasting";
+/** Set to the official App Store URL when iOS is live. Empty = Coming Soon. */
+export const IOS_APP_STORE_URL = "";
 export const APP_STORE_URL = "#";
 
 export const LOCALES = [
