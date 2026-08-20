@@ -69,7 +69,10 @@ export function SmartDownloadPage() {
             one simple app.
           </p>
 
-          <div className="mt-8 w-full max-w-xs">
+          <div className="mt-8 w-full min-w-0 max-w-sm">
+            <p className="mb-5 text-center text-xs leading-relaxed text-text-muted">
+              Download ZYRCA and start your wellness journey.
+            </p>
             <GetStoreBadges />
           </div>
         </div>

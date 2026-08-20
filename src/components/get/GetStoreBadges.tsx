@@ -24,13 +24,16 @@ const APP_STORE_BADGE = {
 function ComingSoonRibbon() {
   return (
     <span
-      className="pointer-events-none absolute -top-3 right-1 z-10 rounded-full bg-accent-purple px-2.5 py-1 text-[9px] font-bold uppercase leading-none tracking-[0.14em] text-white shadow-md"
+      className="pointer-events-none absolute -top-3 right-0 z-10 rounded-full bg-accent-purple/90 px-2 py-0.5 text-[8px] font-semibold uppercase leading-none tracking-[0.12em] text-white shadow-sm"
       aria-hidden
     >
       Coming Soon
     </span>
   );
 }
+
+/** Shared width for both official badges — primary CTA uses full width. */
+const BADGE_WIDTH = "w-full max-w-[min(100%,320px)]";
 
 export function GetStoreBadges() {
   const { resolvedTheme } = useTheme();
@@ -43,12 +46,12 @@ export function GetStoreBadges() {
       : assetPath(APP_STORE_BADGE.black);
 
   return (
-    <div className="flex w-full flex-col items-center gap-4">
+    <div className="flex w-full min-w-0 flex-col items-center gap-5">
       <a
         href={GOOGLE_PLAY_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="focus-ring block w-full max-w-[280px] transition-transform active:scale-[0.98]"
+        className={`focus-ring block ${BADGE_WIDTH} rounded-xl shadow-[0_4px_24px_rgba(124,58,237,0.28)] ring-1 ring-accent-purple/25 transition-transform active:scale-[0.98]`}
         aria-label="Get ZYRCA on Google Play"
       >
         <Image
@@ -56,7 +59,7 @@ export function GetStoreBadges() {
           alt="Get it on Google Play"
           width={GOOGLE_PLAY_BADGE.width}
           height={GOOGLE_PLAY_BADGE.height}
-          className="h-auto w-full"
+          className="h-auto w-full rounded-xl"
           priority
         />
       </a>
@@ -66,7 +69,7 @@ export function GetStoreBadges() {
           href={IOS_APP_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="focus-ring block w-full max-w-[270px] transition-transform active:scale-[0.98]"
+          className={`focus-ring block ${BADGE_WIDTH} transition-transform active:scale-[0.98]`}
           aria-label="Download ZYRCA on the App Store"
         >
           <Image
@@ -79,7 +82,7 @@ export function GetStoreBadges() {
         </a>
       ) : (
         <div
-          className="relative w-full max-w-[270px]"
+          className={`relative ${BADGE_WIDTH} pt-1`}
           aria-label="Coming Soon to the App Store"
         >
           <ComingSoonRibbon />
@@ -88,8 +91,7 @@ export function GetStoreBadges() {
             alt="Download on the App Store — Coming Soon"
             width={APP_STORE_BADGE.width}
             height={APP_STORE_BADGE.height}
-            className="h-auto w-full"
-            aria-hidden={false}
+            className="h-auto w-full opacity-95"
           />
         </div>
       )}
