@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Timer, Droplets, BarChart3 } from "lucide-react";
 import { GetStoreBadges } from "@/components/get/GetStoreBadges";
-import { PhoneMockup } from "@/components/ui/PhoneMockup";
 import { APP_NAME } from "@/lib/constants";
 import { assetPath } from "@/lib/utils";
 
@@ -54,12 +53,16 @@ export function SmartDownloadPage() {
             </span>
           </div>
 
-          <PhoneMockup
-            src={assetPath("/images/screenshots/light/screenshot-1.png")}
-            alt="ZYRCA wellness dashboard with fasting timer and health tracking"
-            className="mb-8"
-            priority
-          />
+          <div className="mb-8 w-full min-w-0">
+            <Image
+              src={assetPath("/images/get/hero-phones.png")}
+              alt="ZYRCA app on iPhone showing fasting, hydration, intelligence, and analytics"
+              width={1024}
+              height={682}
+              className="mx-auto h-auto w-full max-w-[min(100%,480px)] object-contain"
+              priority
+            />
+          </div>
 
           <h1 className="font-display text-2xl font-bold leading-tight tracking-tight text-text-primary sm:text-3xl">
             Your Smarter Fasting &amp; Wellness Companion
