@@ -287,7 +287,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: September 6, 2026",
+    "lastUpdated": "Last updated: September 17, 2026",
     "intro": "At ZYRCA, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website. The data controller responsible for your personal data is Driss Belhoussine.",
     "sections": {
       "controller": {
@@ -324,7 +324,7 @@
       },
       "retention": {
         "title": "Data Retention",
-        "content": "We retain your personal information for as long as your account is active or as needed to provide you services.\n\nWhen you delete your account through the in-app deletion flow (Settings → Account → Danger Zone), we delete your associated cloud and local data and remove your Firebase Authentication account when deletion completes successfully. This includes account-linked wellness data and Ramadan preferences stored in your user profile. Deletion may require re-authentication with your sign-in provider. If a cloud deletion step fails, local data on your device may be preserved until deletion succeeds on retry.\n\nAfter account deletion, Firebase Analytics, Google AdMob, RevenueCat, Apple, and Google may retain certain information under their own retention policies—for example aggregated analytics, advertising measurement data, or subscription and billing records required by those providers.\n\nYou may also request deletion through our Delete Account page or by contacting nextlevelapps81@gmail.com."
+        "content": "We retain your personal information for as long as your account is active or as needed to provide you services.\n\nWhen you delete your account through the in-app deletion flow (Settings → Account → Danger Zone), we delete your associated cloud and local data and remove your Firebase Authentication account when deletion completes successfully. This includes account-linked wellness data and Ramadan preferences stored in your user profile. Deletion may require re-authentication with your sign-in provider. If a cloud deletion step fails, local data on your device may be preserved until deletion succeeds on retry.\n\nAfter account deletion, Firebase Analytics, Google AdMob, RevenueCat, Apple, and Google may retain certain information under their own retention policies—for example aggregated analytics, advertising measurement data, or subscription and billing records required by those providers.\n\nYou may also request deletion through our Delete Account page or by contacting nextlevelapps81@gmail.com.\n\nDeleting your ZYRCA account does not cancel an active Apple App Store or Google Play subscription; manage or cancel subscriptions separately through the applicable store."
       },
       "rights": {
         "title": "Your Rights (GDPR & CCPA)",
@@ -345,12 +345,20 @@
       "contact": {
         "title": "Contact Us",
         "content": "If you have questions about this Privacy Policy, please contact us at:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nGermany\n\nEmail: nextlevelapps81@gmail.com\nWebsite: https://nextlevelapps81-wq.github.io"
+      },
+      "periodTracker": {
+        "title": "Period Tracker and Health Data",
+        "content": "Period Tracker: You may voluntarily log period and cycle dates and history, flow information, cycle-related symptoms and wellness entries, and optional notes. Guest Period Tracker data is stored locally on your device. For signed-in users, Period Tracker records are synchronized with your account in Cloud Firestore.\n\nCalculated estimates: ZYRCA may derive calendar- and history-based estimates, including an estimated next-period or start window and estimated fertile-window and ovulation dates or windows. These are calculated estimates, not measurements or clinically validated results.\n\nHealth-data advertising separation: Period and cycle data, symptoms, notes, fertility or ovulation estimates, and related health and wellness information are not included in Firebase Analytics custom event parameters. ZYRCA does not use this information for advertising targeting, ad personalization, or cross-app tracking, and does not supply it to AdMob for those purposes. Cloud Firestore synchronization is storage and sync for your account, not advertising sharing."
+      },
+      "exports": {
+        "title": "Export Center",
+        "content": "You may choose categories of your data to export in supported PDF and CSV formats. Period data is opt-in for category exports; private Period or cycle notes are optional and excluded by default. You may save or share an exported file using your device's functionality. Once you share a file, its handling is subject to the destination or service you choose."
       }
     }
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last updated: August 16, 2026",
+    "lastUpdated": "Last updated: September 17, 2026",
     "intro": "Please read these Terms of Service carefully before using the ZYRCA application. These Terms also constitute the Terms of Use for the ZYRCA app and related services. By accessing or using ZYRCA, you agree to be bound by these terms.",
     "sections": {
       "acceptance": {
@@ -359,7 +367,7 @@
       },
       "description": {
         "title": "Service Description",
-        "content": "ZYRCA is a health and wellness application that provides intermittent fasting tracking, water monitoring, weight management, progress analytics, intelligent fasting guidance, and educational wellness content. ZYRCA is designed to support your wellness journey but is not a substitute for professional medical advice."
+        "content": "ZYRCA is a health and wellness application that provides intermittent fasting, Period and Cycle Tracker, hydration, activity, sleep, meals, weight and progress tracking, Ramadan Mode, and wellness insights and guidance. ZYRCA is designed to support your wellness journey but is not a substitute for professional medical advice."
       },
       "operator": {
         "title": "Operator / Legal Notice",
@@ -375,7 +383,7 @@
       },
       "accountDeletion": {
         "title": "Account Deletion",
-        "content": "You may delete your account and associated data at any time through the in-app account deletion flow. Open Settings → Account, scroll to the Danger Zone, and follow the account deletion or factory reset steps to permanently remove your data.\n\nFor detailed instructions, see our {deleteAccountLink} page. If you cannot access the app, contact us at nextlevelapps81@gmail.com.\n\nWhen you confirm deletion in the app, we promptly delete your cloud and local data and remove your Firebase authentication account, subject to any legal retention requirements for subscription or tax records held by Apple or Google."
+        "content": "You may delete your account and associated data at any time through the in-app account deletion flow. Open Settings → Account, scroll to the Danger Zone, and follow the account deletion or factory reset steps to permanently remove your data.\n\nFor detailed instructions, see our {deleteAccountLink} page. If you cannot access the app, contact us at nextlevelapps81@gmail.com.\n\nWhen you confirm deletion in the app, we promptly delete your cloud and local data and remove your Firebase authentication account, subject to any legal retention requirements for subscription or tax records held by Apple or Google.\n\nDeleting your ZYRCA account does not cancel an active Apple App Store or Google Play subscription; manage or cancel subscriptions separately through the applicable store."
       },
       "conduct": {
         "title": "User Conduct",
@@ -383,7 +391,7 @@
       },
       "health": {
         "title": "Health Disclaimer",
-        "content": "ZYRCA provides general health and wellness information for educational purposes only. It is not intended to diagnose, treat, cure, or prevent any disease. Always consult a qualified healthcare professional before starting any fasting regimen, especially if you have medical conditions, are pregnant, breastfeeding, or taking medication."
+        "content": "ZYRCA provides general health and wellness information for educational purposes only. It is not intended to diagnose, treat, cure, or prevent any disease. Always consult a qualified healthcare professional before starting any fasting regimen, especially if you have medical conditions, are pregnant, breastfeeding, or taking medication.\n\nPeriod and cycle predictions, including fertile-window and ovulation estimates, are calendar- and history-based estimates. They are not medical diagnoses or clinically validated measurements and must not be relied upon as contraception or birth control, or to diagnose fertility, pregnancy, reproductive-health conditions, or disease. Consult an appropriate healthcare professional for medical or reproductive-health decisions."
       },
       "ip": {
         "title": "Intellectual Property",
@@ -488,7 +496,7 @@
       "Local device storage and app preferences"
     ],
     "retentionTitle": "Data Retention After Deletion",
-    "retentionDescription": "Deletion in the app is processed immediately when you confirm. Some subscription billing records may be retained by Apple or Google as required by their policies and applicable law. Limited anonymized or aggregated diagnostic data from third-party services may remain under those providers' retention policies.",
+    "retentionDescription": "Deletion in the app is processed immediately when you confirm. Some subscription billing records may be retained by Apple or Google as required by their policies and applicable law. Limited anonymized or aggregated diagnostic data from third-party services may remain under those providers' retention policies. Deleting your ZYRCA account does not cancel an active Apple App Store or Google Play subscription; manage or cancel subscriptions separately through the applicable store.",
     "contactTitle": "Questions?",
     "contactDescription": "If you have questions about data deletion, contact Driss Belhoussaine at nextlevelapps81@gmail.com."
   },

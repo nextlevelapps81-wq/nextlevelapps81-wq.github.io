@@ -287,7 +287,7 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "lastUpdated": "Zuletzt aktualisiert: 6. September 2026",
+    "lastUpdated": "Zuletzt aktualisiert: 17. September 2026",
     "intro": "Bei ZYRCA nehmen wir deine Privatsphäre ernst. Diese Datenschutzerklärung erläutert, wie wir deine Informationen erfassen, verwenden, offenlegen und schützen, wenn du unsere mobile App und Website nutzt. Verantwortlicher für deine personenbezogenen Daten ist Driss Belhoussine.",
     "sections": {
       "controller": {
@@ -324,7 +324,7 @@
       },
       "retention": {
         "title": "Datenspeicherung (Aufbewahrung)",
-        "content": "Wir bewahren deine personenbezogenen Daten so lange auf, wie dein Konto aktiv ist oder wie es zur Bereitstellung unserer Dienste erforderlich ist.\n\nWenn du dein Konto über den In-App-Löschvorgang löschst (Einstellungen → Konto → Gefahrenzone), löschen wir deine zugehörigen Cloud- und lokalen Daten und entfernen dein Firebase-Authentifizierungskonto, wenn die Löschung erfolgreich abgeschlossen wurde. Dazu gehören kontobezogene Wellness-Daten und Ramadan-Einstellungen, die in deinem Benutzerprofil gespeichert sind. Für die Löschung kann eine erneute Authentifizierung bei deinem Anmeldeanbieter erforderlich sein. Wenn ein Cloud-Löschschritt fehlschlägt, können lokale Daten auf deinem Gerät erhalten bleiben, bis die Löschung bei einem erneuten Versuch erfolgreich ist.\n\nNach der Kontolöschung können Firebase Analytics, Google AdMob, RevenueCat, Apple und Google bestimmte Informationen gemäß ihren eigenen Aufbewahrungsrichtlinien aufbewahren – zum Beispiel aggregierte Analysen, Werbemessdaten oder Abonnement- und Abrechnungsunterlagen, die von diesen Anbietern erforderlich sind.\n\nDu kannst die Löschung auch über unsere Seite „Konto löschen“ oder per E-Mail an nextlevelapps81@gmail.com beantragen."
+        "content": "Wir bewahren deine personenbezogenen Daten so lange auf, wie dein Konto aktiv ist oder wie es zur Bereitstellung unserer Dienste erforderlich ist.\n\nWenn du dein Konto über den In-App-Löschvorgang löschst (Einstellungen → Konto → Gefahrenzone), löschen wir deine zugehörigen Cloud- und lokalen Daten und entfernen dein Firebase-Authentifizierungskonto, wenn die Löschung erfolgreich abgeschlossen wurde. Dazu gehören kontobezogene Wellness-Daten und Ramadan-Einstellungen, die in deinem Benutzerprofil gespeichert sind. Für die Löschung kann eine erneute Authentifizierung bei deinem Anmeldeanbieter erforderlich sein. Wenn ein Cloud-Löschschritt fehlschlägt, können lokale Daten auf deinem Gerät erhalten bleiben, bis die Löschung bei einem erneuten Versuch erfolgreich ist.\n\nNach der Kontolöschung können Firebase Analytics, Google AdMob, RevenueCat, Apple und Google bestimmte Informationen gemäß ihren eigenen Aufbewahrungsrichtlinien aufbewahren – zum Beispiel aggregierte Analysen, Werbemessdaten oder Abonnement- und Abrechnungsunterlagen, die von diesen Anbietern erforderlich sind.\n\nDu kannst die Löschung auch über unsere Seite „Konto löschen“ oder per E-Mail an nextlevelapps81@gmail.com beantragen.\n\nDas Löschen deines ZYRCA-Kontos kündigt kein aktives Abonnement im Apple App Store oder bei Google Play; verwalte oder kündige Abonnements separat im jeweiligen Store."
       },
       "rights": {
         "title": "Deine Rechte (DSGVO & CCPA)",
@@ -345,12 +345,20 @@
       "contact": {
         "title": "Kontakt",
         "content": "Bei Fragen zu dieser Datenschutzerklärung kontaktiere uns bitte unter:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nDeutschland\n\nE-Mail: nextlevelapps81@gmail.com\nWebsite: https://nextlevelapps81-wq.github.io"
+      },
+      "periodTracker": {
+        "title": "Perioden-Tracker und Gesundheitsdaten",
+        "content": "Perioden-Tracker: Du kannst freiwillig Perioden- und Zyklusdaten sowie den Zyklusverlauf, Blutungsinformationen, zyklusbezogene Symptome und Wellness-Einträge sowie optionale Notizen erfassen. Gastdaten werden lokal auf deinem Gerät gespeichert. Bei angemeldeten Nutzern werden Perioden-Tracker-Daten mit dem Konto in Cloud Firestore synchronisiert.\n\nBerechnete Schätzungen: ZYRCA kann anhand von Kalender und Verlauf Schätzungen für die nächste Periode oder ein Startfenster sowie für fruchtbare Tage und den Eisprung ableiten. Dies sind berechnete Schätzungen, keine Messungen oder klinisch validierten Ergebnisse.\n\nTrennung von Gesundheitsdaten und Werbung: Perioden- und Zyklusdaten, Symptome, Notizen, Fruchtbarkeits- oder Eisprungschätzungen sowie verwandte Gesundheits- und Wellnessinformationen sind nicht in benutzerdefinierten Firebase-Analytics-Ereignisparametern enthalten. ZYRCA verwendet sie nicht für Werbe-Targeting, Anzeigenpersonalisierung oder appübergreifendes Tracking und übermittelt sie hierfür nicht an AdMob. Die Cloud-Firestore-Synchronisierung dient der Speicherung und Synchronisierung deines Kontos, nicht der Weitergabe für Werbung."
+      },
+      "exports": {
+        "title": "Export-Center",
+        "content": "Du kannst auswählen, welche Datenkategorien du in den unterstützten Formaten PDF und CSV exportierst. Periodendaten sind bei Kategorieexporten optional; private Perioden- oder Zyklusnotizen sind optional und standardmäßig ausgeschlossen. Du kannst exportierte Dateien über die Funktionen deines Geräts speichern oder teilen. Nach dem Teilen hängt der Umgang mit der Datei vom gewählten Ziel oder Dienst ab."
       }
     }
   },
   "terms": {
     "title": "Nutzungsbedingungen",
-    "lastUpdated": "Zuletzt aktualisiert: 16. August 2026",
+    "lastUpdated": "Zuletzt aktualisiert: 17. September 2026",
     "intro": "Bitte lies diese Nutzungsbedingungen sorgfältig durch, bevor du die ZYRCA-App nutzt. Diese Bedingungen stellen zugleich die Nutzungsbedingungen für die ZYRCA-App und die damit verbundenen Dienste dar. Durch den Zugriff auf oder die Nutzung von ZYRCA erklärst du dich mit diesen Bedingungen einverstanden.",
     "sections": {
       "acceptance": {
@@ -359,7 +367,7 @@
       },
       "description": {
         "title": "Beschreibung des Dienstes",
-        "content": "ZYRCA ist eine Gesundheits- und Wellness-App, die Intervallfasten-Tracking, Wasserüberwachung, Gewichtsmanagement, Fortschrittsanalysen, intelligente Fastenberatung und informative Wellness-Inhalte bietet. ZYRCA unterstützt deine Wellness-Reise, ersetzt jedoch keine professionelle medizinische Beratung."
+        "content": "ZYRCA ist eine Gesundheits- und Wellness-App für Intervallfasten, Perioden- und Zyklus-Tracking, Flüssigkeitszufuhr, Aktivität, Schlaf, Mahlzeiten, Gewicht und Fortschritt, Ramadan-Modus sowie Wellness-Einblicke und -Beratung. ZYRCA unterstützt deine Wellness-Reise, ersetzt jedoch keine professionelle medizinische Beratung."
       },
       "operator": {
         "title": "Betreiber / Rechtlicher Hinweis",
@@ -375,7 +383,7 @@
       },
       "accountDeletion": {
         "title": "Kontolöschung",
-        "content": "Du kannst dein Konto und zugehörige Daten jederzeit über den In-App-Kontolöschvorgang löschen. Öffne Einstellungen → Konto, scrolle zum Bereich Gefahrenzone und folge den Schritten zur Kontolöschung oder Werksreset, um deine Daten dauerhaft zu entfernen.\n\nAusführliche Anweisungen findest du auf unserer Seite {deleteAccountLink}. Wenn du keinen Zugriff auf die App hast, kontaktiere uns unter nextlevelapps81@gmail.com.\n\nWenn du die Löschung in der App bestätigst, löschen wir umgehend deine Cloud- und lokalen Daten und entfernen dein Firebase-Authentifizierungskonto, vorbehaltlich gesetzlicher Aufbewahrungspflichten für Abonnement- oder Steuerunterlagen bei Apple oder Google."
+        "content": "Du kannst dein Konto und zugehörige Daten jederzeit über den In-App-Kontolöschvorgang löschen. Öffne Einstellungen → Konto, scrolle zum Bereich Gefahrenzone und folge den Schritten zur Kontolöschung oder Werksreset, um deine Daten dauerhaft zu entfernen.\n\nAusführliche Anweisungen findest du auf unserer Seite {deleteAccountLink}. Wenn du keinen Zugriff auf die App hast, kontaktiere uns unter nextlevelapps81@gmail.com.\n\nWenn du die Löschung in der App bestätigst, löschen wir umgehend deine Cloud- und lokalen Daten und entfernen dein Firebase-Authentifizierungskonto, vorbehaltlich gesetzlicher Aufbewahrungspflichten für Abonnement- oder Steuerunterlagen bei Apple oder Google.\n\nDas Löschen deines ZYRCA-Kontos kündigt kein aktives Abonnement im Apple App Store oder bei Google Play; verwalte oder kündige Abonnements separat im jeweiligen Store."
       },
       "conduct": {
         "title": "Nutzerverhalten",
@@ -383,7 +391,7 @@
       },
       "health": {
         "title": "Gesundheitshinweis",
-        "content": "ZYRCA stellt allgemeine Gesundheits- und Wellness-Informationen ausschließlich zu Bildungszwecken bereit. Die App ist nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder zu verhindern. Konsultiere immer einen qualifizierten Arzt, bevor du ein Fastenprogramm beginnst — insbesondere bei Erkrankungen, Schwangerschaft, Stillzeit oder Medikamenteneinnahme."
+        "content": "ZYRCA stellt allgemeine Gesundheits- und Wellness-Informationen ausschließlich zu Bildungszwecken bereit. Die App ist nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder zu verhindern. Konsultiere immer einen qualifizierten Arzt, bevor du ein Fastenprogramm beginnst — insbesondere bei Erkrankungen, Schwangerschaft, Stillzeit oder Medikamenteneinnahme.\n\nPerioden- und Zyklusprognosen sowie Schätzungen fruchtbarer Tage und des Eisprungs sind kalender- und verlaufsbasierte Schätzungen. Sie sind keine medizinischen Diagnosen oder klinisch validierten Messungen und dürfen nicht zur Empfängnisverhütung, Familienplanung oder zur Diagnose von Fruchtbarkeit, Schwangerschaft, reproduktiven Gesundheitszuständen oder Krankheiten verwendet werden. Wende dich für medizinische oder reproduktive Gesundheitsentscheidungen an qualifiziertes Fachpersonal."
       },
       "ip": {
         "title": "Geistiges Eigentum",
@@ -484,7 +492,7 @@
       "Lokaler Gerätespeicher und App-Einstellungen"
     ],
     "retentionTitle": "Datenaufbewahrung nach der Löschung",
-    "retentionDescription": "Die Löschung in der App wird bei Bestätigung sofort verarbeitet. Einige Abonnement-Abrechnungsdatensätze können von Apple oder Google gemäß deren Richtlinien und geltendem Recht aufbewahrt werden. Begrenzte anonymisierte oder aggregierte Diagnosedaten von Drittanbietern können unter deren Aufbewahrungsrichtlinien verbleiben.",
+    "retentionDescription": "Die Löschung in der App wird bei Bestätigung sofort verarbeitet. Einige Abonnement-Abrechnungsdatensätze können von Apple oder Google gemäß deren Richtlinien und geltendem Recht aufbewahrt werden. Begrenzte anonymisierte oder aggregierte Diagnosedaten von Drittanbietern können unter deren Aufbewahrungsrichtlinien verbleiben. Das Löschen deines ZYRCA-Kontos kündigt kein aktives Abonnement im Apple App Store oder bei Google Play; verwalte oder kündige Abonnements separat im jeweiligen Store.",
     "contactTitle": "Fragen?",
     "contactDescription": "Bei Fragen zur Datenlöschung kontaktiere Driss Belhoussaine unter nextlevelapps81@gmail.com."
   },

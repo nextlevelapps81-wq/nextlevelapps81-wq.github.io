@@ -287,7 +287,7 @@
   },
   "privacy": {
     "title": "Política de Privacidade",
-    "lastUpdated": "Última atualização: 6 de setembro de 2026",
+    "lastUpdated": "Última atualização: 17 de setembro de 2026",
     "intro": "Na ZYRCA, levamos sua privacidade a sério. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações quando você utiliza nosso aplicativo móvel e site. O responsável pelo tratamento dos seus dados pessoais é Driss Belhoussaine.",
     "sections": {
       "controller": {
@@ -324,7 +324,7 @@
       },
       "retention": {
         "title": "Retenção de Dados",
-        "content": "Retemos suas informações pessoais enquanto sua conta estiver ativa ou conforme necessário para prestar os serviços.\n\nQuando você exclui sua conta pelo fluxo de exclusão no app (Configurações → Conta → Zona de perigo), excluímos seus dados na nuvem e locais associados e removemos sua conta de autenticação Firebase quando a exclusão for concluída com sucesso. Isso inclui dados de bem-estar vinculados à conta e preferências de Ramadan armazenadas no seu perfil de usuário. A exclusão pode exigir reautenticação com seu provedor de login. Se uma etapa de exclusão na nuvem falhar, os dados locais no seu dispositivo podem ser preservados até que a exclusão seja bem-sucedida em uma nova tentativa.\n\nApós a exclusão da conta, Firebase Analytics, Google AdMob, RevenueCat, Apple e Google podem reter certas informações conforme suas próprias políticas de retenção — por exemplo, análises agregadas, dados de medição publicitária ou registros de assinatura e faturamento exigidos por esses provedores.\n\nVocê também pode solicitar a exclusão pela nossa página Excluir Conta ou entrando em contato com nextlevelapps81@gmail.com."
+        "content": "Retemos suas informações pessoais enquanto sua conta estiver ativa ou conforme necessário para prestar os serviços.\n\nQuando você exclui sua conta pelo fluxo de exclusão no app (Configurações → Conta → Zona de perigo), excluímos seus dados na nuvem e locais associados e removemos sua conta de autenticação Firebase quando a exclusão for concluída com sucesso. Isso inclui dados de bem-estar vinculados à conta e preferências de Ramadan armazenadas no seu perfil de usuário. A exclusão pode exigir reautenticação com seu provedor de login. Se uma etapa de exclusão na nuvem falhar, os dados locais no seu dispositivo podem ser preservados até que a exclusão seja bem-sucedida em uma nova tentativa.\n\nApós a exclusão da conta, Firebase Analytics, Google AdMob, RevenueCat, Apple e Google podem reter certas informações conforme suas próprias políticas de retenção — por exemplo, análises agregadas, dados de medição publicitária ou registros de assinatura e faturamento exigidos por esses provedores.\n\nVocê também pode solicitar a exclusão pela nossa página Excluir Conta ou entrando em contato com nextlevelapps81@gmail.com.\n\nA eliminação da sua conta ZYRCA não cancela uma subscrição ativa da Apple App Store ou do Google Play; deve gerir ou cancelar as subscrições separadamente na loja aplicável."
       },
       "rights": {
         "title": "Seus Direitos (GDPR e CCPA)",
@@ -345,12 +345,20 @@
       "contact": {
         "title": "Fale Conosco",
         "content": "Se tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco em:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nAlemanha\n\nE-mail: nextlevelapps81@gmail.com\nSite: https://nextlevelapps81-wq.github.io"
+      },
+      "periodTracker": {
+        "title": "Registo do período e dados de saúde",
+        "content": "Registo do período: Pode registar voluntariamente datas e histórico de períodos e ciclos, informação sobre o fluxo, sintomas e registos de bem-estar relacionados com o ciclo, bem como notas opcionais. Os dados do registo usados como convidado são guardados localmente no seu dispositivo. Para utilizadores com sessão iniciada, os registos são sincronizados com a respetiva conta no Cloud Firestore.\n\nEstimativas calculadas: A ZYRCA pode calcular, com base no calendário e no histórico, estimativas do próximo período ou janela de início, da janela fértil e da ovulação. Trata-se de estimativas calculadas, não de medições nem de resultados clinicamente validados.\n\nSeparação entre dados de saúde e publicidade: Os dados de período e ciclo, sintomas, notas, estimativas de fertilidade ou ovulação e informações relacionadas de saúde e bem-estar não são incluídos nos parâmetros de eventos personalizados do Firebase Analytics. A ZYRCA não utiliza estas informações para segmentação publicitária, personalização de anúncios ou rastreamento entre aplicações, nem as fornece ao AdMob para esses fins. A sincronização com o Cloud Firestore é armazenamento e sincronização da conta, não partilha para publicidade."
+      },
+      "exports": {
+        "title": "Centro de exportação",
+        "content": "Pode escolher as categorias de dados a exportar nos formatos PDF e CSV suportados. Os dados de período são facultativos para exportações por categoria; as notas privadas de período ou ciclo são opcionais e excluídas por predefinição. Pode guardar ou partilhar um ficheiro exportado através das funcionalidades do dispositivo. Depois de partilhar um ficheiro, o respetivo tratamento depende do destino ou serviço escolhido."
       }
     }
   },
   "terms": {
     "title": "Termos de Serviço",
-    "lastUpdated": "Última atualização: 16 de agosto de 2026",
+    "lastUpdated": "Última atualização: 17 de setembro de 2026",
     "intro": "Leia estes Termos de Serviço com atenção antes de usar o aplicativo ZYRCA. Estes Termos também constituem os Termos de Uso do app ZYRCA e dos serviços relacionados. Ao acessar ou usar o ZYRCA, você concorda em estar vinculado a estes termos.",
     "sections": {
       "acceptance": {
@@ -359,7 +367,7 @@
       },
       "description": {
         "title": "Descrição do Serviço",
-        "content": "A ZYRCA é um aplicativo de saúde e bem-estar que oferece rastreamento de jejum intermitente, monitoramento de água, gestão de peso, análise de progresso, orientação prática de jejum e conteúdo educativo de bem-estar. A ZYRCA foi criada para apoiar sua jornada de bem-estar, mas não substitui orientação médica profissional."
+        "content": "A ZYRCA é uma aplicação de saúde e bem-estar que disponibiliza acompanhamento de jejum intermitente, período e ciclo, hidratação, atividade, sono, refeições, peso e progresso, Modo Ramadão, bem como informações e orientação de bem-estar. A ZYRCA apoia o seu percurso de bem-estar, mas não substitui aconselhamento médico profissional."
       },
       "operator": {
         "title": "Operador / Aviso Legal",
@@ -375,7 +383,7 @@
       },
       "accountDeletion": {
         "title": "Exclusão de Conta",
-        "content": "Você pode excluir sua conta e os dados associados a qualquer momento pelo fluxo de exclusão de conta no app. Abra Configurações → Conta, role até a seção Danger Zone e siga as etapas de exclusão de conta ou redefinição de fábrica para remover permanentemente seus dados.\n\nPara instruções detalhadas, consulte nossa página {deleteAccountLink}. Se não conseguir acessar o app, entre em contato conosco em nextlevelapps81@gmail.com.\n\nQuando você confirma a exclusão no app, excluímos prontamente seus dados na nuvem e locais e removemos sua conta de autenticação Firebase, sujeito a quaisquer requisitos legais de retenção para registros de assinatura ou fiscais mantidos pela Apple ou pelo Google."
+        "content": "Você pode excluir sua conta e os dados associados a qualquer momento pelo fluxo de exclusão de conta no app. Abra Configurações → Conta, role até a seção Danger Zone e siga as etapas de exclusão de conta ou redefinição de fábrica para remover permanentemente seus dados.\n\nPara instruções detalhadas, consulte nossa página {deleteAccountLink}. Se não conseguir acessar o app, entre em contato conosco em nextlevelapps81@gmail.com.\n\nQuando você confirma a exclusão no app, excluímos prontamente seus dados na nuvem e locais e removemos sua conta de autenticação Firebase, sujeito a quaisquer requisitos legais de retenção para registros de assinatura ou fiscais mantidos pela Apple ou pelo Google.\n\nA eliminação da sua conta ZYRCA não cancela uma subscrição ativa da Apple App Store ou do Google Play; deve gerir ou cancelar as subscrições separadamente na loja aplicável."
       },
       "conduct": {
         "title": "Conduta do Usuário",
@@ -383,7 +391,7 @@
       },
       "health": {
         "title": "Aviso de Saúde",
-        "content": "A ZYRCA fornece informações gerais de saúde e bem-estar apenas para fins educacionais. Não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer regime de jejum, especialmente se tiver condições médicas, estiver grávida, amamentando ou tomando medicamentos."
+        "content": "A ZYRCA fornece informações gerais de saúde e bem-estar apenas para fins educacionais. Não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer regime de jejum, especialmente se tiver condições médicas, estiver grávida, amamentando ou tomando medicamentos.\n\nAs previsões de período e ciclo, incluindo estimativas de janela fértil e ovulação, são estimativas baseadas no calendário e no histórico. Não são diagnósticos médicos nem medições clinicamente validadas e não devem ser usadas como contraceção ou controlo da natalidade, nem para diagnosticar fertilidade, gravidez, condições de saúde reprodutiva ou doença. Consulte um profissional de saúde adequado para decisões médicas ou de saúde reprodutiva."
       },
       "ip": {
         "title": "Propriedade Intelectual",
@@ -484,7 +492,7 @@
       "Armazenamento local do dispositivo e preferências do app"
     ],
     "retentionTitle": "Retenção de Dados após a Exclusão",
-    "retentionDescription": "A exclusão no app é processada imediatamente quando você confirma. Alguns registros de cobrança de assinatura podem ser retidos pela Apple ou pelo Google conforme exigido pelas políticas deles e pela lei aplicável. Dados de diagnóstico anonimizados ou agregados limitados de serviços de terceiros podem permanecer de acordo com as políticas de retenção desses provedores.",
+    "retentionDescription": "A exclusão no app é processada imediatamente quando você confirma. Alguns registros de cobrança de assinatura podem ser retidos pela Apple ou pelo Google conforme exigido pelas políticas deles e pela lei aplicável. Dados de diagnóstico anonimizados ou agregados limitados de serviços de terceiros podem permanecer de acordo com as políticas de retenção desses provedores. A eliminação da sua conta ZYRCA não cancela uma subscrição ativa da Apple App Store ou do Google Play; deve gerir ou cancelar as subscrições separadamente na loja aplicável.",
     "contactTitle": "Dúvidas?",
     "contactDescription": "Se tiver dúvidas sobre exclusão de dados, entre em contato com Driss Belhoussaine em nextlevelapps81@gmail.com."
   },

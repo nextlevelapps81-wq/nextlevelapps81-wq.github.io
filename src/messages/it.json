@@ -287,7 +287,7 @@
   },
   "privacy": {
     "title": "Informativa sulla Privacy",
-    "lastUpdated": "Ultimo aggiornamento: 6 settembre 2026",
+    "lastUpdated": "Ultimo aggiornamento: 17 settembre 2026",
     "intro": "In ZYRCA prendiamo sul serio la tua privacy. La presente Informativa sulla privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando utilizzi la nostra applicazione mobile e il nostro sito web. Il titolare del trattamento dei dati personali è Driss Belhoussaine.",
     "sections": {
       "controller": {
@@ -324,7 +324,7 @@
       },
       "retention": {
         "title": "Conservazione dei Dati",
-        "content": "Conserviamo le tue informazioni personali finché il tuo account è attivo o per il tempo necessario a fornirti i servizi.\n\nQuando elimini il tuo account tramite il flusso di eliminazione in-app (Impostazioni → Account → Zona pericolosa), eliminiamo i dati cloud e locali associati e rimuoviamo il tuo account di autenticazione Firebase quando l'eliminazione si completa con successo. Ciò include i dati di benessere collegati all'account e le preferenze Ramadan archiviate nel tuo profilo utente. L'eliminazione può richiedere una riautenticazione con il tuo provider di accesso. Se un passaggio di eliminazione cloud non riesce, i dati locali sul tuo dispositivo possono essere conservati fino a quando l'eliminazione non riesce in un nuovo tentativo.\n\nDopo l'eliminazione dell'account, Firebase Analytics, Google AdMob, RevenueCat, Apple e Google possono conservare determinate informazioni secondo le proprie policy di conservazione — ad esempio analisi aggregate, dati di misurazione pubblicitaria o registri di abbonamento e fatturazione richiesti da tali fornitori.\n\nPuoi anche richiedere l'eliminazione tramite la nostra pagina Elimina account o contattando nextlevelapps81@gmail.com."
+        "content": "Conserviamo le tue informazioni personali finché il tuo account è attivo o per il tempo necessario a fornirti i servizi.\n\nQuando elimini il tuo account tramite il flusso di eliminazione in-app (Impostazioni → Account → Zona pericolosa), eliminiamo i dati cloud e locali associati e rimuoviamo il tuo account di autenticazione Firebase quando l'eliminazione si completa con successo. Ciò include i dati di benessere collegati all'account e le preferenze Ramadan archiviate nel tuo profilo utente. L'eliminazione può richiedere una riautenticazione con il tuo provider di accesso. Se un passaggio di eliminazione cloud non riesce, i dati locali sul tuo dispositivo possono essere conservati fino a quando l'eliminazione non riesce in un nuovo tentativo.\n\nDopo l'eliminazione dell'account, Firebase Analytics, Google AdMob, RevenueCat, Apple e Google possono conservare determinate informazioni secondo le proprie policy di conservazione — ad esempio analisi aggregate, dati di misurazione pubblicitaria o registri di abbonamento e fatturazione richiesti da tali fornitori.\n\nPuoi anche richiedere l'eliminazione tramite la nostra pagina Elimina account o contattando nextlevelapps81@gmail.com.\n\nL’eliminazione dell’account ZYRCA non annulla un abbonamento attivo Apple App Store o Google Play; gestisci o annulla separatamente gli abbonamenti nello store applicabile."
       },
       "rights": {
         "title": "I Tuoi Diritti (GDPR e CCPA)",
@@ -345,12 +345,20 @@
       "contact": {
         "title": "Contattaci",
         "content": "Per domande sulla presente Informativa sulla privacy, contattaci a:\n\nDriss Belhoussaine\nGoethestrasse 19\n55774 Baumholder\nGermania\n\nE-mail: nextlevelapps81@gmail.com\nSito web: https://nextlevelapps81-wq.github.io"
+      },
+      "periodTracker": {
+        "title": "Tracker del ciclo e dati sulla salute",
+        "content": "Tracker del ciclo: Puoi registrare volontariamente date e cronologia di ciclo e mestruazioni, informazioni sul flusso, sintomi e voci di benessere correlate al ciclo, nonché note facoltative. I dati del tracker usato come ospite sono memorizzati localmente sul dispositivo. Per gli utenti che hanno effettuato l'accesso, i dati sono sincronizzati con l'account in Cloud Firestore.\n\nStime calcolate: ZYRCA può ricavare dal calendario e dalla cronologia stime della prossima mestruazione o finestra di inizio, della finestra fertile e dell'ovulazione. Si tratta di stime calcolate, non di misurazioni né di risultati clinicamente convalidati.\n\nSeparazione tra dati sanitari e pubblicità: I dati di ciclo e mestruazioni, sintomi, note, stime di fertilità o ovulazione e informazioni correlate su salute e benessere non sono inclusi nei parametri degli eventi personalizzati di Firebase Analytics. ZYRCA non usa tali informazioni per targeting pubblicitario, personalizzazione degli annunci o tracciamento cross-app e non le fornisce ad AdMob per tali finalità. La sincronizzazione con Cloud Firestore è archiviazione e sincronizzazione dell'account, non condivisione pubblicitaria."
+      },
+      "exports": {
+        "title": "Centro esportazioni",
+        "content": "Puoi scegliere le categorie di dati da esportare nei formati PDF e CSV supportati. I dati del ciclo sono facoltativi per le esportazioni per categoria; le note private relative a ciclo o mestruazioni sono facoltative ed escluse per impostazione predefinita. Puoi salvare o condividere un file esportato mediante le funzioni del dispositivo. Dopo la condivisione, il trattamento dipende dalla destinazione o dal servizio scelto."
       }
     }
   },
   "terms": {
     "title": "Termini di Servizio",
-    "lastUpdated": "Ultimo aggiornamento: 16 agosto 2026",
+    "lastUpdated": "Ultimo aggiornamento: 17 settembre 2026",
     "intro": "Leggi attentamente i presenti Termini di servizio prima di utilizzare l'applicazione ZYRCA. Essi costituiscono anche i Termini d'uso dell'app ZYRCA e dei servizi correlati. Accedendo o utilizzando ZYRCA, accetti di essere vincolato da questi termini.",
     "sections": {
       "acceptance": {
@@ -359,7 +367,7 @@
       },
       "description": {
         "title": "Descrizione del Servizio",
-        "content": "ZYRCA è un'applicazione per la salute e il benessere che offre monitoraggio del digiuno intermittente, controllo dell'idratazione, gestione del peso, analisi dei progressi, guida pratica al digiuno e contenuti educativi sul benessere. ZYRCA è pensata per supportare il tuo percorso di benessere, ma non sostituisce il parere medico professionale."
+        "content": "ZYRCA è un’app di salute e benessere che offre monitoraggio del digiuno intermittente, del ciclo e delle mestruazioni, dell’idratazione, dell’attività, del sonno, dei pasti, del peso e dei progressi, modalità Ramadan, approfondimenti e guida al benessere. ZYRCA supporta il tuo percorso di benessere ma non sostituisce il parere medico professionale."
       },
       "operator": {
         "title": "Operatore / Note Legali",
@@ -375,7 +383,7 @@
       },
       "accountDeletion": {
         "title": "Eliminazione dell'Account",
-        "content": "Puoi eliminare il tuo account e i dati associati in qualsiasi momento tramite il flusso di eliminazione account in-app. Apri Impostazioni → Account, scorri fino alla sezione Danger Zone e segui i passaggi di eliminazione account o ripristino di fabbrica per rimuovere definitivamente i tuoi dati.\n\nPer istruzioni dettagliate, consulta la nostra pagina {deleteAccountLink}. Se non riesci ad accedere all'app, contattaci a nextlevelapps81@gmail.com.\n\nQuando confermi l'eliminazione nell'app, eliminiamo tempestivamente i tuoi dati cloud e locali e rimuoviamo il tuo account di autenticazione Firebase, fatto salvo qualsiasi obbligo legale di conservazione per registri di abbonamento o fiscali detenuti da Apple o Google."
+        "content": "Puoi eliminare il tuo account e i dati associati in qualsiasi momento tramite il flusso di eliminazione account in-app. Apri Impostazioni → Account, scorri fino alla sezione Danger Zone e segui i passaggi di eliminazione account o ripristino di fabbrica per rimuovere definitivamente i tuoi dati.\n\nPer istruzioni dettagliate, consulta la nostra pagina {deleteAccountLink}. Se non riesci ad accedere all'app, contattaci a nextlevelapps81@gmail.com.\n\nQuando confermi l'eliminazione nell'app, eliminiamo tempestivamente i tuoi dati cloud e locali e rimuoviamo il tuo account di autenticazione Firebase, fatto salvo qualsiasi obbligo legale di conservazione per registri di abbonamento o fiscali detenuti da Apple o Google.\n\nL’eliminazione dell’account ZYRCA non annulla un abbonamento attivo Apple App Store o Google Play; gestisci o annulla separatamente gli abbonamenti nello store applicabile."
       },
       "conduct": {
         "title": "Condotta dell'Utente",
@@ -383,7 +391,7 @@
       },
       "health": {
         "title": "Disclaimer Sanitario",
-        "content": "ZYRCA fornisce informazioni generali su salute e benessere esclusivamente a scopo informativo. Non è destinata a diagnosticare, trattare, curare o prevenire alcuna malattia. Consulta sempre un professionista sanitario qualificato prima di iniziare qualsiasi regime di digiuno, soprattutto se hai patologie, sei in gravidanza, stai allattando o assumi farmaci."
+        "content": "ZYRCA fornisce informazioni generali su salute e benessere esclusivamente a scopo informativo. Non è destinata a diagnosticare, trattare, curare o prevenire alcuna malattia. Consulta sempre un professionista sanitario qualificato prima di iniziare qualsiasi regime di digiuno, soprattutto se hai patologie, sei in gravidanza, stai allattando o assumi farmaci.\n\nLe previsioni di ciclo e mestruazioni, incluse le stime della finestra fertile e dell’ovulazione, sono stime basate su calendario e cronologia. Non sono diagnosi mediche né misurazioni clinicamente convalidate e non devono essere usate come contraccezione o controllo delle nascite, né per diagnosticare fertilità, gravidanza, condizioni di salute riproduttiva o malattie. Consulta un professionista sanitario appropriato per decisioni mediche o relative alla salute riproduttiva."
       },
       "ip": {
         "title": "Proprietà Intellettuale",
@@ -484,7 +492,7 @@
       "Archiviazione locale del dispositivo e preferenze dell'app"
     ],
     "retentionTitle": "Conservazione dei Dati dopo l'Eliminazione",
-    "retentionDescription": "L'eliminazione nell'app viene elaborata immediatamente al momento della conferma. Alcuni registri di fatturazione degli abbonamenti possono essere conservati da Apple o Google come richiesto dalle loro policy e dalla legge applicabile. Dati diagnostici anonimizzati o aggregati limitati da servizi di terze parti possono permanere secondo le policy di conservazione di tali provider.",
+    "retentionDescription": "L'eliminazione nell'app viene elaborata immediatamente al momento della conferma. Alcuni registri di fatturazione degli abbonamenti possono essere conservati da Apple o Google come richiesto dalle loro policy e dalla legge applicabile. Dati diagnostici anonimizzati o aggregati limitati da servizi di terze parti possono permanere secondo le policy di conservazione di tali provider. L’eliminazione dell’account ZYRCA non annulla un abbonamento attivo Apple App Store o Google Play; gestisci o annulla separatamente gli abbonamenti nello store applicabile.",
     "contactTitle": "Domande?",
     "contactDescription": "Per domande sull'eliminazione dei dati, contatta Driss Belhoussaine a nextlevelapps81@gmail.com."
   },
